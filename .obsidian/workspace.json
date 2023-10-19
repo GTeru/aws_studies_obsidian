@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "82b5479f6ba555f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7081f9112bf8f2d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c9b6b2e8f7d5684",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b4b2850d3494bd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "899b294c8edd53ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e9099d17b66904c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "80e4116d4ed47cb8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fc935d4df767823d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6c82e562cc9bd6c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6df53f2b91807b19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91b70e434ed46540",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8c32a3af0b89d21e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b03dfdf22615f404",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5016a402a1da4dc2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8c9b6b2e8f7d5684",
+  "lastOpenFiles": [
+    "Untitled",
+    "Untitled.canvas",
+    "EC2 Spot Instances.md",
+    "EC2 (Elastic Compute Cloud).md",
+    "Managing AWS (User).md",
+    "AWS IAM.md",
+    "Another note.md",
+    "Untitled/Untitled",
+    "EC2",
+    "2023-10-18.md",
+    "Untitled 1.canvas",
+    "AWS Cli.md",
+    "2023-10-16.md"
+  ]
+}
