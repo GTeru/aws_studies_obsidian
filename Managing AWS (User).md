@@ -1,4 +1,4 @@
-After creating a user and giving it's necessary capabilities (via [[AWS IAM]]) by either adding him to a user group or attaching a custom policy to him, the user has some options to manage AWS:
+After creating a user and giving it's necessary capabilities (via [[IAM]]) by either adding him to a user group or attaching a custom policy to him, the user has some options to manage AWS:
 
 1. AWS Web Console (web navigator) - more user friendly and designed to less "TI friendly" users. It just needs to log into the console via a web navigator.
 2. AWS CLI  - Command Line Tool that accesses AWS APIs, it's more useful for developers and system managers. First the user needs to create an access key and configure the CLI into the machine
