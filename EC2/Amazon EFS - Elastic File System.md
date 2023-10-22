@@ -1,0 +1,37 @@
+---
+tags:
+  - Storage
+---
+- Managed NFS (network file system) that can be mounted on many [[EC2 (Elastic Compute Cloud)]]
+- EFS works with EC2 instances and in multi [[Availability Zone (AZs)]]
+- Highly available, scalable, expensive (average 3x gp2), pay per use
+- Use cases
+	- Content management
+	- Web serving
+	- Data sharing
+	- Wordpress
+- Uses [[Security Groups]] to control access to EFS
+- Compatible with Linex based [[AMI (Amazon Machine Image)]] (not windows)
+- Encryption at rest using KMS
+- POSIX file system (~Linux) that has a standard file API
+- File system scales automatically, pay-per-use, no capacity planning!
+
+## Performance & Storage Classes
+---
+- EFS Scale
+	- 1000s of concurrent NFS clients, 10GB+/s throughput
+	- Grow to Petabyte-scale network file system, automatically
+- Performance Mode (set at EFS creation time)
+	- General Purpose (default) - latency-sensitive use cases (web server, CMS, etc...)
+	- Max I/O - higher latency, throughput, highly parallel (big data, media processing)
+- Throughput Mode
+	- Bursting - 1TB = 50 MiB/s + burst of up to 100 MiB/s
+	- Provisioned - set your throughput regardless of storage size. ex: 1 GiB/s for 1 TB storage
+	- Elastic - automatically scale throughput up or down based on the current workload
+- Storage tiers (lifecycle management feature - move file after N days)
+	- Standard: for frequently accessed files
+	- Infrequent access (EFS - IA): cost to retrieve files, lower price to store. Enable EFS - IA with a Lifecycle Policy
+- Availability and durability
+	- Standard: Multi [[Availability Zone (AZs)]] great for prod
+	- One Zone: One AZ, great for dev, backup enabled by default, compatible with IA (EFS One Zone - IA)
+- Over 90% in cost savings

@@ -1,3 +1,10 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "theme": "system",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "baseFontSize": 20,
+  "translucency": false,
+  "nativeMenus": false,
+  "showViewHeader": true
 }

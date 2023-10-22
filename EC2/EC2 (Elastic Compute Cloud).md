@@ -1,10 +1,17 @@
+---
+tags:
+  - Compute
+---
 Service that lets you rent virtual machines.
+If you want to have AWS capabilities within your instances, you need to attach a **[[IAM]] role** with the desired capabilities to them!
+
 ## Services
 ---
 - Elastic Compute Cloud EC2 (EC2) - renting virtual machines
 - Elastic Block Storage (EBS) - Storing data on virtual drives
 - Elastic Load Balancer (ELB) - Distributing load across machines 
 - Auto Scaling Group (AGS) - Scaling services using and auto-scaling group
+
 ## Types of machines
 ---
 - General Purpose: Has a good balance between compute, memory, networking (e.g. t2.micro)
@@ -13,11 +20,9 @@ Service that lets you rent virtual machines.
 - Storage optimized (h5.small)
 For a complete list of available ec2 instance types, [click here](https://aws.amazon.com/ec2/instance-types/)
 ### General rule 
-m5.2xlarge
-
-m : instance class
-5 : generation
-2xlarge : size of the class (how much RAM, CPU it has)
+|Type|Class|Hardware generation|Size (CPU, RAM)|
+|---|---|---|---|
+|m5.2xlarge|m|5|2xlarge|
 ### Example table
 | Instance | vCPU | Mem(GiB) | Storage | Network Performance | EBS Bandwidth|
 |---       |---   |---       |---      |---                  |---           |
@@ -25,17 +30,6 @@ m : instance class
 |c5d.4xlarge|16|32|1 x 400 NVMe SSD|Up to 10 Gbps||
 |r5.16xlarge|64|512|EBS Only|20Gbps|13.600|
 |m5.8xlarge|32|128|EBS Only|10Gbps|6.800|
-## Security Groups
----
-Fundamental network security object in AWS
-Control how traffic is allowed into or out of the EC2 instances, they act as a firewall to the instances, allowing certain **IP ranges** to communicate to the instances via certain **ports** with certain **protocols**
-
-- Security groups can be attached to multiple EC2 instances and they're also locked out by region/VPC componation
-- **Timeout error** probably means that a security groups has blocked the access to the instance.
-- **Connection refused** probably means that there was an application error or it's not lanched.
-- All inbount traffic is **blocked** by default
-- All outbound traffic is **authorised** by default
-- It's also possible to allow access to a security group from inside another security group. So if instance A allows security group X and Y to access the instance, all instances that have either X or Y attached to them, can also communicate with A. That's a super neat feature we can use to simplify communication inside the same VPC.
 
 ## Importante Ports
 ---
@@ -51,7 +45,7 @@ Control how traffic is allowed into or out of the EC2 instances, they act as a f
 - On-Demand: You need, we give
 - Spot instances: You bid a max price you're willing to pay for the instance and it provides it, but the instance can be taken out of you if the market price gets higher than what you're willing to pay for.
 - Reserved Instance: Reserve some instances
-- EC2 Savings Plan: Long term plan specifying the instance family & AWS region for a minimum amount
+- EC2 Savings Plan: Long term plan specifying the instance family & [[Availability Zone (AZs)]] for a minimum amount
 - Reserved Converible Instance: Same as reserved, but with OS and class flexibility
 - Dedicated Host: Book an entire physical server, which is good for more complex hardware or business needs
 - Capacity Reservation: reserve specific capacity on an AZ for any amount of time, charged the same as the On-Demand option.

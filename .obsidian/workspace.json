@@ -4,11 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "7081f9112bf8f2d9",
+        "id": "87289198f462c132",
         "type": "tabs",
+        "dimension": 67.51269035532995,
         "children": [
           {
-            "id": "8c9b6b2e8f7d5684",
+            "id": "e0df0e6c94b5be16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Elastic Network Interfaces (ENI).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b4ebb2c58bde2ee9",
+        "type": "tabs",
+        "dimension": 32.48730964467005,
+        "children": [
+          {
+            "id": "e47d1bacbbb1cd91",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -109,7 +129,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -121,7 +141,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -138,13 +159,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c9b6b2e8f7d5684",
+  "active": "e47d1bacbbb1cd91",
   "lastOpenFiles": [
-    "Untitled",
+    "Elastic Network Interfaces (ENI).md",
+    "AWS Region.md",
+    "Availability Zone (AZs).md",
+    "IAM/Managing AWS (User).md",
+    "IAM/IAM.md",
+    "EC2/Security Groups.md",
+    "EC2/Placement Groups.md",
+    "EC2/IPs.md",
+    "EC2/Elastic Block Storage (EBS).md",
+    "EC2/EC2 Spot Instances.md",
+    "EC2/EC2 Instance Store.md",
+    "EC2/EC2 Instance Statuses.md",
+    "EC2/EC2 (Elastic Compute Cloud).md",
+    "EC2/EBS Volume Types.md",
+    "EC2/EBS Multi Attach.md",
+    "EC2/EBS Encryption.md",
+    "EC2/Amazon EFS - Elastic File System.md",
+    "EC2/AMI (Amazon Machine Image).md",
+    "IAM",
+    "EC2",
     "Untitled.canvas",
-    "EC2 Spot Instances.md",
-    "EC2 (Elastic Compute Cloud).md",
-    "Managing AWS (User).md",
     "AWS IAM.md",
     "Another note.md",
     "Untitled/Untitled",

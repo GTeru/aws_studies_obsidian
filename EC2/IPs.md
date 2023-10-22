@@ -1,3 +1,7 @@
+---
+tags:
+  - Network
+---
 - AWS has support for both IPv4 and IPv6
 ## Private IPs
 ---

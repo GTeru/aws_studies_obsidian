@@ -1,0 +1,2 @@
+An Availability Zone (AZ) is one or more discrete data centers with redundant power, networking, and connectivity in an [[AWS Region]]. AZs give customers the ability to operate production applications and databases that are more highly available, fault tolerant, and scalable than would be possible from a single data center.
+For more information check this [link](https://aws.amazon.com/about-aws/global-infrastructure/localzones/?nc=sn&loc=0)

@@ -1,3 +1,7 @@
+---
+tags:
+  - Security
+---
 IAM (Identity and Access Management) controls AWS accesses and management of identity. 
 It touches every AWS Service, AWS has a policy (no pun intended) of giving minimal control and access to users and services, so it's a rule of thumb that whenever we're using a new AWS Service, we'll probably have to configure some kind of IAM "setting"
 ## Key Concepts
