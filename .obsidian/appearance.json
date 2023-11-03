@@ -1,10 +1,11 @@
 {
   "accentColor": "",
-  "theme": "system",
+  "theme": "obsidian",
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "baseFontSize": 20,
   "translucency": false,
   "nativeMenus": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "cssTheme": ""
 }

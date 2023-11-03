@@ -3,7 +3,7 @@ tags:
   - Compute
 ---
 Service that lets you rent virtual machines.
-If you want to have AWS capabilities within your instances, you need to attach a **[[IAM]] role** with the desired capabilities to them!
+If you w[[IAM]]ant to have AWS capabilities within your instances, you need to attach a **[[IAM]] role** with the desired capabilities to them!
 
 ## Services
 ---

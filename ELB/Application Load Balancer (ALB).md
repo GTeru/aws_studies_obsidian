@@ -1,3 +1,12 @@
+``` 
+---
+up: "[[Application Load Balancer (ALB)]]"
+same: ""
+down: ""
+next: ""
+prev: ""
+---
+```
 - It's a type of [[ELB (Elastic Load Balancer)]] which acts on layer 7 of the [OSI model](https://en.wikipedia.org/wiki/Application_layer) (e.g. HTTP)
 - It's capable of load balancing to multiple HTTP applications across machines, which are called __target groups__
 - Also possible to load balance to multiple applications on the same machine (ex. different containers in the same machine)

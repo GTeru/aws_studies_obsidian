@@ -1,0 +1,13 @@
+## Attributes
+- [[Relational Database Service (RDS)]]
+	- Automate setup, operation and scaling
+- Custom
+	- Access to underlying database and OS
+		- Configure settings
+		- Install patches
+		- Enable native features
+		- Access the underlying EC2 instance using SSH or SSM Session Manager
+- It's also advised to take a DB snapshot before making customization and also de-activate Automation Mode
+- RDS vs RDS Custom
+	- RDS -> entire database and OS is managed by AWS
+	- RDS Custom -> full admin access to the underlying OS and the database
