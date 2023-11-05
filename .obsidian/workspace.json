@@ -4,31 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "e98fd48aeb9f2ccb",
+        "id": "0a691d4bbf38e3c5",
         "type": "tabs",
+        "dimension": 65.92639593908629,
         "children": [
           {
-            "id": "e47d1bacbbb1cd91",
+            "id": "12aea0bee936ac53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ELB/Application Load Balancer (ALB).md",
+                "file": "RDS/Relational Database Service (RDS).md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "841541b2002aa997",
+        "type": "tabs",
+        "dimension": 34.0736040609137,
+        "children": [
           {
-            "id": "6d10ebcee4546dd7",
+            "id": "88e5bf8c61d8ed7e",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ports",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "RDS/Relational Database Service (RDS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "RDS/Relational Database Service (RDS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "RDS/Relational Database Service (RDS).md"
+              }
             }
           },
           {
@@ -169,53 +180,56 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "6d10ebcee4546dd7",
+  "active": "12aea0bee936ac53",
   "lastOpenFiles": [
-    "ELB/Application Load Balancer (ALB).md",
-    "Templates/Breadcrumb.md",
-    "RDS/Amazon Aurora.md",
-    "Templates",
-    "EC2/EC2 (Elastic Compute Cloud).md",
-    "Availability Zone (AZs).md",
-    "RDS/RDS Custom.md",
-    "RDS/RDS Multi AZ (Disaster Recovery).md",
-    "RDS/Images/Aurora_DB_Cluster.png",
-    "AWS Region.md",
-    "RDS/Images/Aurora_ML.png",
-    "EC2/Auto Scaling Groups (ASG).md",
     "RDS/Relational Database Service (RDS).md",
+    "RDS/Amazon Aurora.md",
+    "EC2/EC2 (Elastic Compute Cloud).md",
+    "Amazon Elasticache/Amazon ElastiCache.md",
+    "Important Ports.md",
+    "EC2/Auto Scaling Groups - Dynamic Scaling Policies.md",
+    "EC2/Auto Scaling Groups (ASG).md",
+    "EC2/EBS Encryption.md",
+    "EC2/EBS Multi Attach.md",
+    "EC2/EBS Volume Types.md",
+    "EC2/EC2 Instance Statuses.md",
+    "EC2/EC2 Instance Store.md",
+    "EC2/EC2 Spot Instances.md",
+    "EC2/Elastic Block Storage (EBS).md",
+    "EC2/Security Groups.md",
+    "EC2/Placement Groups.md",
+    "EC2/IPs.md",
+    "Amazon Elasticache/ElastiCache Security.md",
+    "().md",
+    "Amazon Elasticache/Images/redis_vs_memcached.png",
+    "Amazon Elasticache/Images",
+    "Pasted image 20231104175330.png",
     "RDS/RDS Read Replicas.md",
+    "Amazon Elasticache",
+    "RDS/RDS Security.md",
+    "RDS/RDS Proxy.md",
+    "RDS/Images/RDS_proxy.png",
+    "RDS/RDS Backups.md",
+    "RDS/RDS Multi AZ (Disaster Recovery).md",
+    "ELB/Application Load Balancer (ALB).md",
+    "ELB/Connection Draining - Deregisteration Delay.md",
+    "Templates",
+    "RDS/Images/Aurora_DB_Cluster.png",
+    "RDS/Images/Aurora_ML.png",
     "RDS/Images",
     "RDS/Untitled.canvas",
-    "EC2/Placement Groups.md",
-    "EC2/Auto Scaling Groups - Dynamic Scaling Policies.md",
     "RDS",
-    "ELB/Connection Draining - Deregisteration Delay.md",
-    "ELB/ELB SSL-TLS.md",
     "ELB/Images/ELB_SNI.png",
-    "AWS Certificate Manager (ACM).md",
-    "ELB/Cross-Zone Load Balancing.md",
-    "ELB/SSL TLS - Basics.md",
     "ELB/Images/x_zone_load_balancing.png",
-    "ELB/Gateway Load Balancer (GLB).md",
-    "ELB/Sticky Sessions (Session Affinity).md",
     "ELB/Images/sticky_sessions.png",
-    "glb.md",
-    "Images/GLB_target_group.png.md",
     "Images",
-    "Elastic Network Interfaces (ENI).md",
     "ELB/Images/GLB_target_groups.png",
     "ELB/Images/GLB_flow.png",
-    "Images/GLB_target_groups.png.md",
-    "ELB/Network Load Balancer (NLB).md",
-    "ELB/ELB (Elastic Load Balancer).md",
     "ELB/Images",
     "ELB",
     "IAM",
     "EC2",
     "Untitled.canvas",
-    "Untitled/Untitled",
-    "EC2",
     "Untitled 1.canvas"
   ]
 }

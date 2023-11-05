@@ -31,15 +31,6 @@ For a complete list of available ec2 instance types, [click here](https://aws.am
 |r5.16xlarge|64|512|EBS Only|20Gbps|13.600|
 |m5.8xlarge|32|128|EBS Only|10Gbps|6.800|
 
-## Importante Ports
----
-- 22 (SSH - Secure Shell): log into a Linux instance
-- 21 (FTP - File Transfer Protocol): upload files into a file share
-- 22 (SFTP - Simple File Transfer Protocol): upload files using SSH
-- 80 (HTTP - Hypertext Transfer Protocol): access unsecured websites
-- 443 (HTTPS - ): access secured websites
-- 3389 (RDP - Remote Desktop Protocol): log into a Windows instance
-
 ## Purchasing Options
 ---
 - On-Demand: You need, we give

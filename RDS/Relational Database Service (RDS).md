@@ -1,3 +1,7 @@
+---
+tags:
+  - Database
+---
 Service that allows creation of databases that are managed by AWS.
 - Postgres
 - MySQL
