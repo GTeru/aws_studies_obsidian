@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "elastic network",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 0,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.751118185145043,
+  "scale": 0.5357541709934611,
   "close": true
 }
