@@ -4,29 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "f7b90de4cd3c90bf",
+        "id": "87289198f462c132",
         "type": "tabs",
-        "dimension": 70.36802030456852,
+        "dimension": 70.8092485549133,
         "children": [
           {
-            "id": "3e0be472f70b86fe",
+            "id": "f06a147acb581b5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Route53/Routing Policies.md",
+                "file": "S3/S3 Security.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6739891027a62506",
+            "id": "495888d09405c921",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EB/Elastic Beanstalk (EB).md",
+                "file": "S3/S3 Storage Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,12 +36,12 @@
         "currentTab": 1
       },
       {
-        "id": "fd5622d967263428",
+        "id": "859d12435a3a5fcb",
         "type": "tabs",
-        "dimension": 29.631979695431472,
+        "dimension": 29.190751445086704,
         "children": [
           {
-            "id": "b9985b7a016fc3df",
+            "id": "5a585514d4977832",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hosted zone",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EB/Elastic Beanstalk (EB).md",
+                "file": "S3/S3 Storage Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EB/Elastic Beanstalk (EB).md",
+                "file": "S3/S3 Storage Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,28 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EB/Elastic Beanstalk (EB).md"
+                "file": "S3/S3 Storage Classes.md"
               }
-            }
-          },
-          {
-            "id": "7f29ed1997d070b4",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "f76c0e0cc5e77248",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -189,58 +173,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "6739891027a62506",
+  "active": "495888d09405c921",
   "lastOpenFiles": [
-    "EB/Elastic Beanstalk (EB).md",
-    "EB/Images/eb_web_server_worker.png",
-    "EB/Images",
-    "Important Ports.md",
-    "AWS Region.md",
+    "S3/S3 Static Website Hosting.md",
+    "S3/S3.md",
+    "S3/S3 Replication.md",
+    "S3/S3 Storage Classes.md",
+    "Images/s3_storage_classes_comparison.png.md",
+    "Images",
+    "S3/Images/s3_storage_classes_comparison.png",
+    "S3/Images/bucket_policy_example.png",
+    "d3",
+    "S3/S3 Security.md",
+    "S3/S3 Versioning.md",
+    "RDS/RDS Backups.md",
+    "AWS S3.md",
+    "EC2/EC2 (Elastic Compute Cloud).md",
+    "S3/Images",
+    "Route53/CNAME vs Alias.md",
     "Availability Zone (AZs).md",
+    "IAM/IAM.md",
+    "S3",
     "Route53/Routing Policies.md",
-    "EB",
-    "Route53/Route53 -  3rd Party Domains.md",
+    "Route53/Route53.md",
+    "Route53/Route53 Health Checks.md",
+    "Route53/Images/monitor_private_resource.png",
+    "Route53/Images/how_dns_works.png",
     "Route53/Images/geoprox_equal_bias.png",
     "Route53/Images/geoprox_different_bias.png",
-    "().md",
-    "Route53/Route53 Health Checks.md",
-    "Route53/Route53 Failover.md",
-    "Route53/Images/monitor_private_resource.png",
-    "Route53/DNS.md",
-    "Route53/Route53.md",
-    "Route53/CNAME vs Alias.md",
-    "Route53/Images/how_dns_works.png",
-    "Amazon Elasticache/Amazon ElastiCache.md",
+    "Route53/Route53 -  3rd Party Domains.md",
     "Route53/Images",
-    "Rotue53/Images/Pasted image 20231111161602.png",
-    "Rotue53/Images",
-    "Rotue53",
+    "Route53/DNS.md",
     "Route53",
-    "Amazon Elasticache/Images/redis_vs_memcached.png",
-    "Pasted image 20231104175330.png",
-    "ELB/Images/ELB_SNI.png",
-    "EC2/Amazon EFS - Elastic File System.md",
-    "ELB/Application Load Balancer (ALB).md",
-    "ELB/Connection Draining - Deregisteration Delay.md",
-    "IAM/IAM.md",
-    "IAM/Managing AWS (User).md",
-    "RDS/Images/Aurora_DB_Cluster.png",
-    "RDS/Amazon Aurora.md",
-    "RDS/RDS Backups.md",
-    "RDS/RDS Custom.md",
-    "RDS/RDS Multi AZ (Disaster Recovery).md",
-    "RDS/RDS Proxy.md",
-    "RDS/RDS Read Replicas.md",
+    "RDS/Relational Database Service (RDS).md",
     "RDS/RDS Security.md",
-    "Amazon Elasticache/Images",
-    "Amazon Elasticache",
-    "Templates",
+    "RDS/RDS Read Replicas.md",
+    "RDS/RDS Proxy.md",
+    "RDS/RDS Multi AZ (Disaster Recovery).md",
+    "RDS/Images/RDS_proxy.png",
+    "RDS/Images/Aurora_ML.png",
+    "RDS/Images/Aurora_DB_Cluster.png",
+    "RDS/RDS Custom.md",
     "RDS/Images",
-    "RDS/Untitled.canvas",
+    "RDS/Amazon Aurora.md",
+    "RDS",
+    "Important Ports.md",
+    "ELB/Images/x_zone_load_balancing.png",
+    "ELB/Images",
+    "EB/Images",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

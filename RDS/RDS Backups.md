@@ -20,7 +20,7 @@
 ## RDS & Aurora Restore options
 ---
 - Restoring a RDS / Aurora backup or a snapshot creates a new database
-- Restoring MySQL RDS database from [[AWS S3]]
+- Restoring MySQL RDS database from [[S3]]
 	- Create a backup of your on-premises database
 	- Store it on S3 (object storage)
 	- Restore backup file onto a new RDS instance running MySQL
