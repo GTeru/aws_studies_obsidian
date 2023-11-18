@@ -1,0 +1,8 @@
+- Perform bulk operation on existing [[S3]] objects with a single request
+	- Modify object metadata & properties
+	- Modify ACLs, tags
+	- Encrypt/un-encrypt objects
+	- much more!
+- A job consists of alist of objects, the action to perform and optional parameters
+- Batch Operations manages, retries, tracks progress, sends completion notification, generates reports, etc...
+- Can leverage S3 Inventory to get object list and use S3 Select to get filter

@@ -1,7 +1,7 @@
 {
   "showLineNumber": true,
   "strictLineBreaks": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "alwaysUpdateLinks": true,
   "promptDelete": false
 }

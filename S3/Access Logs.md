@@ -1,0 +1,6 @@
+- For audit purpose, you can log all access to [[S3]] buckets
+- Any requests made to S3, from any account, authorized or denied, will be logged into another S3 bucket
+	- The target logging bucket can be analyzed using data analysis tools
+	- Logging bucket must be in the same [[AWS Region]]
+- Log format can be check via [this link](https://docs.aws.amazon.com/AmazonS3/latest/userguide/LogFormat.html)
+- __NOTE__ : Do __NOT__ set up your logging bucket as the same as the monitored one because this creates an infinite logging loop, costing you a __LOT__ of money!
