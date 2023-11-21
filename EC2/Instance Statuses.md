@@ -1,6 +1,3 @@
----
-tags: []
----
 Some general information about [[EC2 (Elastic Compute Cloud)]] instance status.
 ## Start
 ---

@@ -1,7 +1,7 @@
 ---
 tags: []
 ---
-- Sometimes you want to control over the [[EC2 (Elastic Compute Cloud)]] isnstance placemente strategy, for example if you have many services in different instances and you want to reduce latency.
+- Sometimes you want to control over the [[EC2 (Elastic Compute Cloud)]] instance placemente strategy, for example if you have many services in different instances and you want to reduce latency.
 - There's 3 types of strategies:
 	1. Cluster - cluster instances into low-latency group in a single AZ
 	2. Spread - spreads instances across underlying hardware (max 7 instances per group per [[Availability Zone (AZs)]]) - critial applications

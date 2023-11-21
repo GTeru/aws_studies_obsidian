@@ -5,7 +5,7 @@ Creation of [[Relational Database Service (RDS)]] standy instances mainly for di
 - Failover in case of loss of [[Availability Zone (AZs)]], loss of network or storage failure
 - No manual intervention in apps
 - __Not used for scaling__
-- We can also use [[RDS Read Replicas]] as multi AZ
+- We can also use [[Read Replicas]] as multi AZ
 
 ## Single to Multi-AZ
 ---

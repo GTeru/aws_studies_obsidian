@@ -1,5 +1,5 @@
 - Developer centric view of deploying an application on AWS
-- Uses the same components we've seend before
+- Uses the same components we've seen before
 - Managed service
 	- Handles capacity provisioning, load balancing, scaling, application health monitoring, instance configuration
 	- Just the application code is the responsability of the developer

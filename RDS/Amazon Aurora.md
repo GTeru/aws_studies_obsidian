@@ -6,7 +6,7 @@ tags:
 - Postgres and MySQL are both supported as Aurora DB (driver will work as if Aurora was a Postgres or MySQL database)
 - Cloud optimized (5x performance improvement over MySQL on RDS, 3x performance of Postgres on RDS)
 - Automatic vertical storage scaling, with steps of __10GB__, up to __128TB__
-- Can have up to 15 [[RDS Read Replicas]] and replication process is faster than MySQL (sub 10ms replica lag)
+- Can have up to 15 [[Read Replicas]] and replication process is faster than MySQL (sub 10ms replica lag)
 - Failover is instantaneous
 - Aurora costs more than RDS (20% more) - but it's more efficient
 
@@ -40,7 +40,7 @@ tags:
 	- Pay per second, can be more cost-effective
 - Aurora Multi-Master
 	- If you ant continuous write availability for writer nodes
-	- Every node des R/W - vs promoting a [[RDS Read Replicas]] as the new master
+	- Every node des R/W - vs promoting a [[Read Replicas]] as the new master
 - Aurora Global Database (recommended)
 	- 1 primary [[AWS Region]]
 	- Up to 5 secondary regions, replication lag is less than 1 second

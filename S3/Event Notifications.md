@@ -1,6 +1,6 @@
 This is an [[S3]] mechanism used to automate taskes depending on triggers
 
-- Enables integrations with other AWS services, such as [[SNS]], [[SQS]], [[Lambda]]
+- Enables integrations with other AWS services, such as [[Simple Notification Service (SNS)]], [[Simple Queue Service (SQS)]], [[Lambda]]
 - Notifications are typically delivered within seconds, but can sometimes take a minute or longer
 - Use cases
 	- Generating thumbnails of images uploaded to a bucket

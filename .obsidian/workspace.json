@@ -4,63 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "495a5eba9dafa998",
+        "id": "015ffc322ca51bac",
         "type": "tabs",
-        "dimension": 72.71573604060913,
+        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "fb917733c70ccd3d",
+            "id": "adb4b5f2940164f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S3/Access Logs.md",
+                "file": "SNS/Simple Notification Service (SNS).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7a8130ee1f6f8482",
+            "id": "c9cc96f9e205a12b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S3/Pre-Signed URLs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad20e49ad852b0cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "S3/Access Points.md",
+                "file": "SNS/Message Filtering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "d3ec125e781c6627",
-        "type": "tabs",
-        "dimension": 27.284263959390863,
-        "children": [
-          {
-            "id": "5bb7d0b9262dc434",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "S3/Access Points.md",
+                "file": "SNS/Message Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "S3/Access Points.md",
+                "file": "SNS/Message Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "S3/Access Points.md"
+                "file": "SNS/Message Filtering.md"
               }
             }
           },
@@ -205,54 +178,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad20e49ad852b0cc",
+  "active": "c9cc96f9e205a12b",
   "lastOpenFiles": [
-    "S3/Locks.md",
-    "S3/Access Points.md",
-    "S3/Pre-Signed URLs.md",
-    "S3/Access Logs.md",
-    "S3/MFA Delete.md",
-    "S3/CORS.md",
-    "S3/Encryption.md",
-    "S3/Performance.md",
-    "S3/Static Website Hosting.md",
-    "S3/Batch Operations.md",
-    "S3/Images/s3_ssl_policy_example.png",
-    "S3/Select & Glacier Select.md",
-    "S3/Lifecycle Policies.md",
-    "S3/Versioning.md",
-    "S3/Storage Classes.md",
-    "S3/Security.md",
-    "S3/Requester Pay.md",
-    "S3/Replication.md",
+    "SNS/Simple Notification Service (SNS).md",
+    "SNS/Message Filtering.md",
+    "SNS/FIFO Topic.md",
+    "SNS/SNS + SQS Fan Out Pattern.md",
+    "SQS/Simple Queue Service (SQS).md",
+    "SQS/FIFO Queues.md",
+    "SNS/Images/fan_out_pattern.png",
+    "SNS/Images/dir_integration_pub_sub.png",
+    "SNS/Images",
     "S3/Event Notifications.md",
+    "EC2/Placement Groups.md",
+    "SNS",
+    "SQS/SQS + Auto Scaling Group.md",
+    "SQS/Long Polling.md",
+    "SQS/Message Visibility.md",
+    "SQS.md",
+    "Storage/Data Sync.md",
+    "Storage/Transfer Family.md",
+    "SQS/Images/queue_service.png",
+    "SQS/Images",
+    "SQS",
+    "EB/Elastic Beanstalk (EB).md",
+    "Storage/Storage Gateway.md",
+    "Storage/Amazon FSx.md",
+    "Storage/AWS Snow Family.md",
+    "Cloudfront/AWS Global Accelerator.md",
+    "EC2/Elastic File System (EFS).md",
+    "Storage/Images/snow_family_table.png",
+    "Storage/Images",
+    "Storage",
+    "Cloudfront/Geo Restriction.md",
+    "Web Application Firewall (WAF).md",
+    "Cloudfront/Cache Invalidations.md",
+    "Cloudfront/Price Classes.md",
+    "Cloudfront/EC2 or ALB as Origin.md",
+    "Cloudfront/ALB as Origin.md",
+    "Cloudfront",
+    "S3/Images/s3_ssl_policy_example.png",
     "S3/Images/change_aws_classes.png",
     "S3/Images/s3_transfer_acc_example.png",
-    "AWS EventBridge.md",
-    "Images/s3_storage_classes_comparison.png.md",
-    "S3/S3.md",
     "Images",
     "S3/Images/s3_storage_classes_comparison.png",
     "S3/Images/bucket_policy_example.png",
     "d3",
-    "RDS/RDS Backups.md",
-    "AWS S3.md",
-    "EC2/EC2 (Elastic Compute Cloud).md",
     "S3/Images",
-    "Route53/CNAME vs Alias.md",
-    "Availability Zone (AZs).md",
-    "S3",
     "Route53/Images/monitor_private_resource.png",
-    "Route53/Images/how_dns_works.png",
-    "Route53/Images/geoprox_equal_bias.png",
-    "Route53/Images/geoprox_different_bias.png",
-    "Route53/Images",
-    "Route53",
-    "RDS/Images/RDS_proxy.png",
-    "RDS/Images",
-    "RDS",
-    "ELB/Images",
-    "EB/Images",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
