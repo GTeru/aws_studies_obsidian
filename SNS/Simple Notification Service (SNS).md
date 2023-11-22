@@ -29,4 +29,4 @@ Many AWS services can send data directly to SNS for notifications
 - Access Controls: [[IAM]] policies regulates access to SNS API
 - SNS Access Policies (similiar to [[S3]] policies)
 	- Useful for cross-account access to SNS topics
-	- Useful for allowing other services ([[S3]], [[Lambda]], etc...) to write an SNS topic
+	- Useful for allowing other services ([[S3]], [[AWS Lambda]], etc...) to write an SNS topic

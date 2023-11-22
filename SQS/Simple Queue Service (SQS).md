@@ -27,7 +27,7 @@ Mechanism do __decouple__ services by integrating them __asynchronously__, they 
 
 ## Consuming Messages
 ---
-- Consumers (running on [[EC2 (Elastic Compute Cloud)]] instances, servers, [[Lambda]], etc...)
+- Consumers (running on [[EC2 (Elastic Compute Cloud)]] instances, servers, [[AWS Lambda]], etc...)
 - Consumers can receive and process messages in parallel
 - At least once delivery
 - Best-effort message ordering

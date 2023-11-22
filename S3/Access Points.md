@@ -12,7 +12,7 @@ Access Points simplify security management for [[S3]] buckets, attaching a prefi
 
 ## Object Lambda
 ---
-- Use AWS [[Lambda]] to change the object before it is retrieved by the caller application
+- Use AWS [[AWS Lambda]] to change the object before it is retrieved by the caller application
 - Only one S3 bucket is needed, on top of which we create S3 Access Point and S3 Object Lambda Access Points
 - Use Cases
 	- Redacting personally identifiable information for analytics or non-production environments

@@ -45,7 +45,7 @@ Snow Family are a family of data migration services that AWS offers, it consists
 - Snowball Edge - Storage Optimized
 	- Up to 40 vCPUs, 880GiB of RAM, 80TB storage
 
-- All of the run [[EC2 (Elastic Compute Cloud)]] instances and [[Lambda]] functions using (AWS IoT Greengrass)
+- All of the run [[EC2 (Elastic Compute Cloud)]] instances and [[AWS Lambda]] functions using (AWS IoT Greengrass)
 - Long-term deployment options: 1 and 3 years discounted pricing
 
 ## AWS Ops Hub

@@ -4,36 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "015ffc322ca51bac",
+        "id": "aa1ec8bef719d4a4",
         "type": "tabs",
-        "dimension": 99.99999999999999,
+        "dimension": 74.28924598269468,
         "children": [
           {
-            "id": "adb4b5f2940164f9",
+            "id": "a2f561964d260ac8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SNS/Simple Notification Service (SNS).md",
+                "file": "Kinesis/Kinesis Data Streams.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "c9cc96f9e205a12b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SNS/Message Filtering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            },
+            "group": "c73f732d900c06a7"
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "004248ba2cd47eb2",
+        "type": "tabs",
+        "dimension": 25.710754017305312,
+        "children": [
+          {
+            "id": "7747d5e1aeed83f4",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Kinesis/Kinesis Data Streams.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7084715741045337,
+                  "close": true
+                }
+              }
+            },
+            "group": "c73f732d900c06a7"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SNS/Message Filtering.md",
+                "file": "Kinesis/Kinesis Data Streams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SNS/Message Filtering.md",
+                "file": "Kinesis/Kinesis Data Streams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SNS/Message Filtering.md"
+                "file": "Kinesis/Kinesis Data Streams.md"
               }
             }
           },
@@ -169,17 +200,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "breadcrumbs:Breadcrumbs Visualisation": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "c9cc96f9e205a12b",
+  "active": "a2f561964d260ac8",
   "lastOpenFiles": [
+    "Kinesis/Kinesis Data Analytics.md",
+    "Kinesis/Kinesis Data Streams.md",
+    "Kinesis/Kinesis Data Firehose.md",
+    "AWS Lambda.md",
+    "Kinesis/Images/kinesis_data_stream_diagram.png",
+    "Kinesis/Images",
+    "Kinesis/Kinesis.md",
+    "Kinesis",
     "SNS/Simple Notification Service (SNS).md",
     "SNS/Message Filtering.md",
     "SNS/FIFO Topic.md",
@@ -211,11 +250,6 @@
     "Storage/Images",
     "Storage",
     "Cloudfront/Geo Restriction.md",
-    "Web Application Firewall (WAF).md",
-    "Cloudfront/Cache Invalidations.md",
-    "Cloudfront/Price Classes.md",
-    "Cloudfront/EC2 or ALB as Origin.md",
-    "Cloudfront/ALB as Origin.md",
     "Cloudfront",
     "S3/Images/s3_ssl_policy_example.png",
     "S3/Images/change_aws_classes.png",
@@ -223,9 +257,6 @@
     "Images",
     "S3/Images/s3_storage_classes_comparison.png",
     "S3/Images/bucket_policy_example.png",
-    "d3",
-    "S3/Images",
-    "Route53/Images/monitor_private_resource.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

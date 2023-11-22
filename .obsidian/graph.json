@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "SNS",
+      "query": "path: Kinesis",
       "color": {
         "a": 1,
-        "rgb": 5396192
+        "rgb": 6021202
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -1.7,
   "nodeSizeMultiplier": 1.7078125,
@@ -25,6 +25,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.4505081176757823,
+  "scale": 0.6757621765136714,
   "close": true
 }
