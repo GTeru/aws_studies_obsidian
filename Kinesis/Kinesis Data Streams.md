@@ -27,6 +27,7 @@ This is a [[Kinesis]] service that captures, processes and stores data streams
 		- Default capacity provisioned (4MB/s in or 4.000 records per second)
 		- Scales automatically based on observed throughput peak during last 30 days
 		- Pay per stream per hour & data in/out per GB
+- The maximum amount of consumers is defined by the number of shards
 
 ## Records
 ---
@@ -48,3 +49,7 @@ This is a [[Kinesis]] service that captures, processes and stores data streams
 - [[VPC]] Endpoints available for Kinesis to access within VPC
 - Monitor API calls [[CloudTrail]]
 ![kinesis_data_stream_diagram.png](./Images/kinesis_data_stream_diagram.png)
+
+## SQS vs SNS vs Kinesis
+---
+![sqs_sns_kinesis.png](./Images/sqs_sns_kinesis.png)

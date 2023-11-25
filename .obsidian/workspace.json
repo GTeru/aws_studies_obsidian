@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "aa1ec8bef719d4a4",
+        "id": "3cfc7fc48e64b5ec",
         "type": "tabs",
-        "dimension": 74.28924598269468,
+        "dimension": 71.38324873096447,
         "children": [
           {
-            "id": "a2f561964d260ac8",
+            "id": "d3adf9ca6b96a750",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,17 +19,42 @@
                 "source": false
               }
             },
-            "group": "c73f732d900c06a7"
+            "group": "527ecd08d7a595f0"
+          },
+          {
+            "id": "2fe64e1650ad0150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kinesis/Kinesis Data Streams.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "002d7252bb128093",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amazon MQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
-        "id": "004248ba2cd47eb2",
+        "id": "c4bbacc593f91637",
         "type": "tabs",
-        "dimension": 25.710754017305312,
+        "dimension": 28.616751269035532,
         "children": [
           {
-            "id": "7747d5e1aeed83f4",
+            "id": "0e53bcd591b0f73d",
             "type": "leaf",
             "state": {
               "type": "localgraph",
@@ -57,12 +82,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7084715741045337,
+                  "scale": 1,
                   "close": true
                 }
               }
             },
-            "group": "c73f732d900c06a7"
+            "group": "527ecd08d7a595f0"
           }
         ]
       }
@@ -130,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kinesis/Kinesis Data Streams.md",
+                "file": "Amazon MQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kinesis/Kinesis Data Streams.md",
+                "file": "Amazon MQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kinesis/Kinesis Data Streams.md"
+                "file": "Amazon MQ.md"
               }
             }
           },
@@ -209,26 +234,32 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "a2f561964d260ac8",
+  "active": "002d7252bb128093",
   "lastOpenFiles": [
-    "Kinesis/Kinesis Data Analytics.md",
     "Kinesis/Kinesis Data Streams.md",
+    "Amazon MQ.md",
+    "Kinesis/Images/sqs_sns_kinesis.png",
+    "SQS/FIFO Queues.md",
+    "Kinesis/Kinesis Data Analytics.md",
     "Kinesis/Kinesis Data Firehose.md",
+    "Kinesis/Images/data_streams_vs_firehose.png",
+    "Kinesis/Images/kineses_data_firehose_flow.png",
+    "Kinesis/Kinesis.md",
+    "Storage/AWS Snow Family.md",
+    "VPC.md",
+    "SQS/Simple Queue Service (SQS).md",
+    "S3/Event Notifications.md",
     "AWS Lambda.md",
     "Kinesis/Images/kinesis_data_stream_diagram.png",
     "Kinesis/Images",
-    "Kinesis/Kinesis.md",
     "Kinesis",
     "SNS/Simple Notification Service (SNS).md",
     "SNS/Message Filtering.md",
     "SNS/FIFO Topic.md",
     "SNS/SNS + SQS Fan Out Pattern.md",
-    "SQS/Simple Queue Service (SQS).md",
-    "SQS/FIFO Queues.md",
     "SNS/Images/fan_out_pattern.png",
     "SNS/Images/dir_integration_pub_sub.png",
     "SNS/Images",
-    "S3/Event Notifications.md",
     "EC2/Placement Groups.md",
     "SNS",
     "SQS/SQS + Auto Scaling Group.md",
@@ -243,20 +274,14 @@
     "EB/Elastic Beanstalk (EB).md",
     "Storage/Storage Gateway.md",
     "Storage/Amazon FSx.md",
-    "Storage/AWS Snow Family.md",
     "Cloudfront/AWS Global Accelerator.md",
-    "EC2/Elastic File System (EFS).md",
     "Storage/Images/snow_family_table.png",
     "Storage/Images",
     "Storage",
-    "Cloudfront/Geo Restriction.md",
     "Cloudfront",
     "S3/Images/s3_ssl_policy_example.png",
     "S3/Images/change_aws_classes.png",
-    "S3/Images/s3_transfer_acc_example.png",
     "Images",
-    "S3/Images/s3_storage_classes_comparison.png",
-    "S3/Images/bucket_policy_example.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
