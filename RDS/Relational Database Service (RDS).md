@@ -19,7 +19,7 @@ RDS is a managed service
 - Maintenance windows for upgrades
 - Scaling capability (vertical and horizontal)
 - Storage backend by [[Elastic Block Storage (EBS)]] (gp2 or io1)
-- __CAN'T__ SSH into instances (except Oracle and Microsoft SQL Server with [[Custom]])
+- __CAN'T__ SSH into instances (except Oracle and Microsoft SQL Server with [[RDS Custom]])
 
 ## Storage Auto Scaling
 ---

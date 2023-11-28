@@ -1,4 +1,4 @@
-Lifecycle Policy is a [[S3]] mechanism that lets you automate changing [[Storage Classes]] depending on various parameters
+Lifecycle Policy is a [[S3]] mechanism that lets you automate changing [[S3 Storage Classes]] depending on various parameters
 
 __Note__ : There's some restrictions when changing S3 Storage Classes, you can refer to the image below or check this [link](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html)
 ![[change_aws_classes.png]]

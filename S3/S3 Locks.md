@@ -7,7 +7,7 @@ Locks prevents [[S3]] bucket objects from being deleted/updated after creation. 
 
 ## Object Lock
 ---
-- [[Versioning]] must be enabled
+- [[S3 Versioning]] must be enabled
 - Block object version deletion for a __specified__ amount of time
 - Retention modes
 	- Compliance

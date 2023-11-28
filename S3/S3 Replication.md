@@ -1,6 +1,6 @@
 1- CRR - Cross Region Replication ([[AWS Region]])
 - SRR - Same Region Replication
-- Must enable [[Versioning]] on both source and destionation buckets
+- Must enable [[S3 Versioning]] on both source and destionation buckets
 - Copying is made asynchronously
 - Buckets can be on different AWS Accounts
 	- Must give proper [[IAM]] permissions to [[S3]]

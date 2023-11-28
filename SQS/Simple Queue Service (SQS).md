@@ -34,7 +34,7 @@ Mechanism do __decouple__ services by integrating them __asynchronously__, they 
 - Consumers delete messages after processing them
 - We can scale consumers horizontally to improve processing throughput
 
-## SQS with [[Auto Scaling Groups (ASG)]]
+## SQS with [[EC2 Auto Scaling Groups (ASG)]]
 ---
 - SQS doesn't has an inherent capability of controlling ASG, but it's easily integrated with [[CloudWatch]] metrics and alarms, which can be used to trigger ASG scaling capabilities
 

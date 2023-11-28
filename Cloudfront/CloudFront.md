@@ -15,7 +15,7 @@ P
 - Custom Origin (HTTP)
 	- [[Application Load Balancer (ALB)]]
 	- [[EC2 (Elastic Compute Cloud)]]
-	- S3 Website (must first enable the bucket as a static S3 [[Static Website Hosting]])
+	- S3 Website (must first enable the bucket as a static S3 [[S3 Static Website Hosting]])
 	- Any HTTP backend you want
 
 ## CloudFront vs S3 Cross Region Replication
@@ -24,7 +24,7 @@ P
 	- Global Edge network (no setup needed)
 	- Files are cached for a TTL (which is configurable)
 	- Great for static content that must be available anywhere
-- S3 Cross Region [[Replication]]
+- S3 Cross Region [[S3 Replication]]
 	- Must be setup for each region you want replication to happen
 	- Files are updated in near real-time
 	- Read only

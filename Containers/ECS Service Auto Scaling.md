@@ -6,7 +6,7 @@ Automatically increase/decrease the desired number of __ECS tasks__ based on dif
 - Target tracking - scale based on target value for a specific [[CloudWatch]] metric
 - Step scaling - scale based on specific CloudWatch alarm
 - Scheduled scaling - scale based on specific date/time (predictable changes)
-- ECS Service Auto Scaling (task level) is different of EC2 [[Auto Scaling Groups (ASG)]] ([[EC2 (Elastic Compute Cloud)]] instance level)
+- ECS Service Auto Scaling (task level) is different of EC2 [[EC2 Auto Scaling Groups (ASG)]] ([[EC2 (Elastic Compute Cloud)]] instance level)
 - [[Fargate]] Auto Scaling is much easier to setup (because it's _Serverless_)
 
 ## Auto Scaling EC2 Instances

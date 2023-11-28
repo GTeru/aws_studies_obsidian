@@ -11,7 +11,7 @@ tags:
 	- Data sharing
 	- Wordpress
 - Uses [[Security Groups]] to control access to EFS
-- Compatible with Linex based [[AMI (Amazon Machine Image)]] (not windows)
+- Compatible with Linex based [[Amazon Machine Image (AMI)]] (not windows)
 - Encryption at rest using KMS
 - POSIX file system (~Linux) that has a standard file API
 - File system scales automatically, pay-per-use, no capacity planning!

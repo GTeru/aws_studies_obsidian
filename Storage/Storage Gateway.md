@@ -17,9 +17,9 @@
 	- Tape Gateway
 ## S3 File Gateway 
 ---
-- Support all S3 [[Storage Classes]], __except__ Glacier
+- Support all S3 [[S3 Storage Classes]], __except__ Glacier
 - Extends Application Server NFS or SMB file system via the Storage Gateway, which makes HTTPS requests to the bucket
-- Transition to Glacier using S3 [[Lifecycle Policies]]
+- Transition to Glacier using S3 [[S3 Lifecycle Policies]]
 - Most recently used data is cached in the file gateway
 - Bucket access using [[IAM]] role for each File Gateway
 - SMB Protocol has integration with Active Directory (AD) for user authentication

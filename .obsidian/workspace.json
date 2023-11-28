@@ -14,12 +14,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serverless/Lambda in VPC.md",
+                "file": "Storage/Transfer Family.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "527ecd08d7a595f0"
+          },
+          {
+            "id": "2958f8d9fd202916",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloudfront/CloudFront.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       },
@@ -34,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Serverless/Lambda in VPC.md",
+                "file": "Storage/Transfer Family.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serverless/Lambda in VPC.md",
+                "file": "Storage/Transfer Family.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serverless/Lambda in VPC.md",
+                "file": "Storage/Transfer Family.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serverless/Lambda in VPC.md"
+                "file": "Storage/Transfer Family.md"
               }
             }
           },
@@ -211,42 +223,42 @@
   },
   "active": "d3adf9ca6b96a750",
   "lastOpenFiles": [
-    "RDS/Proxy.md",
-    "Serverless/Lambda in VPC.md",
-    "Serverless/Lambda@Edge + CloudFront Functions.md",
+    "SQS/SQS Long Polling.md",
+    "SQS/SQS Message Visibility.md",
+    "SQS/SQS FIFO Queues.md",
+    "SNS/SNS Message Filtering.md",
+    "SNS/SNS FIFO Topic.md",
+    "Serverless/AWS Lambda.md",
+    "S3/S3 Versioning.md",
+    "S3/S3 Storage Classes.md",
+    "S3/S3 Static Website Hosting.md",
+    "S3/S3 Security.md",
+    "S3/S3 Requester Pay.md",
+    "S3/S3 Replication.md",
+    "S3/S3 Pre-Signed URLs.md",
+    "S3/S3 Lifecycle Policies.md",
+    "S3/S3 Locks.md",
+    "S3/S3 Performance.md",
+    "S3/S3 MFA Delete.md",
+    "S3/S3 Event Notifications.md",
+    "S3/CORS.md",
+    "S3/S3 Encryption.md",
+    "S3/S3 Batch Operations.md",
+    "S3/S3 Access Points.md",
+    "S3/S3 Access Logs.md",
+    "Route53/Route53 Routing Policies.md",
+    "Route53/Route53 CNAME vs Alias.md",
+    "Route53/3rd Party Domains.md",
     "Serverless/Images/lambda_edge_cloudFront.png",
     "Serverless/Images",
-    "Serverless/Limits.md",
-    "Serverless/AWS Lambda.md",
-    "S3/Event Notifications.md",
-    "Serverless/Untitled.md",
-    "Containers/AWS App Runner.md",
     "Serverless",
-    "Containers/Elastic Kubernetes Service (EKS).md",
-    "Containers/Elastic Container Registry (ECR).md",
-    "Containers/ECS Service Auto Scaling.md",
-    "Containers/Elastic Container Service (ECS).md",
-    "RDS/Multi AZ (Disaster Recovery).md",
-    "Amazon MQ.md",
     "Containers",
-    "Kinesis/Kinesis Data Streams.md",
     "Kinesis/Images/sqs_sns_kinesis.png",
-    "SQS/FIFO Queues.md",
-    "Kinesis/Kinesis Data Analytics.md",
-    "Kinesis/Kinesis Data Firehose.md",
     "Kinesis/Images/data_streams_vs_firehose.png",
     "Kinesis/Images/kineses_data_firehose_flow.png",
-    "Kinesis/Kinesis.md",
-    "Storage/AWS Snow Family.md",
-    "VPC.md",
-    "SQS/Simple Queue Service (SQS).md",
     "Kinesis/Images/kinesis_data_stream_diagram.png",
     "Kinesis/Images",
     "Kinesis",
-    "SNS/Simple Notification Service (SNS).md",
-    "SNS/Message Filtering.md",
-    "SNS/FIFO Topic.md",
-    "SNS/SNS + SQS Fan Out Pattern.md",
     "SNS/Images/fan_out_pattern.png",
     "SNS/Images/dir_integration_pub_sub.png",
     "SNS/Images",

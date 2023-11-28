@@ -2,7 +2,7 @@
 1. Define VPC ID, Subnets and [[Security Groups]]
 2. Lambda will create an [[Elastic Network Interfaces (ENI)]] in your subnets
 
-## Use case: Lambda with RDS [[Proxy]]
+## Use case: Lambda with RDS [[RDS Proxy]]
 ---
 - If Lambda functions directly access your database, they may open too many connections under high load
 - RDS Proxy

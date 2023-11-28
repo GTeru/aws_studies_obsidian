@@ -16,7 +16,7 @@ AWS Managed Cache DB
 | Redis | Memcached |
 |---|---|
 |Multi [[Availability Zone (AZs)]] with Auto-Failover|Multi-node for partitioning of data (sharding)|
-|[[Read Replicas]] to scale reads and have high availability|No high availability (replication)|
+|[[RDS Read Replicas]] to scale reads and have high availability|No high availability (replication)|
 |Data durability using AOF persistence|Non persistent|
 |Backup and restore features|No backup and restore|
 |Supports Sets and Sorted Sets|Multi-threaded architecture|
