@@ -6,7 +6,7 @@
       {
         "id": "3cfc7fc48e64b5ec",
         "type": "tabs",
-        "dimension": 71.38324873096447,
+        "dimension": 68.1472081218274,
         "children": [
           {
             "id": "d3adf9ca6b96a750",
@@ -14,44 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kinesis/Kinesis Data Streams.md",
+                "file": "Serverless/Lambda in VPC.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "527ecd08d7a595f0"
-          },
-          {
-            "id": "2fe64e1650ad0150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kinesis/Kinesis Data Streams.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "002d7252bb128093",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon MQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c4bbacc593f91637",
         "type": "tabs",
-        "dimension": 28.616751269035532,
+        "dimension": 31.85279187817259,
         "children": [
           {
             "id": "0e53bcd591b0f73d",
@@ -59,9 +34,9 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Kinesis/Kinesis Data Streams.md",
+                "file": "Serverless/Lambda in VPC.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -82,7 +57,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.9999999999999994,
                   "close": true
                 }
               }
@@ -155,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amazon MQ.md",
+                "file": "Serverless/Lambda in VPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amazon MQ.md",
+                "file": "Serverless/Lambda in VPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amazon MQ.md"
+                "file": "Serverless/Lambda in VPC.md"
               }
             }
           },
@@ -234,10 +209,27 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "002d7252bb128093",
+  "active": "d3adf9ca6b96a750",
   "lastOpenFiles": [
-    "Kinesis/Kinesis Data Streams.md",
+    "RDS/Proxy.md",
+    "Serverless/Lambda in VPC.md",
+    "Serverless/Lambda@Edge + CloudFront Functions.md",
+    "Serverless/Images/lambda_edge_cloudFront.png",
+    "Serverless/Images",
+    "Serverless/Limits.md",
+    "Serverless/AWS Lambda.md",
+    "S3/Event Notifications.md",
+    "Serverless/Untitled.md",
+    "Containers/AWS App Runner.md",
+    "Serverless",
+    "Containers/Elastic Kubernetes Service (EKS).md",
+    "Containers/Elastic Container Registry (ECR).md",
+    "Containers/ECS Service Auto Scaling.md",
+    "Containers/Elastic Container Service (ECS).md",
+    "RDS/Multi AZ (Disaster Recovery).md",
     "Amazon MQ.md",
+    "Containers",
+    "Kinesis/Kinesis Data Streams.md",
     "Kinesis/Images/sqs_sns_kinesis.png",
     "SQS/FIFO Queues.md",
     "Kinesis/Kinesis Data Analytics.md",
@@ -248,8 +240,6 @@
     "Storage/AWS Snow Family.md",
     "VPC.md",
     "SQS/Simple Queue Service (SQS).md",
-    "S3/Event Notifications.md",
-    "AWS Lambda.md",
     "Kinesis/Images/kinesis_data_stream_diagram.png",
     "Kinesis/Images",
     "Kinesis",
@@ -260,28 +250,13 @@
     "SNS/Images/fan_out_pattern.png",
     "SNS/Images/dir_integration_pub_sub.png",
     "SNS/Images",
-    "EC2/Placement Groups.md",
     "SNS",
-    "SQS/SQS + Auto Scaling Group.md",
-    "SQS/Long Polling.md",
-    "SQS/Message Visibility.md",
-    "SQS.md",
-    "Storage/Data Sync.md",
-    "Storage/Transfer Family.md",
     "SQS/Images/queue_service.png",
     "SQS/Images",
     "SQS",
-    "EB/Elastic Beanstalk (EB).md",
-    "Storage/Storage Gateway.md",
-    "Storage/Amazon FSx.md",
-    "Cloudfront/AWS Global Accelerator.md",
     "Storage/Images/snow_family_table.png",
     "Storage/Images",
-    "Storage",
-    "Cloudfront",
     "S3/Images/s3_ssl_policy_example.png",
-    "S3/Images/change_aws_classes.png",
-    "Images",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
