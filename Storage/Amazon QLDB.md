@@ -1,0 +1,7 @@
+- Quantum Ledger Database (QLDB)
+- Ledger is a book _recording financial transactions_
+- Fully managed, serverless, highly available, replication across 3 [[Availability Zone (AZs)]]
+- Used to review history of all changes made to your application data over time
+- Immutable system: once entries are inserted, they can't be removed or modified, cryptographycally verifiable
+- 2-3x better performance than common ledger blockchain frameworks, manipulate data using SQL
+- Difference with Amazon Managed Blockchain: no decentralization component, in accordance with financial regulation rules
