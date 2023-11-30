@@ -1,0 +1,15 @@
+- Build serverless visual workflow to orchestrate your [[AWS Lambda]] functions
+- Features
+	- Sequence
+	- Parallel
+	- Conditions
+	- Timeouts
+	- Error handling
+	- Etc..
+- Can integrate with [[EC2 (Elastic Compute Cloud)]], [[Elastic Container Service (ECS)]], On-premises servers, [[API Gateway]], [[Simple Queue Service (SQS)]], etc...
+- Possibility of implementing humam approval workflow
+- Use cases
+	- Order fulfillment
+	- Data processing
+	- Web applications
+	- Any workflow

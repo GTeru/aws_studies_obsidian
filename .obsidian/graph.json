@@ -1,20 +1,12 @@
 {
   "collapse-filter": false,
-  "search": "path: Kinesis",
+  "search": "step function",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path: Kinesis",
-      "color": {
-        "a": 1,
-        "rgb": 6021202
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -1.7,
@@ -25,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.32791740460982954,
-  "close": true
+  "scale": 0.7683447214422893,
+  "close": false
 }

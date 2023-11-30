@@ -4,51 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3cfc7fc48e64b5ec",
+        "id": "c4bbacc593f91637",
         "type": "tabs",
-        "dimension": 68.1472081218274,
+        "dimension": 64.34010152284264,
         "children": [
           {
-            "id": "d3adf9ca6b96a750",
+            "id": "68c2d9ebd1ba7f0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Transfer Family.md",
+                "file": "Serverless/API Gateway.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "527ecd08d7a595f0"
-          },
-          {
-            "id": "2958f8d9fd202916",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloudfront/CloudFront.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            "group": "4309c055c7ff1c85"
           }
         ]
       },
       {
-        "id": "c4bbacc593f91637",
+        "id": "9dd3b1d2b37b6811",
         "type": "tabs",
-        "dimension": 31.85279187817259,
+        "dimension": 35.659898477157356,
         "children": [
           {
-            "id": "0e53bcd591b0f73d",
+            "id": "925d0e0bc982d772",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Transfer Family.md",
+                "file": "Serverless/API Gateway.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -69,12 +57,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9999999999999994,
+                  "scale": 1,
                   "close": true
                 }
               }
             },
-            "group": "527ecd08d7a595f0"
+            "group": "4309c055c7ff1c85"
           }
         ]
       }
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Transfer Family.md",
+                "file": "Serverless/API Gateway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Transfer Family.md",
+                "file": "Serverless/API Gateway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage/Transfer Family.md"
+                "file": "Serverless/API Gateway.md"
               }
             }
           },
@@ -221,14 +209,25 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "d3adf9ca6b96a750",
+  "active": "4e9099d17b66904c",
   "lastOpenFiles": [
+    "Serverless/Amazon Cognito.md",
+    "Serverless/Step Function.md",
+    "Serverless/API Gateway.md",
+    "Route53/Route53 CNAME vs Alias.md",
+    "Serverless/AWS Lambda.md",
+    "Serverless/DynamoDB Advanced Features.md",
+    "Serverless/DynamoDB.md",
+    "Storage/Storage Gateway.md",
+    "S3/S3 Access Points.md",
+    "Serverless/Lambda & RDS-Aurora Integration.md",
+    "Storage/Transfer Family.md",
+    "Cloudfront/CloudFront.md",
     "SQS/SQS Long Polling.md",
     "SQS/SQS Message Visibility.md",
     "SQS/SQS FIFO Queues.md",
     "SNS/SNS Message Filtering.md",
     "SNS/SNS FIFO Topic.md",
-    "Serverless/AWS Lambda.md",
     "S3/S3 Versioning.md",
     "S3/S3 Storage Classes.md",
     "S3/S3 Static Website Hosting.md",
@@ -238,17 +237,6 @@
     "S3/S3 Pre-Signed URLs.md",
     "S3/S3 Lifecycle Policies.md",
     "S3/S3 Locks.md",
-    "S3/S3 Performance.md",
-    "S3/S3 MFA Delete.md",
-    "S3/S3 Event Notifications.md",
-    "S3/CORS.md",
-    "S3/S3 Encryption.md",
-    "S3/S3 Batch Operations.md",
-    "S3/S3 Access Points.md",
-    "S3/S3 Access Logs.md",
-    "Route53/Route53 Routing Policies.md",
-    "Route53/Route53 CNAME vs Alias.md",
-    "Route53/3rd Party Domains.md",
     "Serverless/Images/lambda_edge_cloudFront.png",
     "Serverless/Images",
     "Serverless",
