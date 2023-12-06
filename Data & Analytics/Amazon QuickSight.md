@@ -1,0 +1,21 @@
+- Serverless machine learning-powered business intelligence service to create interactive dashboards
+- Fast, automatically scalable, embeddable, with per-session pricing
+- Use cases
+	- Business analytics
+	- Building visualizations
+	- Perform ad-hoc analysis
+	- Get business insights using data
+- Integrated with [[Relational Database Service (RDS)]], [[Amazon Aurora]], [[Athena]], [[RedShift]], [[S3]]
+- In-memory computation using SPICE engine if data is imported into QuickSight
+- Enterprise edition: Possibility to setup __Column-Level security (CLS)__
+
+## Dashboard & Analysis
+---
+- Define users (standard versions) and Groups (enterprise version)
+	- These users & groups exist within QuickSight, not [[IAM]]
+- A dashboard
+	- is a really-only snapshot of an analysis that you can share
+	- preserves the configuration of the analysis (filtering, parameters, controls, sort)
+- Share analysis or the dashboard with Users or Groups
+- To share a dashboard, you must first publish it
+- Users who see the dashboard can also see the underlying data

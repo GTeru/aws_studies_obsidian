@@ -36,7 +36,7 @@
 	- For clients within the same region
 	- Could manually combine with CloudFront (more control over the caching strategies and distribution)
 - Private
-	- Can only be accessed from your VPC using an interface VPC endpoint ([[Elastic Network Interfaces (ENI)]])
+	- Can only be accessed from your [[VPC]] using an interface VPC endpoint ([[Elastic Network Interfaces (ENI)]])
 	- Use a resource policy to define access
 
 ## Security

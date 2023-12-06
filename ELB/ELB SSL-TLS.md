@@ -1,8 +1,8 @@
 To make connections more secure, you can configure SSL/TLS certificates into the [[ELB (Elastic Load Balancer)]]
-When traffic comes from the internet to the Load Balancer, it reaches as an HTTPS request, the load balancer then makes a SSL Certificate termination and redirects the traffic inside the VPC as an HTTP request, since the VPC is private, this process is secure.
+When traffic comes from the internet to the Load Balancer, it reaches as an HTTPS request, the load balancer then makes a SSL Certificate termination and redirects the traffic inside the [[VPC]] as an HTTP request, since the VPC is private, this process is secure.
 
 - ELB uses an X.509 certificate (SSL/TLS server certificate)
-- You can manage certificates using [[AWS Certificate Manager (ACM)]]
+- You can manage certificates using [[Certificate Manager (AMC)]]
 - You can also create and upload your own certificates
 - HTTPS listener:
 	- Must specify a default certificate

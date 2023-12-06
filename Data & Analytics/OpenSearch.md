@@ -1,0 +1,8 @@
+- Amazon OpenSearch is successor to Amazon ElasticSearch
+- In [[DynamoDB]] queries only exist by primary key or indexes, but with OpenSearch you can search any field, even partially matches
+- It's common to use OpenSearch as a complement to another database
+- Two modes: managed cluster or serverless cluster
+- Does _not_ natively support SQL (can be enabled via a plugin)
+- Ingestion from [[Kinesis Data Firehose]], AWS IoT and [[CloudWatch]] Logs
+- Security through [[Amazon Cognito]] & [[IAM]], KMS encryption, TLS
+- Comes with OpenSearch Dashboards (visualization)

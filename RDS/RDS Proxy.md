@@ -7,5 +7,5 @@ RDS Proxies helps with [[Relational Database Service (RDS)]] performance, especi
 - Reduced RDS & Aurora failover time by up to 66%
 - No code changes required for most apps
 - Enforce [[IAM]] authentication for DB and securely store credentials in [[AWS Secrets Manager]]
-- RDS Proxy is never publicly accessible (only accessed from a VPC)
+- RDS Proxy is never publicly accessible (only accessed from a [[VPC]])
 ![RDS_proxy.png](./Images/RDS_proxy.png)

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Amazon Timestream.md",
+                "file": "Data & Analytics/Amazon MSK.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Amazon Timestream.md",
+                "file": "Data & Analytics/Amazon MSK.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -57,14 +57,27 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.0254022697913858,
                   "close": true
                 }
               }
             },
             "group": "4309c055c7ff1c85"
+          },
+          {
+            "id": "f4b709589e73c56f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Storage/Amazon Timestream.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nept",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,43 +213,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "switcher:Open quick switcher": false
     }
   },
-  "active": "68c2d9ebd1ba7f0b",
+  "active": "f4b709589e73c56f",
   "lastOpenFiles": [
-    "Storage/Amazon QLDB.md",
     "Storage/Amazon Timestream.md",
-    "Storage/Amazon Keyspaces.md",
+    "Images/Screenshot.md",
+    "Kinesis/Untitled.md",
+    "Data & Analytics/Amazon MSK.md",
+    "Data & Analytics/Images/redshift_load_data_examples.png",
+    "Machine Learning",
+    "Data & Analytics/Images/msk_vs_kinesis.png",
     "Storage/Amazon Neptune.md",
-    "Storage/Amazon DocumentDB.md",
-    "Amazon MQ.md",
-    "RDS/Amazon Aurora.md",
-    "Serverless/API Gateway.md",
-    "Serverless/Amazon Cognito.md",
-    "Serverless/Step Function.md",
-    "Route53/Route53 CNAME vs Alias.md",
-    "Serverless/AWS Lambda.md",
+    "Storage/Amazon Keyspaces.md",
+    "Data & Analytics/Elastic MapReduce (EMR).md",
+    "Kinesis/Kinesis Data Analytics.md",
+    "Data & Analytics/Lake Formation.md",
+    "Data & Analytics/AWS Glue.md",
     "Serverless/DynamoDB Advanced Features.md",
-    "Serverless/DynamoDB.md",
-    "Storage/Storage Gateway.md",
+    "Data & Analytics/Athena.md",
+    "EC2/Security Groups.md",
     "S3/S3 Access Points.md",
+    "Route53/Route53 CNAME vs Alias.md",
+    "Route53/Route53.md",
+    "RDS/RDS Proxy.md",
+    "Serverless/Lambda in VPC.md",
     "Serverless/Lambda & RDS-Aurora Integration.md",
-    "Storage/Transfer Family.md",
-    "Cloudfront/CloudFront.md",
-    "SQS/SQS Long Polling.md",
-    "SQS/SQS Message Visibility.md",
-    "SQS/SQS FIFO Queues.md",
-    "SNS/SNS Message Filtering.md",
-    "SNS/SNS FIFO Topic.md",
-    "S3/S3 Versioning.md",
-    "S3/S3 Storage Classes.md",
+    "Kinesis/Kinesis Data Streams.md",
+    "Route53/Health Checks.md",
+    "ELB/ELB SSL-TLS.md",
+    "EC2/Elastic Network Interfaces (ENI).md",
+    "Containers/AWS App Runner.md",
+    "Serverless/API Gateway.md",
+    "AWS Certificate Manager (ACM).md",
+    "Data & Analytics/Images/glue_data_catalog.png",
+    "Data & Analytics/Images/glue_example.png",
+    "Images",
+    "Data & Analytics/Images",
+    "Data & Analytics",
     "Serverless/Images/lambda_edge_cloudFront.png",
     "Serverless/Images",
     "Serverless",
@@ -248,15 +269,7 @@
     "Kinesis/Images",
     "Kinesis",
     "SNS/Images/fan_out_pattern.png",
-    "SNS/Images/dir_integration_pub_sub.png",
     "SNS/Images",
-    "SNS",
-    "SQS/Images/queue_service.png",
-    "SQS/Images",
-    "SQS",
-    "Storage/Images/snow_family_table.png",
-    "Storage/Images",
-    "S3/Images/s3_ssl_policy_example.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

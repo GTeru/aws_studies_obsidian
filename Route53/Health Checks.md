@@ -32,7 +32,7 @@ Mechanism to check health of AWS resources
 
 ## Monitor CloudWatch Alarm
 ---
-Route53 Health Checkers are external to your VPC, so they can't access __private__ endpoints, but you can create a CloudWatch Metric and associate it to a CloudWatch Alarm, then create a Health Check that monitors the alarm itself.
+Route53 Health Checkers are external to your [[VPC]], so they can't access __private__ endpoints, but you can create a CloudWatch Metric and associate it to a CloudWatch Alarm, then create a Health Check that monitors the alarm itself.
 ![monitor_private_resource.png](./Images/monitor_private_resource.png)
 
 ## Failover

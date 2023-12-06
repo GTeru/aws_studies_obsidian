@@ -2,7 +2,7 @@
 tags:
   - Network
 ---
-Logical component in a VPC that represents a virtual network card
+Logical component in a [[VPC]] that represents a virtual network card
 The ENI can be attached to an [[EC2 (Elastic Compute Cloud)]] instances but they're treated as it's own object that can be attached, moved from EC2 instances or other components of a VPC, for example in the case of a failure of one of the EC2 instance.
 ## Attributes
 ---

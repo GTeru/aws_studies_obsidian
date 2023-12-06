@@ -11,7 +11,7 @@ Data Firehose is a [[Kinesis]] service that loads and transforms data streams in
 ## Attributes
 ---
 - Fully managed service, no administration, automatic scaling, serverless
-	- AWS: [[Redshift]], [[S3]], [[OpenSearch]]
+	- AWS: [[RedShift]], [[S3]], [[OpenSearch]]
 	- 3rd-party Partner: Splunk, MongoDB, DataDog, NewRelic, etc...
 	- Custom: send to any HTTP endpoint
 - Pay for data going through Firehose

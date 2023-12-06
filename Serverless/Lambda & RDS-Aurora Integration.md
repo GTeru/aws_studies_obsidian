@@ -3,7 +3,7 @@
 - Invoke [[AWS Lambda]] functions from within your DB instance
 - Allows you to process data events from within a database
 - Supported for [[Relational Database Service (RDS)]] for PostgreSQL and [[Amazon Aurora]] MySQL
-- Must allow outbound traffic to your Lambda function from within your DB instance (Public, NAT GW, VPC Endpoints)
+- Must allow outbound traffic to your Lambda function from within your DB instance (Public, NAT GW, [[VPC]] Endpoints)
 - DB instance must have the required permissions to invoke the Lambda function (Lambda Resource-based Policy and [[IAM]] Policy)
 
 ## RDS Event Notifications

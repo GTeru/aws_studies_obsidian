@@ -1,4 +1,4 @@
-- "AWS implementation" of Apache Cassandra
+- "AWS implementation" of [Apache Cassandra](https://cassandra.apache.org/_/index.html)
 - Managed Apache Cassandra-compatible DB service
 - Serverless, calable, highly available, fully managed by AWS
 - Automatically scale tables up/down based on application's traffic
