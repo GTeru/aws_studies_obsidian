@@ -1,0 +1,11 @@
+---
+tags:
+  - Machine_Learning
+---
+- Extracts text, handwriting and data from any scanned documents using AI and ML
+- Extract data from forms and tables
+- Read and process any type of documents
+- Use cases
+	- Financial services (invoices, financial reports, etc...)
+	- Healthcare (medical records, insurance claims, etc...)
+	- Public Sector (tax forms, ID documents, passports, etc...)

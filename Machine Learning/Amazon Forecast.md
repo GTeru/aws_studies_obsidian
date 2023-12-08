@@ -1,0 +1,12 @@
+---
+tags:
+  - Machine_Learning
+---
+- Fully managed service that uses ML to deliver highly accurate forecasts
+- Example: Predict the future sales of a raincoat
+- 50% more accurate tha looking at the data itself
+- Reduce forecasting time from months to hours
+- Use cases
+	- Product Demand Planning
+	- Financial Planning
+	- Resource Planning

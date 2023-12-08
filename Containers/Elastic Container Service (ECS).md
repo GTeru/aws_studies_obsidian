@@ -1,3 +1,7 @@
+---
+tags:
+  - Compute
+---
 ## EC2 Launch Type
 ---
 - Launch Docker container on AWS = Launch __ECS Tasks__ on ECS Clusters

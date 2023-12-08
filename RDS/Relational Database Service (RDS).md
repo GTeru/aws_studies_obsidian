@@ -1,6 +1,6 @@
 ---
 tags:
-  - Database
+  - Storage
 ---
 Service that allows creation of databases that are managed by AWS.
 - Postgres

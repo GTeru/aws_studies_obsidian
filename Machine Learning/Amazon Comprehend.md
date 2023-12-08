@@ -1,0 +1,15 @@
+---
+tags:
+  - Machine_Learning
+---
+- Fully managed and serverless service
+- For Natural Language Processing - NLP
+- Uses machine learning to find insight and relationships in text
+	- Language of the text
+	- Extract key phrases, places, people, brands or events
+	- Understands how positive or negative a text is
+	- Analyzes text using tokenization and parts of speech
+	- Automatically organizes a collection of text file by topic
+- Sample use cases
+	- Analyze customer interations (emails) to find what leads to a positive or negative experience
+	- Create and groups artivles by topic that Comprehend will uncover

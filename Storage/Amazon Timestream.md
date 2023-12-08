@@ -1,3 +1,8 @@
+---
+tags:
+  - Storage
+---
+
 - Fully managed, fast, scalable, serverless time series database
 - Automatically scales up/down to adjust capacity
 - Store and analyze trillions of events per day

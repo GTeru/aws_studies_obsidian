@@ -1,3 +1,8 @@
+---
+tags:
+  - Network
+---
+
 - Highly available, scalable, fully managed and _Authoritative_ [[DNS]]
 	- Authoritative = customer can update the DNS records
 - Route53 is also a Domain Registrar

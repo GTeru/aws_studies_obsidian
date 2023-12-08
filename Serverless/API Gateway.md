@@ -1,3 +1,7 @@
+---
+tags:
+  - Network
+---
 - [[AWS Lambda]] + API Gateway: No infrastructure to manage
 - Support for WebSocket Protocol
 - Handle API versioning (v1, v2, etc...)

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Database
+  - Storage
 ---
 - Proprietary [[Relational Database Service (RDS)]] database engine from AWS
 - Postgres and MySQL are both supported as Aurora DB (driver will work as if Aurora was a Postgres or MySQL database)

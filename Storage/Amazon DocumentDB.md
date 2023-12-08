@@ -1,6 +1,5 @@
-- "AWS-implementation" of MongoDB (NoSQL database)
-- Used to store, query and index JSON data
-- Similar "deployment concepts" as Aurora
-- Fully managed, highly avaialble with replication across 3 [[Availability Zone (AZs)]]
-- Document DB storage automatically grows in increments of 10Gb, up to 64Tb
-- Automatically scales to workloads with millions of requests per seconds
+---
+tags:
+  - Storage
+---
+ 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Database
+  - Storage
 ---
 AWS Managed Cache DB
 - ElastiCache manages Redis or Memcached

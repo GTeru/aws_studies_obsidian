@@ -1,3 +1,7 @@
+---
+tags:
+  - Storage
+---
 - Quantum Ledger Database (QLDB)
 - Ledger is a book _recording financial transactions_
 - Fully managed, serverless, highly available, replication across 3 [[Availability Zone (AZs)]]

@@ -1,0 +1,14 @@
+---
+tags:
+  - Machine_Learning
+---
+- Fully managed ML-service to build apps with real-time personalized recommendations
+- Example
+	- Personalized product recommendations/re-ranking, customized direct marketing
+- Same technology used by Amazon.com
+- Implement in days, not months (you don't need to build, train and deploy ML solutions)
+- Use cases
+	- Retail stores
+	- Media
+	- Entertainment
+	- etc...

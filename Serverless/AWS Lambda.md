@@ -1,3 +1,8 @@
+---
+tags:
+  - Compute
+---
+
 - Serverless Virtual __functions__ 
 - Limited by time - short executions
 - Run on-demand

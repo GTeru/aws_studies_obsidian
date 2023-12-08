@@ -1,3 +1,7 @@
+---
+tags:
+  - Storage
+---
 Snow Family are a family of data migration services that AWS offers, it consists of physical devices and has two main use cases:
 1. Migrate data into/out of AWS
 2. Data at the edge (Edge Computing)

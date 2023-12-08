@@ -1,3 +1,7 @@
+---
+tags:
+  - Compute
+---
 Launch and manage _Kubernetes_ clusters on AWS, an alternative to [[ECS Service Auto Scaling]]
 - Kubernetes is an open-source system for automatic deployment, scaling and management of containerized (usually Docker) applications
 - EKS supports [[EC2 (Elastic Compute Cloud)]] if you want to deploy worker nodes or [[Fargate]] to deploy serverless containers
