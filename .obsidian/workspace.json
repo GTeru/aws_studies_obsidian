@@ -4,37 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "c4bbacc593f91637",
+        "id": "9dd3b1d2b37b6811",
         "type": "tabs",
-        "dimension": 64.34010152284264,
+        "dimension": 71.44670050761421,
         "children": [
           {
-            "id": "68c2d9ebd1ba7f0b",
+            "id": "154a7eef87e1d06f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monitoring/EventBridge.md",
+                "file": "IAM/AWS Organizations.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "4309c055c7ff1c85"
+            "group": "8f9c7d7c042d5da6"
           }
         ]
       },
       {
-        "id": "9dd3b1d2b37b6811",
+        "id": "c44695e1c7c6791f",
         "type": "tabs",
-        "dimension": 35.659898477157356,
+        "dimension": 28.553299492385786,
         "children": [
           {
-            "id": "925d0e0bc982d772",
+            "id": "a31d48daea2e7822",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Monitoring/EventBridge.md",
+                "file": "IAM/AWS Organizations.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -57,12 +57,20 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7132754626224425,
+                  "scale": 1.0000000000000002,
                   "close": true
                 }
               }
             },
-            "group": "4309c055c7ff1c85"
+            "group": "8f9c7d7c042d5da6"
+          },
+          {
+            "id": "62a45f8334976627",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ]
       }
@@ -93,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fargate",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monitoring/EventBridge.md",
+                "file": "IAM/AWS Organizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Monitoring/EventBridge.md",
+                "file": "IAM/AWS Organizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Monitoring/EventBridge.md"
+                "file": "IAM/AWS Organizations.md"
               }
             }
           },
@@ -217,42 +225,45 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "68c2d9ebd1ba7f0b",
+  "active": "154a7eef87e1d06f",
   "lastOpenFiles": [
+    "Monitoring/CloudTrail vs CloudWatch vs Config.md",
+    "IAM/AWS Organizations.md",
+    "Monitoring/AWS Config.md",
+    "Monitoring/CloudTrail + EventBridge Integration.md",
+    "Monitoring/CloudWatch Metrics.md",
+    "Monitoring/CloudWatch Logs.md",
+    "Monitoring/CloudWatch Container Insights.md",
     "Monitoring/CloudWatch Alarms.md",
-    "Monitoring/EventBridge.md",
+    "Monitoring/CloudWatch Agent.md",
+    "Monitoring/CloudWatch.md",
+    "Monitoring/CloudTrail.md",
+    "Monitoring/AWS EventBridge.md",
+    "Monitoring/Images/cloudtrail_eventbridge_ex2.png",
+    "Monitoring/Images/cloudtrail_eventbridge_ex1.png",
+    "Serverless/AWS Fargate.md",
+    "EC2/EC2 (Elastic Compute Cloud).md",
+    "Containers/Elastic Kubernetes Service (EKS).md",
+    "Fargate.md",
+    "Containers/Elastic Container Service (ECS).md",
+    "Containers/ECS Service Auto Scaling.md",
+    "Serverless/AWS Lambda.md",
+    "Storage/Amazon DocumentDB.md",
+    "Monitoring/Images/event_bridge_source_destinations.png",
     "SNS/SNS + SQS Fan Out Pattern.md",
     "SNS/Simple Notification Service (SNS).md",
-    "EC2/EC2 (Elastic Compute Cloud).md",
-    "Monitoring/CloudWatch Logs Agent.md",
-    "Monitoring/CloudWatch Logs.md",
-    "Monitoring/CloudWatch Metrics.md",
     "Monitoring/Images",
-    "Monitoring/CloudWatch.md",
     "Serverless/Lambda SnapStart.md",
-    "Serverless/AWS Lambda.md",
     "Storage/Amazon Timestream.md",
     "Serverless/Amazon MQ.md",
     "Machine Learning/Images/sagemaker_example.png",
     "Machine Learning/Textract.md",
-    "Machine Learning/SageMaker.md",
-    "Machine Learning/Polly.md",
-    "Machine Learning/Kendra.md",
     "Machine Learning/Images",
-    "Machine Learning/Amazon Translate.md",
-    "Machine Learning/Amazon Transcribe.md",
-    "Machine Learning/Amazon Rekognition.md",
-    "Machine Learning/Amazon Personalize.md",
-    "Machine Learning/Amazon Lex + Connect.md",
-    "Machine Learning/Amazon Forecast.md",
-    "Machine Learning/Amazon Comprehend.md",
-    "Machine Learning/Amazon Comprehend Medical.md",
     "Machine Learning",
     "Data & Analytics/Images/redshift_load_data_examples.png",
     "Data & Analytics/Images/msk_vs_kinesis.png",
     "Data & Analytics/Images/glue_example.png",
     "Data & Analytics/Images/glue_data_catalog.png",
-    "Data & Analytics/RedShift.md",
     "Data & Analytics/Images",
     "Data & Analytics",
     "Monitoring",
@@ -261,9 +272,6 @@
     "Serverless",
     "Containers",
     "Kinesis/Images/sqs_sns_kinesis.png",
-    "Kinesis/Images/data_streams_vs_firehose.png",
-    "Kinesis/Images/kineses_data_firehose_flow.png",
-    "Kinesis/Images/kinesis_data_stream_diagram.png",
     "Kinesis/Images",
     "Untitled.canvas",
     "Untitled 1.canvas"

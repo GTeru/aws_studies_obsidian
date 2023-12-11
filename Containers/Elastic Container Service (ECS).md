@@ -36,14 +36,14 @@ Leverages [[IAM]] roles for permissioning
 ---
 - [[Application Load Balancer (ALB)]] supported and works for most use cases
 - [[Network Load Balancer (NLB)]] recommended only for high throughput/high performance use cases, or to pair it with AWS Private Link
-- Classic Load Balancer supported but not recommended (no advance features, e.g.: no [[Fargate]])
+- Classic Load Balancer supported but not recommended (no advance features, e.g.: no [[AWS Fargate]])
 
 ## Data Volumes
 ---
 - Mount [[Elastic File System (EFS)]] file system onto ECS tasks
-- Works for both EC2 and Fargate launch types
+- Works for both EC2 and [[AWS Fargate]] launch types
 - Tasks running in any [[Availability Zone (AZs)]] will share the same data in the EFS file system
-- Fargate + EFS = Serverless
+- [[AWS Fargate]] + EFS = Serverless
 - Use cases
 	- Persist multi-AZ shared storage for your containers
 - Not 

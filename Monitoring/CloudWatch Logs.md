@@ -12,7 +12,7 @@
 
 ## Sources
 ---
-- SKD, [[CloudWatch Logs Agent]], CloudWatch Unified Agent
+- SKD, [[CloudWatch Agent]], CloudWatch Unified Agent
 - [[Elastic Beanstalk (EB)]]: collection of logs from application
 - [[Elastic Container Service (ECS)]]: collection of logs from containers
 - [[AWS Lambda]] collection from function logs

@@ -27,7 +27,7 @@ tags:
 	- Custom Runtime API (community supported, example Rust)
 	- Lambda Container Image
 		- The container image must implement the Lambda Runtime API
-		- ECS / Fargate is preferred for running arbitrary Docker images
+		- ECS / [[AWS Fargate]] is preferred for running arbitrary Docker images
 
 ## Main AWS Service Integrations Examples
 ---
