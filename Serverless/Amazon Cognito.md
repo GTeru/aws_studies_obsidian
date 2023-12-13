@@ -19,7 +19,7 @@
 - Email & Phone Number verification
 - Multi-factor authentication (MFA)
 - Federated identities: users from Meta, Google, SAML, etc...
-- CUP integrates with [[API Gateway]] and [[Application Load Balancer (ALB)]]
+- CUP integrates with [[API Gateway]] and [[ALB (Application Load Balancer)]]
 
 ## Cognito Identity Pools (Federated Identities)
 ---

@@ -4,7 +4,7 @@ tags:
 ---
 - It's a network drive that you can attach to your [[EC2 (Elastic Compute Cloud)]] instances while they run
 - It allows the instance to persist data, even after termination
-- They're also specific to an [[Availability Zone (AZs)]]
+- They're also specific to an [[AZ (Availability Zone)]]
 - THe analogy is that the EBS is an "network USB stick"
 ## Attributes
 ---

@@ -6,7 +6,7 @@ tags:
 - Managed Apache Cassandra-compatible DB service
 - Serverless, calable, highly available, fully managed by AWS
 - Automatically scale tables up/down based on application's traffic
-- Tables are replicated 3 time across multiple [[Availability Zone (AZs)]]
+- Tables are replicated 3 time across multiple [[AZ (Availability Zone)]]
 - Uses Cassandra Query Language (CQL)
 - Single-digit milisecond latency at any scale, 1000s of requests per second
 - Capacity: On-demand or provisioned mode with auto-scaling

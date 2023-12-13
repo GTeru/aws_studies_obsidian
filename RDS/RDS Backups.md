@@ -1,4 +1,4 @@
-- Automated backups of [[Relational Database Service (RDS)]]
+- Automated backups of [[RDS (Relational Database Service)]]
 	- Daily full backup of the DB (during backup window)
 	- Transaction logs are backup by RDS every 5 minutes
 	- Restore at any point in time

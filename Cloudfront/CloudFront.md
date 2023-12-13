@@ -13,7 +13,7 @@ P
 		- OAC is replacing Origin Access Identity (OAI)
 	- CloudFront can be used as an ingress (to upload files to S3)
 - Custom Origin (HTTP)
-	- [[Application Load Balancer (ALB)]]
+	- [[ALB (Application Load Balancer)]]
 	- [[EC2 (Elastic Compute Cloud)]]
 	- S3 Website (must first enable the bucket as a static S3 [[S3 Static Website Hosting]])
 	- Any HTTP backend you want

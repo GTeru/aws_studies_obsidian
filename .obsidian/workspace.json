@@ -4,75 +4,97 @@
     "type": "split",
     "children": [
       {
-        "id": "9dd3b1d2b37b6811",
-        "type": "tabs",
-        "dimension": 71.44670050761421,
+        "id": "6e6488381da89552",
+        "type": "split",
         "children": [
           {
-            "id": "154a7eef87e1d06f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IAM/AWS Organizations.md",
-                "mode": "source",
-                "source": false
+            "id": "936ffc6ee702c3e2",
+            "type": "split",
+            "dimension": 67.70304568527918,
+            "children": [
+              {
+                "id": "d6387b49072d0fa6",
+                "type": "tabs",
+                "dimension": 71.49621212121212,
+                "children": [
+                  {
+                    "id": "847ea41efebcb0dc",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Security/KMS Multi-Region Key.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    },
+                    "group": "f3a18a8128726458"
+                  }
+                ]
+              },
+              {
+                "id": "1f21604fa21ea5f4",
+                "type": "tabs",
+                "dimension": 28.50378787878788,
+                "children": [
+                  {
+                    "id": "28a873c0493adee4",
+                    "type": "leaf",
+                    "state": {
+                      "type": "localgraph",
+                      "state": {
+                        "file": "Security/KMS Multi-Region Key.md",
+                        "options": {
+                          "collapse-filter": false,
+                          "search": "",
+                          "localJumps": 1,
+                          "localBacklinks": true,
+                          "localForelinks": true,
+                          "localInterlinks": false,
+                          "showTags": true,
+                          "showAttachments": false,
+                          "hideUnresolved": false,
+                          "collapse-color-groups": true,
+                          "colorGroups": [],
+                          "collapse-display": true,
+                          "showArrow": false,
+                          "textFadeMultiplier": 0,
+                          "nodeSizeMultiplier": 1,
+                          "lineSizeMultiplier": 1,
+                          "collapse-forces": true,
+                          "centerStrength": 0.518713248970312,
+                          "repelStrength": 10,
+                          "linkStrength": 1,
+                          "linkDistance": 250,
+                          "scale": 0.18337983020998394,
+                          "close": true
+                        }
+                      }
+                    },
+                    "group": "f3a18a8128726458"
+                  }
+                ]
               }
-            },
-            "group": "8f9c7d7c042d5da6"
-          }
-        ]
-      },
-      {
-        "id": "c44695e1c7c6791f",
-        "type": "tabs",
-        "dimension": 28.553299492385786,
-        "children": [
-          {
-            "id": "a31d48daea2e7822",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "IAM/AWS Organizations.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": true,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.0000000000000002,
-                  "close": true
-                }
-              }
-            },
-            "group": "8f9c7d7c042d5da6"
+            ],
+            "direction": "horizontal"
           },
           {
-            "id": "62a45f8334976627",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
+            "id": "21724a7a2d2179b2",
+            "type": "tabs",
+            "dimension": 32.29695431472081,
+            "children": [
+              {
+                "id": "a1dd2a7ec32f3c02",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -101,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fargate",
+                "query": "tag:Encryption",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +160,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IAM/AWS Organizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +176,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IAM/AWS Organizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IAM/AWS Organizations.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,17 +215,9 @@
               "type": "BC-tree",
               "state": {}
             }
-          },
-          {
-            "id": "fac97164366cfe0c",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -216,63 +226,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "switcher:Open quick switcher": false
     }
   },
-  "active": "154a7eef87e1d06f",
+  "active": "a1dd2a7ec32f3c02",
   "lastOpenFiles": [
-    "Monitoring/CloudTrail vs CloudWatch vs Config.md",
-    "IAM/AWS Organizations.md",
-    "Monitoring/AWS Config.md",
-    "Monitoring/CloudTrail + EventBridge Integration.md",
-    "Monitoring/CloudWatch Metrics.md",
+    "Security/KMS Multi-Region Key.md",
+    "Security/KMS (Key Management Service).md",
+    "SQS/SQS (Simple Queue Service).md",
+    "SNS/SNS (Simple Notification Service).md",
+    "S3/S3 Encryption.md",
+    "RDS/RDS Security.md",
+    "Data & Analytics/OpenSearch.md",
+    "Kinesis/Kinesis Data Streams.md",
+    "EC2/EFS (Elastic File System).md",
+    "EC2/EBS Encryption.md",
     "Monitoring/CloudWatch Logs.md",
-    "Monitoring/CloudWatch Container Insights.md",
-    "Monitoring/CloudWatch Alarms.md",
-    "Monitoring/CloudWatch Agent.md",
-    "Monitoring/CloudWatch.md",
-    "Monitoring/CloudTrail.md",
-    "Monitoring/AWS EventBridge.md",
+    "AZ (Availability Zone).md",
+    "ELB/Load Balancer Sticky Sessions (Session Affinity).md",
+    "ELB/NLB (Network Load Balancer).md",
+    "ELB/GLB (Gateway Load Balancer).md",
+    "ELB/ALB (Application Load Balancer).md",
+    "EC2/AMI (Amazon Machine Image).md",
+    "EC2/ENI (Elastic Network Interfaces).md",
+    "EC2/EBS (Elastic Block Storage).md",
+    "EB/EB (Elastic Beanstalk).md",
+    "Containers/EKS (Elastic Kubernetes Service).md",
+    "Containers/ECS (Elastic Container Service).md",
+    "Containers/ECR (Elastic Container Registry).md",
+    "RDS/RDS (Relational Database Service).md",
+    "IAM/AWS Control Tower.md",
+    "Security",
+    "IAM/Managing AWS (User).md",
+    "IAM/Images/iam_permissions.png",
+    "IAM/Images",
+    "IAM/Images/aws_organizations.png",
+    "Monitoring/Images/event_bridge_source_destinations.png",
     "Monitoring/Images/cloudtrail_eventbridge_ex2.png",
     "Monitoring/Images/cloudtrail_eventbridge_ex1.png",
-    "Serverless/AWS Fargate.md",
-    "EC2/EC2 (Elastic Compute Cloud).md",
-    "Containers/Elastic Kubernetes Service (EKS).md",
-    "Fargate.md",
-    "Containers/Elastic Container Service (ECS).md",
-    "Containers/ECS Service Auto Scaling.md",
-    "Serverless/AWS Lambda.md",
-    "Storage/Amazon DocumentDB.md",
-    "Monitoring/Images/event_bridge_source_destinations.png",
-    "SNS/SNS + SQS Fan Out Pattern.md",
-    "SNS/Simple Notification Service (SNS).md",
     "Monitoring/Images",
-    "Serverless/Lambda SnapStart.md",
-    "Storage/Amazon Timestream.md",
-    "Serverless/Amazon MQ.md",
-    "Machine Learning/Images/sagemaker_example.png",
-    "Machine Learning/Textract.md",
+    "Monitoring",
+    "CloudWatch",
     "Machine Learning/Images",
-    "Machine Learning",
+    "Machine Learning/Images/sagemaker_example.png",
     "Data & Analytics/Images/redshift_load_data_examples.png",
+    "Machine Learning",
     "Data & Analytics/Images/msk_vs_kinesis.png",
-    "Data & Analytics/Images/glue_example.png",
     "Data & Analytics/Images/glue_data_catalog.png",
+    "Data & Analytics/Images/glue_example.png",
+    "Images",
     "Data & Analytics/Images",
     "Data & Analytics",
-    "Monitoring",
-    "Serverless/Images/lambda_edge_cloudFront.png",
-    "Serverless/Images",
-    "Serverless",
-    "Containers",
-    "Kinesis/Images/sqs_sns_kinesis.png",
-    "Kinesis/Images",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

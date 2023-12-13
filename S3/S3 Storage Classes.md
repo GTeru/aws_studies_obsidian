@@ -12,7 +12,7 @@ It's possible to move a bucket class manuallt or in the bucket lifecycle
 ## Availability and Durability
 ---
 - Durability 
-	- High (99.99999999999%) of objects across multiple [[Availability Zone (AZs)]]
+	- High (99.99999999999%) of objects across multiple [[AZ (Availability Zone)]]
 	- If you store 10M objects in Amazon S3, on average you expect to incur loss of a single object every 1000 years
 	- Same for all storage classes
 - Availability

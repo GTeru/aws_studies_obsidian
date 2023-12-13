@@ -1,7 +1,7 @@
 - [[CloudWatch]] service to collect, aggregate, summarize metrics and logs from containers
 - Available for containers on 
-	- [[Elastic Container Service (ECS)]]
-	- [[Elastic Kubernetes Service (EKS)]]
+	- [[ECS (Elastic Container Service)]]
+	- [[EKS (Elastic Kubernetes Service)]]
 	- Kubernetes platforms on [[EC2 (Elastic Compute Cloud)]]
 	- [[AWS Fargate]] (both for ECS and EKS)
 - In Amazon EKS and Kubernetes, Container Insights is using a containerized version of [[CloudWatch Agent]] to discover containers

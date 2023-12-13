@@ -59,4 +59,4 @@ Snow Family are a family of data migration services that AWS offers, it consists
 	- Transfer files
 	- Laung and manage instances running on Snow Family devices
 	- Monitor device metrics (storage capacity, active instances on your device)
-	- Launch compatible AWS services on your devices (e.g: EC2 instances, DataSync, [[Elastic File System (EFS)]])
+	- Launch compatible AWS services on your devices (e.g: EC2 instances, DataSync, [[EFS (Elastic File System)]])

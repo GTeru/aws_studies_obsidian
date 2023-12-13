@@ -34,7 +34,7 @@
 	- SSD - latency sensitive workloads (database, media processing, data analytics, etc...)
 	- HDD - broad spectrum of workloads (home directory, CMS, etc...)
 - Can be accessed from your on-premises infrastructure (VPN or Direct Connect)
-- Can be configured to be available in multiple [[Availability Zone (AZs)]]
+- Can be configured to be available in multiple [[AZ (Availability Zone)]]
 - Data is back-up daily to [[S3]]
 
 ## FSx Lustre
@@ -62,7 +62,7 @@
 	- MacOS
 	- VMware Cloud on AWS
 	- Amazon Workspaces & AppStream 2.0
-	- Amazon EC2, [[Elastic Container Service (ECS)]], [[Elastic Kubernetes Service (EKS)]]
+	- Amazon EC2, [[ECS (Elastic Container Service)]], [[EKS (Elastic Kubernetes Service)]]
 - Storage shrinks and grows automatically
 - Snapshots, replication, low-cost compression and data de-duplication
 - Point in time instantaneaous cloning (helpful for testing new workloads)
@@ -78,7 +78,7 @@
 	- MacOS
 	- VMware Cloud on AWS
 	- Amazon Workspaces & AppStream 2.0
-	- Amazon EC2, [[Elastic Container Service (ECS)]], [[Elastic Kubernetes Service (EKS)]]
+	- Amazon EC2, [[ECS (Elastic Container Service)]], [[EKS (Elastic Kubernetes Service)]]
 - Up to 1.000.000 IOPS with < 0.5 latency
 - Snapshots, compression and low-cost
 - Point in time instantaneous cloning (helpful for testing new workloads)

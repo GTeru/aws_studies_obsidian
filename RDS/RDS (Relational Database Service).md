@@ -18,7 +18,7 @@ RDS is a managed service
 - Multi AZ setup for DR (Disaster Recovery)
 - Maintenance windows for upgrades
 - Scaling capability (vertical and horizontal)
-- Storage backend by [[Elastic Block Storage (EBS)]] (gp2 or io1)
+- Storage backend by [[EBS (Elastic Block Storage)]] (gp2 or io1)
 - __CAN'T__ SSH into instances (except Oracle and Microsoft SQL Server with [[RDS Custom]])
 
 ## Storage Auto Scaling

@@ -14,7 +14,7 @@ When traffic comes from the internet to the Load Balancer, it reaches as an HTTP
 ---
 - Solves the problem of loading __multiple SSL certificates onto one web server__
 - Requires the client to indicate the hostname of the target server in the SSL handshake
-- Only works for [[Application Load Balancer (ALB)]], [[Network Load Balancer (NLB)]] and [[Cloudfront]]
+- Only works for [[ALB (Application Load Balancer)]], [[NLB (Network Load Balancer)]] and [[Cloudfront]]
 ![ELB_SNI.png](./Images/ELB_SNI.png)
 
 - Classic Load Balancer (v1) only supports one SSL certificate and must use multiple instances of CLB for multiple hostname with multiple SSL certificates

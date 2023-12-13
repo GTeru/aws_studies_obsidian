@@ -11,4 +11,4 @@ The ENI can be attached to an [[EC2 (Elastic Compute Cloud)]] instances but they
 - One Public IPv4
 - One or more security groups
 - A MAC Address
-- They're bound to a specific [[Availability Zone (AZs)]]
+- They're bound to a specific [[AZ (Availability Zone)]]

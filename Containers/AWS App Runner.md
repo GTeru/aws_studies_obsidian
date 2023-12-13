@@ -1,4 +1,4 @@
-Fully managed service that is an alternative to [[Elastic Container Service (ECS)]] and [[Elastic Kubernetes Service (EKS)]] that makes it easy to deploy web applications and APIs at scale
+Fully managed service that is an alternative to [[ECS (Elastic Container Service)]] and [[EKS (Elastic Kubernetes Service)]] that makes it easy to deploy web applications and APIs at scale
 - No infrastructure experience required
 - Start with your source code or container image
 -  Automatically builds and deploy the web app

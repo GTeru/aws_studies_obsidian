@@ -12,7 +12,7 @@ The load balancer stands in front of the client, so clients that makes the reque
 - Do regular health checks to your instances
 - Provide SLL termination (HTTPS) for your websites
 - Enforce stickiness with cookies
-- High availability across [[Availability Zone (AZs)]]
+- High availability across [[AZ (Availability Zone)]]
 - Separate public traffic from private traffic
  
 ## ELB

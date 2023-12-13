@@ -1,6 +1,6 @@
 It's possible redirect the same client to the same server behind a load balancer, this is configured via the target group __attributes__ configuration.
 ![sticky_sessions.png](./Images/sticky_sessions.png)
-- Enabled to Classic Load Balancer, [[Application Load Balancer (ALB)]], [[Network Load Balancer (NLB)]]
+- Enabled to Classic Load Balancer, [[ALB (Application Load Balancer)]], [[NLB (Network Load Balancer)]]
 - The "cookie" used for stickiness has an expiration date you can control.
 - Use case: make sure the user doesn't lose session data
 - Enabling stickiness may bring imbalance to the load over the EC2 instances

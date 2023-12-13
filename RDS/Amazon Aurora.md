@@ -2,7 +2,7 @@
 tags:
   - Storage
 ---
-- Proprietary [[Relational Database Service (RDS)]] database engine from AWS
+- Proprietary [[RDS (Relational Database Service)]] database engine from AWS
 - Postgres and MySQL are both supported as Aurora DB (driver will work as if Aurora was a Postgres or MySQL database)
 - Cloud optimized (5x performance improvement over MySQL on RDS, 3x performance of Postgres on RDS)
 - Automatic vertical storage scaling, with steps of __10GB__, up to __128TB__
@@ -12,7 +12,7 @@ tags:
 
 ## High Availability and Read Scaling
 ---
-- By default 6 copies of your data across 3 [[Availability Zone (AZs)]]s
+- By default 6 copies of your data across 3 [[AZ (Availability Zone)]]s
 	- 4 copies out of 6 needed for writes
 	- 3 copies out of 6 need for reads
 	- Self healing with peer-to-peer replication

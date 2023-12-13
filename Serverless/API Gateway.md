@@ -22,13 +22,13 @@ tags:
 	- Expose HTTP endpoints in the backend
 	- Example
 		- Internal HTTP API on premise
-		- [[Application Load Balancer (ALB)]]
+		- [[ALB (Application Load Balancer)]]
 	- Why? Add rate limiting, caching, user authentications, API keys, etc...
 - AWS Service
 	- Expose any AWS API through the API Gateway
 	- Example
 		- Start an [[Step Function]] workflow
-		- Post a message to [[Simple Queue Service (SQS)]]
+		- Post a message to [[SQS (Simple Queue Service)]]
 	- Why? Add authentication, deploy publicly, rate control, etc...
 
 ## Endpoint Types
@@ -40,7 +40,7 @@ tags:
 	- For clients within the same region
 	- Could manually combine with CloudFront (more control over the caching strategies and distribution)
 - Private
-	- Can only be accessed from your [[VPC]] using an interface VPC endpoint ([[Elastic Network Interfaces (ENI)]])
+	- Can only be accessed from your [[VPC]] using an interface VPC endpoint ([[ENI (Elastic Network Interfaces)]])
 	- Use a resource policy to define access
 
 ## Security

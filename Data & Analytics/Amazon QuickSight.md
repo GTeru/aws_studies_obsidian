@@ -5,7 +5,7 @@
 	- Building visualizations
 	- Perform ad-hoc analysis
 	- Get business insights using data
-- Integrated with [[Relational Database Service (RDS)]], [[Amazon Aurora]], [[Athena]], [[RedShift]], [[S3]]
+- Integrated with [[RDS (Relational Database Service)]], [[Amazon Aurora]], [[Athena]], [[RedShift]], [[S3]]
 - In-memory computation using SPICE engine if data is imported into QuickSight
 - Enterprise edition: Possibility to setup __Column-Level security (CLS)__
 

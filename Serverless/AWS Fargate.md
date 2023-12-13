@@ -1,2 +1,2 @@
 Fargate is the serverless containerized service solution of AWS.
-It is compatible with [[Elastic Container Service (ECS)]] and [[Elastic Kubernetes Service (EKS)]] services
+It is compatible with [[ECS (Elastic Container Service)]] and [[EKS (Elastic Kubernetes Service)]] services

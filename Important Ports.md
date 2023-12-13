@@ -9,7 +9,7 @@
 |443|HTTPS HHTP with SSL/TLS|access secured websites|
 |3389|RDP Remote Desktop Protocol|log into a Windows instance|
 
-## [[Relational Database Service (RDS)]]
+## [[RDS (Relational Database Service)]]
 ---
 
 |Port|Database|

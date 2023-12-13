@@ -8,13 +8,13 @@
 	- [[AWS Lambda]]
 	- [[OpenSearch]]
 - Logs are encrypted by default
-- Can setup KMS-based encryption with your own keys
+- Can setup [[KMS (Key Management Service)]]-based encryption with your own keys
 
 ## Sources
 ---
 - SKD, [[CloudWatch Agent]], CloudWatch Unified Agent
-- [[Elastic Beanstalk (EB)]]: collection of logs from application
-- [[Elastic Container Service (ECS)]]: collection of logs from containers
+- [[EB (Elastic Beanstalk)]]: collection of logs from application
+- [[ECS (Elastic Container Service)]]: collection of logs from containers
 - [[AWS Lambda]] collection from function logs
 - [[VPC]] Flow Logs: VPC specific logs
 - [[API Gateway]]

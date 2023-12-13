@@ -12,7 +12,7 @@
 ---
 - Stop, terminate, reboot, recover an [[EC2 (Elastic Compute Cloud)]] instance
 - Trigger [[EC2 Auto Scaling Groups (ASG)]]
-- Send notification to [[Simple Notification Service (SNS)]]
+- Send notification to [[SNS (Simple Notification Service)]]
 
 ## Composite Alarms
 ---

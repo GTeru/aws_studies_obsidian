@@ -10,7 +10,7 @@
 
 ## SSE with AWS KMS keys (SSE-KMS)
 ---
-- Encrypts objects using keys handled, managed and owned by AWS KMS (Key Management Service)
+- Encrypts objects using keys handled, managed and owned by AWS [[KMS (Key Management Service)]]
 - User control + audit key usage using [[CloudTrail]]
 - Object is encrypted server-side
 - Must set header `"x-amz-server-side-encryption":"aws:kms"

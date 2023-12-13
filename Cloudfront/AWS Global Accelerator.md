@@ -15,7 +15,7 @@ Global Accelerator uses the concept of Anycast to make it's connections to Edge 
 - Anycast IP sends traffic directly to Edge Locations
 - Edge Locations sends traffic to application
 
-- Works with [[EC2 (Elastic Compute Cloud)]] Elastic IPs, [[Application Load Balancer (ALB)]], [[Network Load Balancer (NLB)]]
+- Works with [[EC2 (Elastic Compute Cloud)]] Elastic IPs, [[ALB (Application Load Balancer)]], [[NLB (Network Load Balancer)]]
 - Can be public or private
 - Consistent performance
 	- Intelligent routing to lowest latency and fast regional failover

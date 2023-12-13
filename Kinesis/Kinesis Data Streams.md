@@ -44,7 +44,7 @@ This is a [[Kinesis]] service that captures, processes and stores data streams
 - Kinesis Data Stream is deployed in a specific [[AWS Region]]
 - Control access / authorization using [[IAM]] policies
 - Encryption in flight using HTTPS endpoints
-- Encryption at rest using KMS
+- Encryption at rest using [[KMS (Key Management Service)]]
 - You can implement encryption/decryption of data on client side (harder)
 - [[VPC]] Endpoints available for Kinesis to access within VPC
 - Monitor API calls [[CloudTrail]]

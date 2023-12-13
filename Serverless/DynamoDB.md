@@ -2,7 +2,7 @@
 tags:
   - Storage
 ---
-- Fully managed, highly available with replicatio across multiple [[Availability Zone (AZs)]]
+- Fully managed, highly available with replicatio across multiple [[AZ (Availability Zone)]]
 - NoSQL database - with transaction support
 - Scales to massive workloads, distributed database
 - Millions of requests per second, trillions of row, 100s of Tb of storage

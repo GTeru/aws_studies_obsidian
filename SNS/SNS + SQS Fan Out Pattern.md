@@ -1,5 +1,5 @@
 ![fan_out_pattern.png](./Images/fan_out_pattern.png)
-- Push once in [[Simple Notification Service (SNS)]], receive in all [[Simple Queue Service (SQS)]] queues that are subscribers
+- Push once in [[SNS (Simple Notification Service)]], receive in all [[SQS (Simple Queue Service)]] queues that are subscribers
 - Fully decoupled, no data loss
 - SQS allows
 	- Data persistence

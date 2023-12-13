@@ -6,7 +6,7 @@
 	- Timeouts
 	- Error handling
 	- Etc..
-- Can integrate with [[EC2 (Elastic Compute Cloud)]], [[Elastic Container Service (ECS)]], On-premises servers, [[API Gateway]], [[Simple Queue Service (SQS)]], etc...
+- Can integrate with [[EC2 (Elastic Compute Cloud)]], [[ECS (Elastic Container Service)]], On-premises servers, [[API Gateway]], [[SQS (Simple Queue Service)]], etc...
 - Possibility of implementing humam approval workflow
 - Use cases
 	- Order fulfillment

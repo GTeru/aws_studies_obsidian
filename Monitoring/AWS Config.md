@@ -8,7 +8,7 @@ tags:
 	- Unrestricted SSH access to my security groups?
 	- Buckets have any public access?
 	- How has my ALB configuration changed over time?
-- Receive alerts ([[Simple Notification Service (SNS)]] notifications) for any changes
+- Receive alerts ([[SNS (Simple Notification Service)]] notifications) for any changes
 - Can be aggregated across [[AWS Region]] and accounts
 - Possibility of storing the configuration data into [[S3]] (analyzed by [[Athena]])
 

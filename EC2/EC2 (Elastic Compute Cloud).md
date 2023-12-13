@@ -36,7 +36,7 @@ For a complete list of available ec2 instance types, [click here](https://aws.am
 - On-Demand: You need, we give
 - Spot instances: You bid a max price you're willing to pay for the instance and it provides it, but the instance can be taken out of you if the market price gets higher than what you're willing to pay for.
 - Reserved Instance: Reserve some instances
-- EC2 Savings Plan: Long term plan specifying the instance family & [[Availability Zone (AZs)]] for a minimum amount
+- EC2 Savings Plan: Long term plan specifying the instance family & [[AZ (Availability Zone)]] for a minimum amount
 - Reserved Converible Instance: Same as reserved, but with OS and class flexibility
 - Dedicated Host: Book an entire physical server, which is good for more complex hardware or business needs
 - Capacity Reservation: reserve specific capacity on an AZ for any amount of time, charged the same as the On-Demand option.

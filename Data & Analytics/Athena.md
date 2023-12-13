@@ -23,5 +23,5 @@
 ## Federated Query
 ---
 - Allows you to run SQL queries across data stored in relational, non-relational, object and custom data sources (AWS or on-premises)
-- Uses Data Source Connectors that run on [[AWS Lambda]] to run Federated Queries (e.g.: [[CloudWatch]] Logs, [[DynamoDB]], [[Relational Database Service (RDS)]], etc...)
+- Uses Data Source Connectors that run on [[AWS Lambda]] to run Federated Queries (e.g.: [[CloudWatch]] Logs, [[DynamoDB]], [[RDS (Relational Database Service)]], etc...)
 - Store the results back in S3

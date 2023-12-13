@@ -5,7 +5,7 @@
 	- Comments have likes from users
 	- Users share and like posts
 	- etc...
-- Highly available across 3 [[Availability Zone (AZs)]], with up to 15 read replicas
+- Highly available across 3 [[AZ (Availability Zone)]], with up to 15 read replicas
 - Build and run applications working with graph datasets - optimized for comples and hard queries
 - Can store up to billions of relations and query the graph with miliseconds latency
 - Highly available with replications across multiple AZs

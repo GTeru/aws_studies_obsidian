@@ -17,7 +17,7 @@ Launch and manage _Kubernetes_ clusters on AWS, an alternative to [[ECS Service 
 	- Supports On-Demand or Spot instances
 - Self-managed Nodes
 	- Nodes created by you and registered to the EKS cluster and managed by an ASG
-	- Can leverage pre-build [[Amazon Machine Image (AMI)]] - Amazon EKS Optimized AMI
+	- Can leverage pre-build [[AMI (Amazon Machine Image)]] - Amazon EKS Optimized AMI
 	- Supports On-Demand or Spot Instances
 - [[AWS Fargate]]
 	- No maintenance required; no nodes managed
@@ -27,7 +27,7 @@ Launch and manage _Kubernetes_ clusters on AWS, an alternative to [[ECS Service 
 - Need to specify __Storage Class__ manifest on your EKS cluster
 - Leverages a __Container Storage Interface (CSI)__ compliant driver
 - Supports for
-	- [[Elastic Block Storage (EBS)]]
-	- [[Elastic File System (EFS)]] (works with [[AWS Fargate]])
+	- [[EBS (Elastic Block Storage)]]
+	- [[EFS (Elastic File System)]] (works with [[AWS Fargate]])
 	- [[Amazon FSx]] for Lustre
 	- Amazon FSx for NetApp ONTAP

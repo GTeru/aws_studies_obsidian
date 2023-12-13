@@ -2,7 +2,7 @@
 ---
 - Invoke [[AWS Lambda]] functions from within your DB instance
 - Allows you to process data events from within a database
-- Supported for [[Relational Database Service (RDS)]] for PostgreSQL and [[Amazon Aurora]] MySQL
+- Supported for [[RDS (Relational Database Service)]] for PostgreSQL and [[Amazon Aurora]] MySQL
 - Must allow outbound traffic to your Lambda function from within your DB instance (Public, NAT GW, [[VPC]] Endpoints)
 - DB instance must have the required permissions to invoke the Lambda function (Lambda Resource-based Policy and [[IAM]] Policy)
 
@@ -18,4 +18,4 @@
 	- RDS Proxy
 	- Custom Engine Version
 - Near real-time events (up to 5 minutes)
-- Send notifications to [[Simple Notification Service (SNS)]] or subscribe to events using [[AWS EventBridge]]
+- Send notifications to [[SNS (Simple Notification Service)]] or subscribe to events using [[AWS EventBridge]]

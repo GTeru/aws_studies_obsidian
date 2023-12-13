@@ -1,4 +1,4 @@
-SNS is another kind of __asynchronous__ integration between applications, but it differs from [[Simple Queue Service (SQS)]] because it uses the __Publisher/Subscriber__ pattern and the latter uses __Direct Integration__
+SNS is another kind of __asynchronous__ integration between applications, but it differs from [[SQS (Simple Queue Service)]] because it uses the __Publisher/Subscriber__ pattern and the latter uses __Direct Integration__
 ![dir_integration_pub_sub.png](./Images/dir_integration_pub_sub.png)
 - The "event producer" only sends messages to one __SNS topic__
 - As many "event receivers" (subscriptions) as we want to listen to the SNS topic notifications
@@ -24,7 +24,7 @@ Many AWS services can send data directly to SNS for notifications
 ---
 - Encryption
 	- In-flight encryption using HTTPS API
-	- At-rest encryption using KMS keys
+	- At-rest encryption using [[KMS (Key Management Service)]] keys
 	- Client-side encryption if the client wants to perform encryption/decryption itself
 - Access Controls: [[IAM]] policies regulates access to SNS API
 - SNS Access Policies (similiar to [[S3]] policies)

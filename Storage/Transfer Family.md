@@ -1,9 +1,9 @@
-- Fully-managed service for file transfers into and out of [[S3]] or Amazon [[Elastic File System (EFS)]] using the FTP protocol
+- Fully-managed service for file transfers into and out of [[S3]] or Amazon [[EFS (Elastic File System)]] using the FTP protocol
 - Supported Protocol
 	- FTP (File Transfer Protocol)
 	- FTPS (File Transfer Protocol over SSL)
 	- SFTP (Secure File Transfer Protocol)
-- Managed infrastructure, scalable, reliable and hightly available (multi [[Availability Zone (AZs)]])
+- Managed infrastructure, scalable, reliable and hightly available (multi [[AZ (Availability Zone)]])
 - Pay per previsioned endpoint per hour + data transfers in GB
 - Store and manage user's credentials within service
 - Integrate with existing authentication systems (Microsoft Active Directory, Okta, Amazon Cognito, ect...)

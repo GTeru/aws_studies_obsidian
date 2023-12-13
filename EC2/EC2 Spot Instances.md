@@ -18,7 +18,7 @@ Since persistent requests exists, it is important to close the request and then 
 ---
 - Spot fleets = set of Spot Instances + (optional) On-Demand Instances
 - The spot fleet will try to meet the target capacity with price constraints:
-	- Possible launch pools instance type (m5.large), OS, [[Availability Zone (AZs)]]
+	- Possible launch pools instance type (m5.large), OS, [[AZ (Availability Zone)]]
 	- Multiple launch pools, so that the fleet can choose
 	- Spot Fleet stops launching instances when reaching capacity or max cost
 - Strategies to allocate Spot Instances:

@@ -4,5 +4,5 @@
 - Two modes: managed cluster or serverless cluster
 - Does _not_ natively support SQL (can be enabled via a plugin)
 - Ingestion from [[Kinesis Data Firehose]], AWS IoT and [[CloudWatch]] Logs
-- Security through [[Amazon Cognito]] & [[IAM]], KMS encryption, TLS
+- Security through [[Amazon Cognito]] & [[IAM]], [[KMS (Key Management Service)]] encryption, TLS
 - Comes with OpenSearch Dashboards (visualization)

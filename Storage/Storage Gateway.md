@@ -34,7 +34,7 @@
 ## Volume Gateway
 ---
 - Block storage using iSCSI protocol backed by S3
-- Backed by [[Elastic Block Storage (EBS)]] snapshots which can help restore on-premises volumes
+- Backed by [[EBS (Elastic Block Storage)]] snapshots which can help restore on-premises volumes
 - Cached volumes: low latency access to most recent data
 - Stored volumes: entire dataset is on premise, scheduled backups to S3
 

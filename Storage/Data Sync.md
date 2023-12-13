@@ -3,7 +3,7 @@
 	- AWS to AWS (different storage services) - no agent needed
 - Can synchronize to
 	- S3 (any storage classes)
-	- [[Elastic File System (EFS)]]
+	- [[EFS (Elastic File System)]]
 	- [[Amazon FSx]]
 - Replication tasks can be scheduled hourly, daily, weekly
 - File permissions and metadata are preserved (NFS POSIX, SMB, etc...)

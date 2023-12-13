@@ -1,4 +1,4 @@
-FIFO (First In First Out) [[Simple Queue Service (SQS)]] queues 
+FIFO (First In First Out) [[SQS (Simple Queue Service)]] queues 
 - Limited throughput: 
 	- 300 msg/s for single messages
 	- 3.000 msg/s for batching

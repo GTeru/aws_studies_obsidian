@@ -1,9 +1,9 @@
-- [[Simple Queue Service (SQS)]] and [[Simple Notification Service (SNS)]] are "cloud-native" services: proprietary protocols for AWS
+- [[SQS (Simple Queue Service)]] and [[SNS (Simple Notification Service)]] are "cloud-native" services: proprietary protocols for AWS
 - Traditional applications running on-premises may use open protocols such as MQTT, AMQP, STOMP, Openwire, WSS
 - When migrating to cloud, instead of re-engineering the application to use cloud-native solutions, we can use Amazon MQ
 - Amazon MQ is a managed message broker service for RabbitMQ and ActiveMQ
 - Amazon MQ has some differences over SQS and SNS
 	- Doesn't scale as much
-	- Runs on servers, can run in multi-[[Availability Zone (AZs)]] with failover
+	- Runs on servers, can run in multi-[[AZ (Availability Zone)]] with failover
 	- Has queue feature and topic feature
-- High availability is setup by creating different Amazon MQ Broker instances in differents AZs, one active instance and another standby instance, both of them are backeup by an [[Elastic File System (EFS)]]. When the active instance fails for some reason, messages failover to the standby instance.
+- High availability is setup by creating different Amazon MQ Broker instances in differents AZs, one active instance and another standby instance, both of them are backeup by an [[EFS (Elastic File System)]]. When the active instance fails for some reason, messages failover to the standby instance.

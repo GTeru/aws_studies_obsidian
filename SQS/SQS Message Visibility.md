@@ -1,4 +1,4 @@
-- After a [[Simple Queue Service (SQS)]] message is polled by a consumer, it becomes __invisible__ to other consumers
+- After a [[SQS (Simple Queue Service)]] message is polled by a consumer, it becomes __invisible__ to other consumers
 - By default, the "message visibility timeout" is 30 seconds
 - That means the message has 30 seconds to be processed
 - After the "message visibility timeout" is over, the message is __visible__ in SQS

@@ -11,7 +11,7 @@ Mechanism to scale [[EC2 (Elastic Compute Cloud)]] instances depeding on the loa
 __ASGs are free, you only use the underlying resources created__
 
 To create an autoscaling group you'll need to create a __Launch Template__, which are instructions of how to start an EC2 instance, these configurations include:
-- [[Amazon Machine Image (AMI)]] + Instance Type
+- [[AMI (Amazon Machine Image)]] + Instance Type
 - EC2 User Data
 - EBS Volumes
 - [[Security Groups]]

@@ -1,4 +1,4 @@
-[[CloudFront]] can be configured to have [[EC2 (Elastic Compute Cloud)]] or  [[Application Load Balancer (ALB)]] as Origins
+[[CloudFront]] can be configured to have [[EC2 (Elastic Compute Cloud)]] or  [[ALB (Application Load Balancer)]] as Origins
 
 ## EC2 Setup
 ---

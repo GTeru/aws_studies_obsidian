@@ -1,2 +1,2 @@
-AWS has the concept of a Region, which is a physical location around the world where we cluster data centers. We call each group of logical data centers an [[Availability Zone (AZs)]]. Each AWS Region consists of a minimum of three, isolated, and physically separate AZs within a geographic area.
+AWS has the concept of a Region, which is a physical location around the world where we cluster data centers. We call each group of logical data centers an [[AZ (Availability Zone)]]. Each AWS Region consists of a minimum of three, isolated, and physically separate AZs within a geographic area.
 For more information check this [link](https://aws.amazon.com/about-aws/global-infrastructure/localzones/?nc=sn&loc=0)

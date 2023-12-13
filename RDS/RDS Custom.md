@@ -1,5 +1,5 @@
 ## Attributes
-- [[Relational Database Service (RDS)]]
+- [[RDS (Relational Database Service)]]
 	- Automate setup, operation and scaling
 - Custom
 	- Access to underlying database and OS

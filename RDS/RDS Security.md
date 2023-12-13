@@ -1,8 +1,8 @@
 ## Encryption
 ---
-[[Relational Database Service (RDS)]] && [[Amazon Aurora]] provides some options to encrypt data
+[[RDS (Relational Database Service)]] && [[Amazon Aurora]] provides some options to encrypt data
 - At-rest encryption
-	- Database mater & replicas encryption using AWS KMS - must be defined at launch time
+	- Database mater & replicas encryption using AWS [[KMS (Key Management Service)]] - must be defined at launch time
 	- If master is not encrypted, the read replicas cannot be encrypted
 	- To encrypted an un-encrypted database, go through a DB snapshot & restore as encrypted
 - In flight encryption (between server and client)

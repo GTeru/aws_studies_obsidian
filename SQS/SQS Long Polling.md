@@ -1,4 +1,4 @@
-When a [[Simple Queue Service (SQS)]] consumer requests messages from the queue, it can optionally "wait" for messages to arrive if there are none in the queue, this process is called __Long Polling__
+When a [[SQS (Simple Queue Service)]] consumer requests messages from the queue, it can optionally "wait" for messages to arrive if there are none in the queue, this process is called __Long Polling__
 
 - Use cases
 	- Reduce API calls when polling

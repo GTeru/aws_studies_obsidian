@@ -20,7 +20,7 @@ tags:
 
 ## Snapshots & DR
 ---
-- RedShift has multi-[[Availability Zone (AZs)]] mode for some clusters
+- RedShift has multi-[[AZ (Availability Zone)]] mode for some clusters
 - Snapshots are point in time backups of a cluster, stored internally in S3
 	- Incremental (only what has changed is saved)
 - Restore snapshot in a new cluster

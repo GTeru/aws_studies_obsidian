@@ -1,3 +1,3 @@
-- By default, all subscribers to a [[Simple Notification Service (SNS)]] topic receives all messages published to it, but with Message Filtering, you can filter the messages a subcriber can receive.
+- By default, all subscribers to a [[SNS (Simple Notification Service)]] topic receives all messages published to it, but with Message Filtering, you can filter the messages a subcriber can receive.
 - JSON policy is used to filter messages
 - It's a mechanism that integrates really well with [[SNS + SQS Fan Out Pattern]]

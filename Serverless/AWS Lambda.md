@@ -37,5 +37,5 @@ tags:
 - [[S3]] - invokes Lambda function on image uploads
 - [[CloudFront]] - with Lambda@Edge
 - CloudWatch Events - invoke Lambda functions on infrastructure alarms/triggers 
-- [[Simple Notification Service (SNS)]] and [[Simple Queue Service (SQS)]] - invoke Lambda on new SNS topics or SQS message is created/pushed
+- [[SNS (Simple Notification Service)]] and [[SQS (Simple Queue Service)]] - invoke Lambda on new SNS topics or SQS message is created/pushed
 - [[Amazon Cognito]] - react when user logs into the system

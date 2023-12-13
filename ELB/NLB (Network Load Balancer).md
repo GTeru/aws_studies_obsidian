@@ -1,8 +1,8 @@
 - [[ELB (Elastic Load Balancer)]] that handles layer 4 traffic:
 - Forwards TCP & UDP traffic to instances
 - Handle millions of requests/s (high performance)
-- Less latency ~100ms (vs 400ms in [[Application Load Balancer (ALB)]])
-- NLB has __one static IP per [[Availability Zone (AZs)]]__ and supports assigning Elastic IP (helpful for whitelisting specific IPs)
+- Less latency ~100ms (vs 400ms in [[ALB (Application Load Balancer)]])
+- NLB has __one static IP per [[AZ (Availability Zone)]]__ and supports assigning Elastic IP (helpful for whitelisting specific IPs)
 - Not included in AWS free tier
 
 ## Target Groups

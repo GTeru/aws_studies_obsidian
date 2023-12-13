@@ -1,7 +1,7 @@
 ---
 tags: []
 ---
-Information about [[Elastic Block Storage (EBS)]] volume types:
+Information about [[EBS (Elastic Block Storage)]] volume types:
 	- __gp2 / gp3__ (SSD): General purpose SSD volume that balances price and performance for a wide variety of workloads
 	- __io1 / io2__ (SSD): Highest-performance SSD volume for mission-critical low lattency or high-throughput workloads
 	- __st1__ (HDD): Low cost HDD volume designed for frequently accesssedm throughput-intensive workloads

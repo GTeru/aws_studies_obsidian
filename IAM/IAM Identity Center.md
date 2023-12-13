@@ -1,0 +1,22 @@
+- Successor to AWS Single Sign-On
+- Provides one login (SSO) for all you
+	- AWS accounts in [[AWS Organizations]]
+	- Business cloud applications (e.g., Slesforce, Box, Microsoft 365, etc...)
+	- SAML 2.0 -enabled applications
+	- [[EC2 (Elastic Compute Cloud)]] Windows Instances
+- Identity providers
+	- Built-in identity store in [[IAM]] Indentity Center
+	- 3rd party: Active Directory (AD), OneLogin, Okta, etc...
+
+## Fine-grained Permissions and Assignments
+---
+- Multi-account Permissions
+	- Manage access across AWS accounts in you [[AWS Organizations]]
+	- Permission sets - a collection of one or more IAM policies assigned to users and groups to define AWS access
+- Application assignments
+	- SSO access to many SAML 2.0 business applications
+	- Provide required URLs, certificates and metadata
+- Attribute-based Access Control (ABAC)
+	- Fine-grained permissions based on users' attributes stored in IAM Identity Center Identity Store
+		- Example: cost center, title, locale, etc...
+	- Use case: define permissions once, then modify AWS access by changing the attributes

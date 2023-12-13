@@ -2,7 +2,7 @@
 tags:
   - Storage
 ---
-Usually [[Elastic Block Storage (EBS)]] have more latency because they're a __network drive__ that connects to the [[EC2 (Elastic Compute Cloud)]] instance, but there's another storage option that solves this problem, it's called an EC2 Instance Store, which is a __hardware disk__ that is directly attached to the instance physical server.
+Usually [[EBS (Elastic Block Storage)]] have more latency because they're a __network drive__ that connects to the [[EC2 (Elastic Compute Cloud)]] instance, but there's another storage option that solves this problem, it's called an EC2 Instance Store, which is a __hardware disk__ that is directly attached to the instance physical server.
 - __Pros__
 	- Better I/O performance
 - __Cons__

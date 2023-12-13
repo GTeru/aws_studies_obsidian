@@ -25,7 +25,7 @@ Leverages [[IAM]] roles for permissioning
 	- Used by the ECS Agent
 	- Makes API calls to ECS service
 	- Send container logs to [[CloudWatch]] Logs
-	- Pull Docker image form [[Elastic Container Registry (ECR)]]
+	- Pull Docker image form [[ECR (Elastic Container Registry)]]
 	- Reference sensitive data in Secrets Manager or SSM Parameter Store
 - ECS Task Role
 	- Allows each task to have a specific role
@@ -34,15 +34,15 @@ Leverages [[IAM]] roles for permissioning
 
 ## Load Balancer Integrations
 ---
-- [[Application Load Balancer (ALB)]] supported and works for most use cases
-- [[Network Load Balancer (NLB)]] recommended only for high throughput/high performance use cases, or to pair it with AWS Private Link
+- [[ALB (Application Load Balancer)]] supported and works for most use cases
+- [[NLB (Network Load Balancer)]] recommended only for high throughput/high performance use cases, or to pair it with AWS Private Link
 - Classic Load Balancer supported but not recommended (no advance features, e.g.: no [[AWS Fargate]])
 
 ## Data Volumes
 ---
-- Mount [[Elastic File System (EFS)]] file system onto ECS tasks
+- Mount [[EFS (Elastic File System)]] file system onto ECS tasks
 - Works for both EC2 and [[AWS Fargate]] launch types
-- Tasks running in any [[Availability Zone (AZs)]] will share the same data in the EFS file system
+- Tasks running in any [[AZ (Availability Zone)]] will share the same data in the EFS file system
 - [[AWS Fargate]] + EFS = Serverless
 - Use cases
 	- Persist multi-AZ shared storage for your containers
