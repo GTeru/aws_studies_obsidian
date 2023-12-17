@@ -3,7 +3,7 @@
 - Fully managed Apache Kafka on AWS
 	- Allow you to create, update, delete clusters
 	- MSK creates & manages Kafka brokers nodes & [Zookeeper](https://zookeeper.apache.org/) nodes for you
-	- Deploy the MSK cluster in you [[VPC]], multi-[[AZ (Availability Zone)]] (up to 3 for High Availability)
+	- Deploy the MSK cluster in you [[VPC (Virtual Private Cloud)]], multi-[[AZ (Availability Zone)]] (up to 3 for High Availability)
 	- Automatic recovery from common Kafka failures
 	- Data is stored on [[EBS (Elastic Block Storage)]] volumes for as long as you want
 - MSK Serverless

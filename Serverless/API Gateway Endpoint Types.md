@@ -1,0 +1,9 @@
+- Edge Optimized (default): Global clients
+	- Requests are routed through the [[CloudFront]] Edge locations (improves latency)
+	- API Gateway still lives in only one [[AWS Region]]
+- Regional
+	- For clients within the same region
+	- Could manually combine with CloudFront (more control over the caching strategies and distribution)
+- Private
+	- Can only be accessed from your [[VPC (Virtual Private Cloud)]] using an interface VPC endpoint ([[ENI (Elastic Network Interfaces)]])
+	- Use a resource policy to define access

@@ -26,7 +26,7 @@ AWS resources (load balancers, cloudfront, etc...) exposes an hostname, you can 
 - [[API Gateway]]
 - [[EB (Elastic Beanstalk)]] environments
 - [[S3]] Websites
-- [[VPC]] Interface Endpoints
+- [[VPC (Virtual Private Cloud)]] Interface Endpoints
 - Global Accelerator
 - [[Route53]] record in the same hosted zone
 

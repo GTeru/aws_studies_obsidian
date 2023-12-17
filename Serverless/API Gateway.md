@@ -31,25 +31,13 @@ tags:
 		- Post a message to [[SQS (Simple Queue Service)]]
 	- Why? Add authentication, deploy publicly, rate control, etc...
 
-## Endpoint Types
----
-- Edge Optimized (default): Global clients
-	- Requests are routed through the [[CloudFront]] Edge locations (improves latency)
-	- API Gateway still lives in only one [[AWS Region]]
-- Regional
-	- For clients within the same region
-	- Could manually combine with CloudFront (more control over the caching strategies and distribution)
-- Private
-	- Can only be accessed from your [[VPC]] using an interface VPC endpoint ([[ENI (Elastic Network Interfaces)]])
-	- Use a resource policy to define access
-
 ## Security
 ---
 - User authentication through
 	- [[IAM]] roles (useful for internal applications)
 	- [[Amazon Cognito]] (identity for external users - example mobile users)
 	- Custom Authorizer (your own logic)
-- Custom Domain Name HTTPS security through integration with [[Certificate Manager (AMC)]]
+- Custom Domain Name HTTPS security through integration with [[ACM (Amazon Certificate Manager)]]
 	- If using Edge-Optimizd endpoint, then the certificate must be in __us-east-1__
 	- If using Regional endpoint, the ceritifcate must be in the API Gateway region
 	- Must setup CNAME or A-alias record in [[Route53]]

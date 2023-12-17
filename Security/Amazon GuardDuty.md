@@ -1,0 +1,13 @@
+- Intelligent Threat discovery to protect your AWS account
+- Uses Machine Learning algorithms, anomaly detection, 3rd party data
+- One click to enable (30 days trial), no need to install software
+- Input data includes
+	- [[CloudTrail]] Event Logs - unusual API calls, unauthorized deployments
+		- CloudTrail management events - create [[VPC (Virtual Private Cloud)]] subnet, create trail, etc...
+		- CloudTrail [[S3]] data events - get objects, list objects, delete object, etc...
+	- [[VPC (Virtual Private Cloud)]] Flow Logs - unusual internal traffic, unusual IP address
+	- DNS Logs - compromised [[EC2 (Elastic Compute Cloud)]] instances sending encoded data within DNS queries
+	- Optional features - [[EKS (Elastic Kubernetes Service)]] audit logs, [[RDS (Relational Database Service)]] & [[Amazon Aurora]], [[EBS (Elastic Block Storage)]], [[AWS Lambda]], S3 data events, etc...
+- Can setup [[AWS EventBridge]] rules to notify us in case of findings
+	- Can target Lambda or [[SNS (Simple Notification Service)]]
+- Can protect against CryptoCurrency attacks (has a dedicated "finding" for it)

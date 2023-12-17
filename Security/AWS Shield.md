@@ -1,0 +1,14 @@
+---
+tags:
+  - Security
+---
+- Protection from DDoS attack - Distributed Denial of Service 
+- Shield Standard
+	- Free service that is activated for every customer
+	- Provides protection form attacks such as SYN/UDP Floods, Reflection attacks and other layer 3/4 attacks
+- Shield Advanced
+	- Automatic application layer DDoS mitigation automatically creates, evaluates and deploys AWS WAF rules to mitigate layer 7 attacks
+	- Optional DDoS mitigation service ($3.000/month per organization)
+	- Protect against more sophisticated attacks on [[EC2 (Elastic Compute Cloud)]], [[ELB (Elastic Load Balancer)]], [[CloudFront]], [[AWS Global Accelerator]], [[Route53]]
+	- 24/7 access to AWS DDoS response team (DRP)
+	- Protect against higher fees during usage spikes due to DDoS

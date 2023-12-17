@@ -16,7 +16,7 @@
 - [[EB (Elastic Beanstalk)]]: collection of logs from application
 - [[ECS (Elastic Container Service)]]: collection of logs from containers
 - [[AWS Lambda]] collection from function logs
-- [[VPC]] Flow Logs: VPC specific logs
+- [[VPC (Virtual Private Cloud)]] Flow Logs: VPC specific logs
 - [[API Gateway]]
 - [[CloudTrail]]: based on filter
 - [[Route53]]: log DNS queries

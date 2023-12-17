@@ -1,0 +1,13 @@
+---
+tags:
+  - Security
+---
+- Manage rules in all accounts of an AWS Organization
+- Security policy: common set of security rules
+	- [[WAF (Web Application Firewall)]] rules ([[ALB (Application Load Balancer)]], [[API Gateway]], [[CloudFront]])
+	- [[AWS Shield]] Advanced (ALB, CLB, NLB, Elastic IP, Cloudfront)
+	- Security groups for [[EC2 (Elastic Compute Cloud)]] ALB and [[ENI (Elastic Network Interfaces)]] resources in [[VPC (Virtual Private Cloud)]]
+	- AWS Network Firewall (on VPC level)
+	- [[Route53]] resolver DNS Firewall
+	- Policies are created at the region level
+- Rules are applied to new resources as they are created (good for compliance) across all and future accounts in your Organization

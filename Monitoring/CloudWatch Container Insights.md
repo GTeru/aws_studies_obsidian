@@ -19,7 +19,7 @@
 	- See metrics about the top-N contributors
 	- The total number of unique contributors and their usage
 - Helps find top talkers and understand who or what is impacting system performance
-- Works for any AWS-generated logs ([[VPC]], DNS, etc...)
+- Works for any AWS-generated logs ([[VPC (Virtual Private Cloud)]], DNS, etc...)
 	- For example, find bad hosts, __identify the heaviest network users__ or find the URLs that generate the most errors.
 - You can either build rules from scratch or use sample rules AWS creates (which leverages your [[CloudWatch Logs]])
 - Also provides built-in rules that can be used to analyze metrics from other AWS services

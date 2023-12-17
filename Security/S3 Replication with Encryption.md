@@ -1,0 +1,8 @@
+- Unencrypted objects and objects encrypted with SSE-[[S3]] are replicated by default
+- Objects encrypted with SSE-C (customer provided key) can be replicated
+- For objects encrypted with SSE-KMS, you need to enable the option
+	- Specify with [[KMS (Key Management Service)]] Key to encrypt the objects within the target bucket
+	- Adapt the KMS Key Policy for the target key
+	- An [[IAM]] role with `kms:Decrypt` for the source KMS Key and `kms:Encrypt` for the target KMS Key
+	- You might get KMS throttling errors, in which case you can ask for a Service Quotas increate
+- You can use multi-[[AWS Region]] AWS KMS Keys, but they are currently treated as independent keys by S3 (the object will still be decrypted and then encrypted)

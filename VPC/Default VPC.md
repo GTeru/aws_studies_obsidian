@@ -1,0 +1,4 @@
+- All new AWS accounts have a default VPC
+- New [[EC2 (Elastic Compute Cloud)]] instances are launched into the default VPC if no subnet is specified
+- Default VPC has Internet connectivity and all EC2 instances inside it have public IPv4 addresses
+- We also get a public and a private IPv4 DNS names

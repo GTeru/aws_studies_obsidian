@@ -1,0 +1,16 @@
+---
+tags:
+  - Network
+---
+- Sub range of IPs
+- AWS reserves 5 IP addresses (first 4 & last 1) in each subnet
+	- These 5 IP addresses are not available for use and can't be assigned to an EC2 instance
+	- If a [[CIDR]] block 10.0.0.0/24, then reserved IP addresses are
+		- 10.0.0.0 - Network address
+		- 10.0.0.1 - reserved by AWS for the [[VPC (Virtual Private Cloud)]] router
+		- 10.0.0.2 - reserved by AWS for mapping to Amazon-provided DNS
+		- 10.0.0.3 - reserved by AWS for future use
+		- 10.0.0.255 - Network Broadcast Address. AWS oes not support broadcast in a VPC, therefor the address is reserved
+- Tip: If you need 29 IP addresses for EC2 instances
+	- You can't choose a subnet of size /27 (32 addresses, `32 - 5 (reserved) = 27 < 29`)
+	- You need to choose a subnet of size /26

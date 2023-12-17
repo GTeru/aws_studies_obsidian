@@ -6,7 +6,7 @@
  - Use cases
 	 - Business intelligence
 	 - Analytics
-	 - Reporting, analyze and query [[VPC]] Flow Logs
+	 - Reporting, analyze and query [[VPC (Virtual Private Cloud)]] Flow Logs
 	 - [[CloudFront]] trails
 	 - etc...
 

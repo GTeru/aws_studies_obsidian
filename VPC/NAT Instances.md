@@ -1,0 +1,22 @@
+---
+tags:
+  - Network
+---
+- NAT = Network Address Translation
+- Allows [[EC2 (Elastic Compute Cloud)]] instances in private [[Subnet]]s to connect to the Internet
+- Must be launched in a public subnet
+- Must be launched in a public subnet
+- Must disable EC2 setting __Source/destination Check__
+- Must have Elastic IP attached to it
+- [[Route Tables]] must be configured to route traffic from private subnets to the NAT Instance
+- Pre-configured Amazon Linux [[AMI (Amazon Machine Image)]] setup out of the box
+	- Reached end of standard support on December 31, 2020
+- Not highly available / resilient setup out of the box
+	- Need to create an [[EC2 Auto Scaling Groups (ASG)]] in multi-[[AZ (Availability Zone)]] + resilient user-data script
+- Internet traffic bandwidth depends on EC2 instance type
+- You must manage [[Security Groups]] & rules
+	- Inbound
+		- Allow HTTP / HTTPS traffic coming from Private subnets
+		- Allow SSH from home network (access id provided through [[IGW (Internet Gateway)]])
+	- Outbound
+		- Allow HTTP / HTTPS traffic to the Internet

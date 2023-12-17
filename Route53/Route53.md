@@ -36,7 +36,7 @@ tags:
 A container for records that define how to route traffic to a domain and it's subdomains
 
 - __Public Hosted Zones__ -> contains records that specify how to route traffic on the internet (public domain names)
-- __Private Hosted Zones__ -> contain records that specify how route traffic within one or more [[VPC]] (private domain names)
+- __Private Hosted Zones__ -> contain records that specify how route traffic within one or more [[VPC (Virtual Private Cloud)]] (private domain names)
 - You pay $0.50 per month per hosted zone
 
 ## TTL

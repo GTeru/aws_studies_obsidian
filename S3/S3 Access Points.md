@@ -1,7 +1,7 @@
 Access Points simplify security management for [[S3]] buckets, attaching a prefix to a generated URL
 
 - Each access point has
-	- It's own DNS name (Internet Origin or [[VPC]] Origin)
+	- It's own DNS name (Internet Origin or [[VPC (Virtual Private Cloud)]] Origin)
 	- An Access Point Policy (similar to bucket policy) - manage security at scale
 
 ## VPC Origin Setup

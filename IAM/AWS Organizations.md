@@ -15,7 +15,7 @@ tags:
 ![aws_organizations.png](./Images/aws_organizations.png)
 
 - Advantages
-	- Multi account vs One Account Multi [[VPC]]
+	- Multi account vs One Account Multi [[VPC (Virtual Private Cloud)]]
 	- Use tagging standards for billing purposes
 	- Enable [[CloudTrail]] on all accounts, send logs to central S3 account
 	- Send [[CloudWatch Logs]] to centras logging account

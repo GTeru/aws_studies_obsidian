@@ -23,14 +23,27 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Security/KMS Multi-Region Key.md",
+                        "file": "VPC/NAT Instances.md",
                         "mode": "source",
                         "source": false
                       }
                     },
                     "group": "f3a18a8128726458"
+                  },
+                  {
+                    "id": "dbe00a5a7c16bb7d",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "VPC/NAT Gateway.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "1f21604fa21ea5f4",
@@ -43,7 +56,7 @@
                     "state": {
                       "type": "localgraph",
                       "state": {
-                        "file": "Security/KMS Multi-Region Key.md",
+                        "file": "VPC/NAT Instances.md",
                         "options": {
                           "collapse-filter": false,
                           "search": "",
@@ -66,7 +79,7 @@
                           "repelStrength": 10,
                           "linkStrength": 1,
                           "linkDistance": 250,
-                          "scale": 0.18337983020998394,
+                          "scale": 0.6872513242885426,
                           "close": true
                         }
                       }
@@ -123,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Encryption",
+                "query": "vpc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,33 +250,41 @@
   },
   "active": "a1dd2a7ec32f3c02",
   "lastOpenFiles": [
-    "Security/KMS Multi-Region Key.md",
-    "Security/KMS (Key Management Service).md",
-    "SQS/SQS (Simple Queue Service).md",
-    "SNS/SNS (Simple Notification Service).md",
-    "S3/S3 Encryption.md",
-    "RDS/RDS Security.md",
-    "Data & Analytics/OpenSearch.md",
+    "VPC/NAT Gateway.md",
+    "VPC/NAT Instances.md",
+    "VPC/Bastion Hosts.md",
+    "IAM/AWS Directory Services.md",
+    "VPC/IGW (Internet Gateway).md",
+    "VPC/Route Tables.md",
+    "VPC/Subnet.md",
+    "VPC/VPC (Virtual Private Cloud).md",
+    "VPC/Default VPC.md",
+    "VPC/Public and Private IP (IPv4).md",
+    "VPC/CIDR.md",
+    "VPC/Images/cidr_subnet_mask.png",
+    "VPC/Images",
+    "VPC",
+    "Security/Amazon GuardDuty.md",
+    "EC2/Security Groups.md",
+    "S3/S3 Access Points.md",
+    "Route53/Route53.md",
+    "RDS/RDS Proxy.md",
+    "Serverless/Lambda in VPC.md",
+    "Serverless/Lambda & RDS-Aurora Integration.md",
     "Kinesis/Kinesis Data Streams.md",
-    "EC2/EFS (Elastic File System).md",
-    "EC2/EBS Encryption.md",
-    "Monitoring/CloudWatch Logs.md",
-    "AZ (Availability Zone).md",
-    "ELB/Load Balancer Sticky Sessions (Session Affinity).md",
-    "ELB/NLB (Network Load Balancer).md",
-    "ELB/GLB (Gateway Load Balancer).md",
-    "ELB/ALB (Application Load Balancer).md",
-    "EC2/AMI (Amazon Machine Image).md",
+    "Route53/Health Checks.md",
     "EC2/ENI (Elastic Network Interfaces).md",
-    "EC2/EBS (Elastic Block Storage).md",
-    "EB/EB (Elastic Beanstalk).md",
-    "Containers/EKS (Elastic Kubernetes Service).md",
-    "Containers/ECS (Elastic Container Service).md",
-    "Containers/ECR (Elastic Container Registry).md",
-    "RDS/RDS (Relational Database Service).md",
-    "IAM/AWS Control Tower.md",
+    "ELB/ELB SSL-TLS.md",
+    "Monitoring/CloudWatch Logs.md",
+    "Monitoring/CloudWatch Container Insights.md",
+    "IAM/AWS Organizations.md",
+    "Security/AWS Firewall Manager.md",
+    "Security/Images/waf_alb.png",
+    "Security/Images/acm_alb_integration.png",
+    "Security/Images/ssm_store_hierarchy_example.png",
+    "Screenshot 2023-12-14 at 08.13.40.png",
+    "Security/Images",
     "Security",
-    "IAM/Managing AWS (User).md",
     "IAM/Images/iam_permissions.png",
     "IAM/Images",
     "IAM/Images/aws_organizations.png",
@@ -274,15 +295,7 @@
     "Monitoring",
     "CloudWatch",
     "Machine Learning/Images",
-    "Machine Learning/Images/sagemaker_example.png",
-    "Data & Analytics/Images/redshift_load_data_examples.png",
     "Machine Learning",
-    "Data & Analytics/Images/msk_vs_kinesis.png",
-    "Data & Analytics/Images/glue_data_catalog.png",
-    "Data & Analytics/Images/glue_example.png",
-    "Images",
-    "Data & Analytics/Images",
-    "Data & Analytics",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
