@@ -9,10 +9,12 @@ tags:
 - NAT Gateway is created in a specific [[AZ (Availability Zone)]], uses an Elastic IP
 - Can't be used by EC2 instance in the same subnet (only from other subnets)
 - Requires an [[IGW (Internet Gateway)]] (Private Subnet -> NAT Gateway -> IGW)
-- No [[Security Groups]] are required
+- No [[Security Group]] are required
 
 ## High Availability
 ---
 - NAT Gateway is resilient within a single AZ
 - Must create multiple NAT Gateways in multiple AZs for fault-tolerance
 - There is no cross-AZ failover needed because if an AZ goes down it doesn't need NAT
+
+A in-depth comparison between [[NAT Instances]] and NAT gateways can be found [here](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html)

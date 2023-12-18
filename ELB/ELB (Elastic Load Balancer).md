@@ -47,6 +47,6 @@ Health checks are a way for the load balancer to check if the instance has is in
 - Some load balancers can be setup as __internal__ (private) or __external__ (public) ELBs
 ## Load Balancer Security Groups
 ---
-Clients can connect to load balancers from anywhere, so it needs [[Security Groups]] to be able to have a layer of security and "firewall".
+Clients can connect to load balancers from anywhere, so it needs [[Security Group]] to be able to have a layer of security and "firewall".
 
 EC2 instances otherwise, would only accept traffic from the load balancer, so it's security group would have a __"Allow traffic only from Load Balancer"__ configuration.

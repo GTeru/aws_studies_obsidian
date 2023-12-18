@@ -14,7 +14,7 @@ To create an autoscaling group you'll need to create a __Launch Template__, whic
 - [[AMI (Amazon Machine Image)]] + Instance Type
 - EC2 User Data
 - EBS Volumes
-- [[Security Groups]]
+- [[Security Group]]
 - SSH Key Pair
 - [[IAM]] Roles
 - Network + Subnets information

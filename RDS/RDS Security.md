@@ -11,6 +11,6 @@
 ## Authentication
 ---
 - IAM Authentication: [[IAM]] roles to connect to your database (instead of username/password)
-- [[Security Groups]] Control network access to RDS/Aurora
+- [[Security Group]] Control network access to RDS/Aurora
 - No SSH available except on [[RDS Custom]]
 - Audit logs can be enabled and sent to [[CloudWatch]] for longer retention

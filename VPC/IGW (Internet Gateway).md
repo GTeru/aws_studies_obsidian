@@ -6,4 +6,4 @@ tags:
 - It scales horizontally and is highly available and redundant
 - Must be created separately from a VPC
 	- One VCP can only be attached to one IGW and vice versa
-- Internet Gateways on their own do not allow Internet access, you must also configure [[Route Tables]]
+- Internet Gateways on their own do not allow Internet access, you must also configure [[Route Table]]

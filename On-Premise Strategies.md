@@ -1,0 +1,8 @@
+- Ability to download Amazon Linux 2 [[AMI (Amazon Machine Image)]] as a VM (`.iso` format)
+	- VMWare, KVM, VirtualBox (Oracle VM), Microsoft Hyper-V
+- VM import/export
+	- Migrate existing applications into [[EC2 (Elastic Compute Cloud)]]
+	- Create a [[DR (Disaster Recovery)]] repository strategy for your on-premise VMs
+	- Can export back the VMs from EC2 to on-premise
+- AWS Server Migration Service (SMS)
+	- Incremental replication of on-premise live servers to AWS

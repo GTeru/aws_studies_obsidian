@@ -3,8 +3,8 @@ CloudFront is the CDN (Content Delivery Network) solution of AWS
 - Improves read performance, since content is cached at edge locations
 - Improves users experience
 - 216 points of presence globally (edge locations)
-- DDoS protection (because it's a worldwide service), integration with Shield and AWS [[Web Application Firewall (WAF)]]
-P
+- DDoS protection (because it's a worldwide service), integration with Shield and AWS [[WAF (Web Application Firewall)]]
+
 ## Origins
 ---
 - [[S3]] buckets

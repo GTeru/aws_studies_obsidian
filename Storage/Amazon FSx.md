@@ -33,7 +33,7 @@
 - Storage Options
 	- SSD - latency sensitive workloads (database, media processing, data analytics, etc...)
 	- HDD - broad spectrum of workloads (home directory, CMS, etc...)
-- Can be accessed from your on-premises infrastructure (VPN or Direct Connect)
+- Can be accessed from your on-premises infrastructure (VPN or [[DX (Direct Connect)]])
 - Can be configured to be available in multiple [[AZ (Availability Zone)]]
 - Data is back-up daily to [[S3]]
 

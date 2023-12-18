@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6e6488381da89552",
+        "id": "936ffc6ee702c3e2",
         "type": "split",
         "children": [
           {
-            "id": "936ffc6ee702c3e2",
+            "id": "bd4fdd9caca5f776",
             "type": "split",
-            "dimension": 67.70304568527918,
+            "dimension": 71.49621212121212,
             "children": [
               {
                 "id": "d6387b49072d0fa6",
                 "type": "tabs",
-                "dimension": 71.49621212121212,
+                "dimension": 77.98223350253807,
                 "children": [
                   {
                     "id": "847ea41efebcb0dc",
@@ -23,91 +23,78 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "VPC/NAT Instances.md",
+                        "file": "ELB/NLB (Network Load Balancer).md",
                         "mode": "source",
                         "source": false
-                      }
-                    },
-                    "group": "f3a18a8128726458"
-                  },
-                  {
-                    "id": "dbe00a5a7c16bb7d",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "VPC/NAT Gateway.md",
-                        "mode": "source",
-                        "source": false
-                      }
-                    }
-                  }
-                ],
-                "currentTab": 1
-              },
-              {
-                "id": "1f21604fa21ea5f4",
-                "type": "tabs",
-                "dimension": 28.50378787878788,
-                "children": [
-                  {
-                    "id": "28a873c0493adee4",
-                    "type": "leaf",
-                    "state": {
-                      "type": "localgraph",
-                      "state": {
-                        "file": "VPC/NAT Instances.md",
-                        "options": {
-                          "collapse-filter": false,
-                          "search": "",
-                          "localJumps": 1,
-                          "localBacklinks": true,
-                          "localForelinks": true,
-                          "localInterlinks": false,
-                          "showTags": true,
-                          "showAttachments": false,
-                          "hideUnresolved": false,
-                          "collapse-color-groups": true,
-                          "colorGroups": [],
-                          "collapse-display": true,
-                          "showArrow": false,
-                          "textFadeMultiplier": 0,
-                          "nodeSizeMultiplier": 1,
-                          "lineSizeMultiplier": 1,
-                          "collapse-forces": true,
-                          "centerStrength": 0.518713248970312,
-                          "repelStrength": 10,
-                          "linkStrength": 1,
-                          "linkDistance": 250,
-                          "scale": 0.6872513242885426,
-                          "close": true
-                        }
                       }
                     },
                     "group": "f3a18a8128726458"
                   }
                 ]
+              },
+              {
+                "id": "3c37d54b1108bd5e",
+                "type": "tabs",
+                "dimension": 22.01776649746193,
+                "children": [
+                  {
+                    "id": "81c3e79f0215bf2c",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {}
+                    }
+                  }
+                ]
               }
             ],
-            "direction": "horizontal"
+            "direction": "vertical"
           },
           {
-            "id": "21724a7a2d2179b2",
+            "id": "1f21604fa21ea5f4",
             "type": "tabs",
-            "dimension": 32.29695431472081,
+            "dimension": 28.50378787878788,
             "children": [
               {
-                "id": "a1dd2a7ec32f3c02",
+                "id": "28a873c0493adee4",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
-                }
+                  "type": "localgraph",
+                  "state": {
+                    "file": "ELB/NLB (Network Load Balancer).md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": true,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.4901995062697974,
+                      "close": true
+                    }
+                  }
+                },
+                "group": "f3a18a8128726458"
               }
             ]
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -136,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vpc",
+                "query": "direct connect",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,6 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ELB/NLB (Network Load Balancer).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,6 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ELB/NLB (Network Load Balancer).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +199,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ELB/NLB (Network Load Balancer).md"
+              }
             }
           },
           {
@@ -248,37 +239,42 @@
       "switcher:Open quick switcher": false
     }
   },
-  "active": "a1dd2a7ec32f3c02",
+  "active": "847ea41efebcb0dc",
   "lastOpenFiles": [
-    "VPC/NAT Gateway.md",
-    "VPC/NAT Instances.md",
-    "VPC/Bastion Hosts.md",
-    "IAM/AWS Directory Services.md",
-    "VPC/IGW (Internet Gateway).md",
-    "VPC/Route Tables.md",
-    "VPC/Subnet.md",
-    "VPC/VPC (Virtual Private Cloud).md",
-    "VPC/Default VPC.md",
-    "VPC/Public and Private IP (IPv4).md",
+    "Disaster Recovery/Application Discovery Service.md",
+    "Disaster Recovery/MGN (Application Migration Service).md",
+    "On-Premise Strategies.md",
+    "Disaster Recovery/AWS Backup.md",
+    "RDS/RDS & Aurora Migrations.md",
+    "Untitled",
+    "Disaster Recovery/DMS (Data Migration Service).md",
+    "Disaster Recovery/DR (Disaster Recovery).md",
+    "Storage/Amazon FSx.md",
+    "VPN.md",
+    "VPC/Networking Costs in AWS.md",
+    "Disaster Recovery",
+    "VPC/AWS Network Firewall.md",
     "VPC/CIDR.md",
+    "ELB/ELB SSL-TLS.md",
+    "Cloudfront/CloudFront.md",
+    "VPC/NAT Gateway.md",
+    "VPC/NACL (Network Access Control List).md",
+    "VPC/IGW (Internet Gateway).md",
+    "VPC/DX (Direct Connect).md",
+    "VPC/Default VPC.md",
+    "VPC/Bastion Hosts.md",
+    "VPC/Egress-only IGW.md",
+    "VPC/VPC IPv6.md",
+    "VPC/VPC Traffic Mirroring.md",
+    "VPC/Transit Gateway.md",
+    "VPC/Images/dx_gateway.png",
+    "VPC/VPG (Virtual Private Gateway).md",
+    "VPC/Site-to-Site VPN.md",
+    "VPC/Images/vpc_flow_logs.png",
+    "VPC/Images/nacl_ephemeral_ports.png",
     "VPC/Images/cidr_subnet_mask.png",
     "VPC/Images",
     "VPC",
-    "Security/Amazon GuardDuty.md",
-    "EC2/Security Groups.md",
-    "S3/S3 Access Points.md",
-    "Route53/Route53.md",
-    "RDS/RDS Proxy.md",
-    "Serverless/Lambda in VPC.md",
-    "Serverless/Lambda & RDS-Aurora Integration.md",
-    "Kinesis/Kinesis Data Streams.md",
-    "Route53/Health Checks.md",
-    "EC2/ENI (Elastic Network Interfaces).md",
-    "ELB/ELB SSL-TLS.md",
-    "Monitoring/CloudWatch Logs.md",
-    "Monitoring/CloudWatch Container Insights.md",
-    "IAM/AWS Organizations.md",
-    "Security/AWS Firewall Manager.md",
     "Security/Images/waf_alb.png",
     "Security/Images/acm_alb_integration.png",
     "Security/Images/ssm_store_hierarchy_example.png",
@@ -288,14 +284,9 @@
     "IAM/Images/iam_permissions.png",
     "IAM/Images",
     "IAM/Images/aws_organizations.png",
-    "Monitoring/Images/event_bridge_source_destinations.png",
-    "Monitoring/Images/cloudtrail_eventbridge_ex2.png",
-    "Monitoring/Images/cloudtrail_eventbridge_ex1.png",
     "Monitoring/Images",
     "Monitoring",
     "CloudWatch",
-    "Machine Learning/Images",
-    "Machine Learning",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

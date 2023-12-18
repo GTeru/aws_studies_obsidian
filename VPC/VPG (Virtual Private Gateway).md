@@ -1,0 +1,3 @@
+- VPN concentrator on AWS side of the VPN connection
+- VGW is created and attached to the [[VPC (Virtual Private Cloud)]] from which you want to create the Site-to-Site VPN connection
+- Possibility to customize the ASN (Autonomous System Number)

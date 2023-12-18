@@ -1,0 +1,18 @@
+---
+tags:
+  - Network
+  - Security
+  - Monitoring
+---
+- Allows to capture and inspect traffic in your [[VPC (Virtual Private Cloud)]]
+- Route the traffic to security appliances that you manage
+- Capture the traffic
+	- From (sources) - [[ENI (Elastic Network Interfaces)]]
+	- To (targets) - an ENI or [[NLB (Network Load Balancer)]]
+- Capture all packets or capture the packets of your interest (optionally, truncate packets)
+- Sources and targets can be setup in the same VPC or in different VPCs (via [[VPC Peering]])
+- Use cases
+	- Content inspection
+	- Threat monitoring
+	- Troubleshooting
+	- etc...

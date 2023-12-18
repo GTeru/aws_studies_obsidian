@@ -1,0 +1,20 @@
+---
+tags:
+  - Security
+---
+- Protect your entire Amazon [[VPC (Virtual Private Cloud)]]
+	- Protection from layer 3 to layer 7
+- You can inspect in any direction
+	- VPC to VPC traffic
+	- Outbound/inbound to internet
+	- To/From [[DX (Direct Connect)]] & [[Site-to-Site VPN]]
+- Internally, the AWS Network Firewall uses the AWS [[GLB (Gateway Load Balancer)]]
+- Rules can be centrally managed cross-account by [[AWS Firewall Manager]] to apply to many VPCs
+- Supports 1000s of rules
+	- IP & port - example: 10.000s of IP filtering
+	- Protocol - example: block SMB protocol for outbound communications
+	- Stateful domain list rule groups: only allow outbound traffic to \*.mycorp.com or 3rd party software repo
+	- General patter matching using __regex__
+- Traffic filtering: Allow, drop or alert for the traffic that matches the rules
+- Active flow inspection to protect against network threats with intrusion-pervention capabilities (like GLB, but maanged by AWS)
+- Send logs of rule matches to Amazon [[S3]], [[CloudWatch Logs]], [[Kinesis Data Firehose]]

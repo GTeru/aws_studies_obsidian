@@ -1,0 +1,14 @@
+- [[RDS (Relational Database Service)]] to [[Amazon Aurora]]
+	- Option 1: DB snapshot from RDS and restore as Aurora DB
+	- Option 2: Create an Aurora Read Replica from your RDS and when the replication lag is 0, promote it as its own DB cluster (can take time and cost money)
+- External MySQ to Aurora MySQL
+	- Option 1
+		- Use Percona XtraBackup to create a file backup in Amazon [[S3]]
+		- Create an Aurora MySQL DB from Amazon S3
+	- Option 2
+		- Create an Aurora MySQL DB from Amazon S3
+		- Use the mysqldump utility to migrate MySQL Aurora (slower than S3 method)
+- External PostgreSQL to Aurora PostgreSQL
+	- Create a backup and put it in Amazon S3
+	- Import it using the `aws_s3` Aurora extension
+- Use [[DMS (Data Migration Service)]] if both databases are up and running

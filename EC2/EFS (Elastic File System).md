@@ -10,7 +10,7 @@ tags:
 	- Web serving
 	- Data sharing
 	- Wordpress
-- Uses [[Security Groups]] to control access to EFS
+- Uses [[Security Group]] to control access to EFS
 - Compatible with Linex based [[AMI (Amazon Machine Image)]] (not windows)
 - Encryption at rest using [[KMS (Key Management Service)]]
 - POSIX file system (~Linux) that has a standard file API

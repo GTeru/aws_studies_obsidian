@@ -3,7 +3,7 @@ tags:
   - Network
 ---
 - Classless Inter-Domain Routing - a method for allocating IP addresses
-- Used in [[Security Groups]] rules and AWS networking in general
+- Used in [[Security Group]] rules and AWS networking in general
 - They help to define an IP address range, for example:
 	- `WW.XX.YY.ZZ/32` -> one IP
 	- `0.0.0.0/0` -> all IPs

@@ -1,5 +1,5 @@
 [[AWS Lambda]] functions are launched outside your own [[VPC (Virtual Private Cloud)]] (in an AWS-owned VPC), so it cannot access your private resources (RDS, ElastiCache, internal ELB, etc...). To access the private resources in your VPC you have
-1. Define VPC ID, Subnets and [[Security Groups]]
+1. Define VPC ID, Subnets and [[Security Group]]
 2. Lambda will create an [[ENI (Elastic Network Interfaces)]] in your subnets
 
 ## Use case: Lambda with RDS [[RDS Proxy]]

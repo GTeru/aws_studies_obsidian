@@ -8,7 +8,7 @@ tags:
 - Version tracking of configurations / secrets
 - Security through [[IAM]]
 - Notifications with [[AWS EventBridge]]
-- Integration with [[CloudFormation]]
+- Integration with CloudFormation
 
 ## Store Hierarchy
 ---

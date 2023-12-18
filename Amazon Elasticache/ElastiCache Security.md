@@ -2,7 +2,7 @@
 - IAM policies on ElastiCache are only used for AWS API-level security
 - Redis AUTH
 	- Set a "password/token" when you create a Redis cluster
-	- This is an extra level of security for your cache (on top of [[Security Groups]])
+	- This is an extra level of security for your cache (on top of [[Security Group]])
 	- Support SSL in flight encryption
 - Memcached
 	- Supports SASL-based authentication (advanced) 

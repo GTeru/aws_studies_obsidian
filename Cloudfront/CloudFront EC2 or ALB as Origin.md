@@ -4,7 +4,7 @@
 ---
 - EC2 (Elastic Compute Cloud) instances needs to be public because the edge locations nedds to be able to make requests into the instances
 
-- [Edge Locations IPs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/LocationsOfEdgeServers.html) needs to be allowed into the instance [[Security Groups]]
+- [Edge Locations IPs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/LocationsOfEdgeServers.html) needs to be allowed into the instance [[Security Group]]
 
 ## ALB
 ---

@@ -1,0 +1,29 @@
+---
+tags:
+  - Disaster_recovery
+---
+- Fully managed service that centralizes management and automation of backups across AWS services
+- No need to create custom scripts and manual processes
+- Supported services
+	- [[EC2 (Elastic Compute Cloud)]] / [[EBS (Elastic Block Storage)]]
+	- [[S3]]
+	- [[RDS (Relational Database Service)]] (all DB engines) / [[Amazon Aurora]] / [[DynamoDB]]
+	- [[Amazon DocumentDB]] / [[Amazon Neptune]]
+	- [[EFS (Elastic File System)]] / [[Amazon FSx]] (Lustre & Windows File Server)
+	- [[Storage Gateway]]
+- Supports cross-region backups
+- Supports cross-account backups
+- Supports PITR for supported services
+- On-demand and scheduled backups
+- Tag-based backup policies
+	- Create backup policies known as __Backup Plans__
+		- Backup frequency (every 12 hours, daily, weekly, cron expression)
+		- Backup window
+		- Transition to Cold Storage (never, days, weeks, etc...)
+		- Retention period (always, days, etc...)
+		- Backups are stored in S3
+- Enforce a WORM (Write Once Read Many) state for all the backups that you store in your AWS Backup Vault
+- Additional layer of defense to protect your backup against
+	- Inadvertent or malicious delete operations
+	- Updates that shorten or alter retention periods
+- Even the root user cannot delete backups when enabled
