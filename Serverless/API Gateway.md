@@ -1,6 +1,7 @@
 ---
 tags:
   - Network
+  - Serverless
 ---
 - [[AWS Lambda]] + API Gateway: No infrastructure to manage
 - Support for WebSocket Protocol

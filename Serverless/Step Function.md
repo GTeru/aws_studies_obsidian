@@ -1,3 +1,7 @@
+---
+tags:
+  - Serverless
+---
 - Build serverless visual workflow to orchestrate your [[AWS Lambda]] functions
 - Features
 	- Sequence

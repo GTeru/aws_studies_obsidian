@@ -1,3 +1,8 @@
+---
+tags:
+  - Security
+  - Storage
+---
 ## Encryption
 ---
 [[RDS (Relational Database Service)]] && [[Amazon Aurora]] provides some options to encrypt data

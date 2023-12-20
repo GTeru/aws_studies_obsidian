@@ -1,3 +1,7 @@
+---
+tags:
+  - Serverless
+---
 - Give user an identity to interact with web or mobile application
 - Cognito User Pool
 	- Sign in functionality for app users

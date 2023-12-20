@@ -1,6 +1,7 @@
 ---
 tags:
   - Security
+  - Management
 ---
 - Anytime you hear "encryption" for an AWS service, it's most likely KMS
 - AWS manages encryption keys for us

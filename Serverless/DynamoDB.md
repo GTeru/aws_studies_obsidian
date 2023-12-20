@@ -1,6 +1,7 @@
 ---
 tags:
   - Storage
+  - Serverless
 ---
 - Fully managed, highly available with replicatio across multiple [[AZ (Availability Zone)]]
 - NoSQL database - with transaction support

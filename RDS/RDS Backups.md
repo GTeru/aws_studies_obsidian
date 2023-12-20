@@ -1,3 +1,7 @@
+---
+tags:
+  - Disaster_recovery
+---
 - Automated backups of [[RDS (Relational Database Service)]]
 	- Daily full backup of the DB (during backup window)
 	- Transaction logs are backup by RDS every 5 minutes

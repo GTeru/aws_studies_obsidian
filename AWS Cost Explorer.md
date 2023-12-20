@@ -1,0 +1,11 @@
+---
+tags:
+  - Billing
+  - Management
+---
+- Visualize, understand and manage your AWS costs and usage over time
+	- Visualize it with monthly, hourly, resource level granularity
+- Create custom reports that analyze cost and usage data
+- Analyze your data at a high level: total costs and usage across all accounts
+- Choose an optimal __Savings Plan__ (to lower prices on your bill)
+- Forecast usage up to 12 months based on previous usage

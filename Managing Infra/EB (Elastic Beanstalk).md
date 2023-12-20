@@ -17,4 +17,4 @@
 
 ## Web Server Tier vs. Worker Tier
 ---
-![eb_web_server_worker.png](./Images/eb_web_server_worker.png)
+![eb_web_server_worker.png](eb_web_server_worker.png)

@@ -1,3 +1,7 @@
+---
+tags:
+  - Serverless
+---
 - [[SQS (Simple Queue Service)]] and [[SNS (Simple Notification Service)]] are "cloud-native" services: proprietary protocols for AWS
 - Traditional applications running on-premises may use open protocols such as MQTT, AMQP, STOMP, Openwire, WSS
 - When migrating to cloud, instead of re-engineering the application to use cloud-native solutions, we can use Amazon MQ

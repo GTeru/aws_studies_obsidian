@@ -1,0 +1,6 @@
+- Web and mobile application
+- Set of tools and services that help you develop and deploy scalable full stack web and mobile applications
+	- Configure backend using __Amplify CLI__ (e.g.: [[AWS Lambda]] for computing, [[Amazon Cognito]] for authentication and [[DynamoDB]] for storage)
+	- Connect frontend to backend using __Amplify Frontend Libraries__
+	- Build using __Amplify Console__ & deploy
+- Connect your source code from Github, AWS CodeCommit, BitBucket, GitLab or upload directly

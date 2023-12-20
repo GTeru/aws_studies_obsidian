@@ -1,6 +1,7 @@
 ---
 tags:
   - Security
+  - Management
 ---
 - Newer service, meant for storing secrets
 - Capability to force _rotation of secrets_ every X days

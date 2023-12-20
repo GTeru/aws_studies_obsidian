@@ -23,7 +23,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "ELB/NLB (Network Load Balancer).md",
+                        "file": "EC2/EC2 Placement Groups.md",
                         "mode": "source",
                         "source": false
                       }
@@ -61,7 +61,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "ELB/NLB (Network Load Balancer).md",
+                    "file": "EC2/EC2 Placement Groups.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "",
@@ -84,7 +84,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.4901995062697974,
+                      "scale": 0.31808427028713304,
                       "close": true
                     }
                   }
@@ -123,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "direct connect",
+                "query": "spread",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +140,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ELB/NLB (Network Load Balancer).md",
+                "file": "EC2/EC2 Placement Groups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ELB/NLB (Network Load Balancer).md",
+                "file": "EC2/EC2 Placement Groups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ELB/NLB (Network Load Balancer).md"
+                "file": "EC2/EC2 Placement Groups.md"
               }
             }
           },
@@ -241,35 +242,35 @@
   },
   "active": "847ea41efebcb0dc",
   "lastOpenFiles": [
-    "Disaster Recovery/Application Discovery Service.md",
-    "Disaster Recovery/MGN (Application Migration Service).md",
-    "On-Premise Strategies.md",
-    "Disaster Recovery/AWS Backup.md",
+    "AWS Cost Explorer.md",
+    "AWS Amplify.md",
+    "AppFlow.md",
+    "VPC/VPC Endpoints.md",
     "RDS/RDS & Aurora Migrations.md",
+    "EC2/AWS Batch.md",
+    "Amazon Pinpoint.md",
+    "EC2/SSM (System Session Manager).md",
+    "S3/Elastic Transcoder.md",
+    "S3/S3.md",
     "Untitled",
-    "Disaster Recovery/DMS (Data Migration Service).md",
-    "Disaster Recovery/DR (Disaster Recovery).md",
-    "Storage/Amazon FSx.md",
-    "VPN.md",
-    "VPC/Networking Costs in AWS.md",
+    "RDS/RDS (Relational Database Service).md",
+    "RDS/Amazon Aurora.md",
+    "RDS/RDS Read Replicas.md",
+    "RDS/RDS Security.md",
+    "RDS/RDS Proxy.md",
+    "RDS/RDS Multi AZ.md",
+    "RDS/RDS Custom.md",
+    "RDS/RDS Backups.md",
+    "Route53/Route53.md",
+    "Serverless/Step Function.md",
+    "Serverless/Lambda@Edge + CloudFront Functions.md",
+    "Serverless/Lambda SnapStart.md",
+    "Serverless/Lambda Limits.md",
+    "Serverless/Lambda in VPC.md",
+    "Serverless/Lambda & RDS-Aurora Integration.md",
+    "Serverless/DynamoDB Advanced Features.md",
     "Disaster Recovery",
-    "VPC/AWS Network Firewall.md",
-    "VPC/CIDR.md",
-    "ELB/ELB SSL-TLS.md",
-    "Cloudfront/CloudFront.md",
-    "VPC/NAT Gateway.md",
-    "VPC/NACL (Network Access Control List).md",
-    "VPC/IGW (Internet Gateway).md",
-    "VPC/DX (Direct Connect).md",
-    "VPC/Default VPC.md",
-    "VPC/Bastion Hosts.md",
-    "VPC/Egress-only IGW.md",
-    "VPC/VPC IPv6.md",
-    "VPC/VPC Traffic Mirroring.md",
-    "VPC/Transit Gateway.md",
     "VPC/Images/dx_gateway.png",
-    "VPC/VPG (Virtual Private Gateway).md",
-    "VPC/Site-to-Site VPN.md",
     "VPC/Images/vpc_flow_logs.png",
     "VPC/Images/nacl_ephemeral_ports.png",
     "VPC/Images/cidr_subnet_mask.png",

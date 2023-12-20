@@ -1,3 +1,7 @@
+---
+tags:
+  - Disaster_recovery
+---
 Creation of [[RDS (Relational Database Service)]] standy instances mainly for disaster recovery, this mechanism has the following attributes:
 - Synchronous data replication from master instance to standy instance.
 - It also provides one unified DNS name, providing automatic app failover to standby instance

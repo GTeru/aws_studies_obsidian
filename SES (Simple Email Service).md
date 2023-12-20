@@ -1,0 +1,11 @@
+- Fully managed service to send emails securely, globally and at scale
+- Allows inbound/outbound emails
+- Reputation dashboard, performance insights, anti-spam feedback
+- Provides statistics such as email deliveries, bounces, feedback loop results, email open
+- Supports DomainKeys Identified Mail (DKIM) and Sender Policy Framework (SPF)
+- Flexible IP deployment: shared, dedicated and customer-owned IPs
+- Possible to integrate with [[SQS (Simple Queue Service)]] and [[SNS (Simple Notification Service)]]
+- Use cases
+	- Transactional
+	- Marketing
+	- Bulk email communications

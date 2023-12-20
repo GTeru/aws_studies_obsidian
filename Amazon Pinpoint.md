@@ -1,0 +1,11 @@
+- Scalable 2-way (outbound/inbound) marketing communications service
+- Supports email (can be integrated with [[SES (Simple Email Service)]]), SMS, push notifications, voice and in-app messaging
+- Ability to segment and personalize messages with the right content to customers
+- Possibility to receive replies
+- Scales to billions of messages per day
+- Use case
+	- Run campaigns by sending marketing messages
+	- Bulk and transactional SMS messages
+- Comparison with [[SNS (Simple Notification Service)]] and [[SQS (Simple Queue Service)]]
+	- In SNS & SQS, you manage each message's audience, content and delivery schedule
+	- Whereas Pinpoint create the message templates, delivery schedule, highly-targeted segments and full campaigns

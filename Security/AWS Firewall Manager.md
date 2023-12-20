@@ -1,6 +1,7 @@
 ---
 tags:
   - Security
+  - Management
 ---
 - Manage rules in all accounts of an AWS Organization
 - Security policy: common set of security rules
