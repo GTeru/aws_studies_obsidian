@@ -2,7 +2,7 @@
 - Log stream: instance within application / log files / container
 - Can define log expiration policies (never expire, 1 to 10 years, etc...)
 - Logs destinations 
-	- [[S3]] (exports)
+	- [[S3 (Simple Storage Service)]] (exports)
 	- [[Kinesis Data Streams]]
 	- [[Kinesis Data Firehose]]
 	- [[AWS Lambda]]

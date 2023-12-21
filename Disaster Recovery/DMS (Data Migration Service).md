@@ -16,7 +16,7 @@ tags:
 	- On-premises and EC2 instances databases
 	- Azure: Azure SQL Database
 	- Amazon RDS: all including Aurora
-	- [[S3]]
+	- [[S3 (Simple Storage Service)]]
 	- [[Amazon DocumentDB]]
 - Target
 	-  On-premises and EC2 instances databases

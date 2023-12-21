@@ -8,7 +8,7 @@ tags:
 	- You can setup multiple DC connections within your coporate network and DC connection locations to achieve higher resiliency
 	- There's also the possibility of using a backup DX connection or [[Site-to-Site VPN]] for higher availability
 - You need to setup a [[VPG (Virtual Private Gateway)]] on your VPC
-- Access public resources ([[S3]]) and private ([[EC2 (Elastic Compute Cloud)]]) on the same connection
+- Access public resources ([[S3 (Simple Storage Service)]]) and private ([[EC2 (Elastic Compute Cloud)]]) on the same connection
 - Use cases
 	- Increase bandwidth throughput - working with large data sets - lower cost
 	- More consistent network experience - applications using real-time data feeds

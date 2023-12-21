@@ -9,7 +9,7 @@ tags:
 	- SDK
 	- CLI
 	- AWS Services
-- Can put logs from CloudTrail into [[CloudWatch Logs]] or [[S3]]
+- Can put logs from CloudTrail into [[CloudWatch Logs]] or [[S3 (Simple Storage Service)]]
 - A trail can be applied to All [[AWS Region]] (default) or a single Region
 - If a resource is deleted in AWS, investigate CloudTrail first!
 

@@ -1,4 +1,4 @@
-[[S3]] has different types of storage classes
+[[S3 (Simple Storage Service)]] has different types of storage classes
 - Amazon S3 Standard - General Purpose
 - Amazon S3 Standard-Infrequent Access (IA) 
 - Amazon S3 One Zone-Infrequent Access (IA)

@@ -5,7 +5,7 @@ Cross Origin Resource Sharing (CORS) is a web browser based machanism to allow r
 
 - The request won't be fulfilled unless other origin allows for the requests, using CORS Headers (e.g.: `Access-Control-Allow-Origin`)
 
-## [[S3]] and CORS
+## [[S3 (Simple Storage Service)]] and CORS
 ---
 - If a client makes a cross-origin request to S3, we need to enable the correct CORS headers
 - It's a popular exam question

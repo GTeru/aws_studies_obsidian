@@ -8,12 +8,12 @@ Mechanism to scale [[EC2 (Elastic Compute Cloud)]] instances depeding on the loa
 - Automatically register new instances to a [[ELB (Elastic Load Balancer)]]
 - Re-create an EC2 instance in case a previous one is terminated (e.g.: it becomes unhealthy)
 
-__ASGs are free, you only use the underlying resources created__
+__ASGs are free, you're only charged for the underlying resources created__
 
 To create an autoscaling group you'll need to create a __Launch Template__, which are instructions of how to start an EC2 instance, these configurations include:
 - [[AMI (Amazon Machine Image)]] + Instance Type
 - EC2 User Data
-- EBS Volumes
+- [[EBS (Elastic Block Storage)]]
 - [[Security Group]]
 - SSH Key Pair
 - [[IAM]] Roles

@@ -1,5 +1,5 @@
 - Cross account
-	- Attaching a resource-based policy to a resource (example: [[S3]] bucket policy)
+	- Attaching a resource-based policy to a resource (example: [[S3 (Simple Storage Service)]] bucket policy)
 		- When assuming a role (user, application or service) you give up your original permissions and take the permissions assigned to the role
 		- Supported by various AWS Services
 	- OR using a role as a proxy

@@ -1,4 +1,4 @@
-This is an [[S3]] mechanism used to automate taskes depending on triggers
+This is an [[S3 (Simple Storage Service)]] mechanism used to automate taskes depending on triggers
 
 - Enables integrations with other AWS services, such as [[SNS (Simple Notification Service)]], [[SQS (Simple Queue Service)]], [[AWS Lambda]]
 - Notifications are typically delivered within seconds, but can sometimes take a minute or longer

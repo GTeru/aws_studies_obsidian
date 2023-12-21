@@ -21,7 +21,7 @@ Snow Family are a family of data migration services that AWS offers, it consists
 2. Install snowball client /AWS OpsHub on your servers
 3. Connect the snowball to your servers and copy files using the client
 4. Ship back the device when you're done (goes to the right AWS facility)
-5. Data will be loaded into an [[S3]] bucket
+5. Data will be loaded into an [[S3 (Simple Storage Service)]] bucket
 6. Snowball is completely wiped
 
 ## Edge Computing

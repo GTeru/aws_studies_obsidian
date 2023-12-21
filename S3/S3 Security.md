@@ -1,4 +1,4 @@
-[[S3]] security can be defined in several forms:
+[[S3 (Simple Storage Service)]] security can be defined in several forms:
 - User-based
 	- [[IAM]] Policies: defined which API calls a specific user from IAM is allowed to do
 - Resource-based

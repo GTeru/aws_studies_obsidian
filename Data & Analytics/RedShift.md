@@ -34,6 +34,6 @@ tags:
 
 ## RedShift Spectrum
 ---
-- Query data that is already in [[S3]] without loading it
+- Query data that is already in [[S3 (Simple Storage Service)]] without loading it
 - Must have a RedShift cluster available to start the query
 - Query is submitted to thousands of RedShift Spectrum nodes

@@ -3,6 +3,7 @@ tags:
   - Network
 ---
 - NAT = Network Address Translation
+- Deprecated feature
 - Allows [[EC2 (Elastic Compute Cloud)]] instances in private [[Subnet]]s to connect to the Internet
 - Must be launched in a public subnet
 - Must be launched in a public subnet

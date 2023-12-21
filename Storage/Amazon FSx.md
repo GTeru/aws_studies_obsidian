@@ -35,7 +35,7 @@
 	- HDD - broad spectrum of workloads (home directory, CMS, etc...)
 - Can be accessed from your on-premises infrastructure (VPN or [[DX (Direct Connect)]])
 - Can be configured to be available in multiple [[AZ (Availability Zone)]]
-- Data is back-up daily to [[S3]]
+- Data is back-up daily to [[S3 (Simple Storage Service)]]
 
 ## FSx Lustre
 ---

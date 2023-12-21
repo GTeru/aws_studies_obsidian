@@ -1,7 +1,7 @@
 ## KDA for SQL Application
 ---
 - Real time analytics on [[Kinesis Data Streams]] and [[Kinesis Data Firehose]] using SQL
-- Add reference from [[S3]] to enrich streaming data
+- Add reference from [[S3 (Simple Storage Service)]] to enrich streaming data
 - Fully managed, no servers to provision
 - Automatic scaling
 - Pay for actual consumption rate

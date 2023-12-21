@@ -1,6 +1,6 @@
 ## Baseline Performance
 ---
-- Amazon [[S3]] automatically scales to high request rates, latency of 100-200ms
+- Amazon [[S3 (Simple Storage Service)]] automatically scales to high request rates, latency of 100-200ms
 - Your application can achieve at least 3.500 PUT/COPY/POST/DELETE or 5.500 GET/HEAD requests per second per prefix in a bucket
 - No limits of prefixes in a bucket
 
@@ -22,7 +22,7 @@
 		- Retrieve only partial data (e.g.: head of a file)
 
 -  S3 Select & Glacier Select
-	- Retrieve less data from [[S3]] using SQL by performing __server-side filtering__
+	- Retrieve less data from [[S3 (Simple Storage Service)]] using SQL by performing __server-side filtering__
 	- Can filter by rows & columns (simple SQL statements)
 	- Less network transfer, less CPU cost client-side
 	- Up to 400% and 80% cheaper

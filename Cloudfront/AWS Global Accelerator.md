@@ -3,10 +3,9 @@ Global Accelerator is another kind of performance optimizer of the application, 
 ## Unicast vs. Anycast
 ---
 Global Accelerator uses the concept of Anycast to make it's connections to Edge Locations
-
 - Unicast
 	- Each server holds one IP address
-- Anycast 
+- Anycast
 	- All servers hold the same IP address and the client is routed to the nearest one
 
 ## Attributes

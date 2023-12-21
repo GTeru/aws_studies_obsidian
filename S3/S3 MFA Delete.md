@@ -1,4 +1,4 @@
-Forcing MFA before doing important/risky operations on [[S3]] buckets
+Forcing MFA before doing important/risky operations on [[S3 (Simple Storage Service)]] buckets
 
 - MFA will be required to
 	- Permanently delete an object version

@@ -20,7 +20,7 @@
 	- $ per hour + $ per GB of data processed
 - Gateway Endpoints
 	- Provisions a gateway and must be used _as a target in a route table (does not use security groups)_
-	- Supports only [[S3]] and [[DynamoDB]]
+	- Supports only [[S3 (Simple Storage Service)]] and [[DynamoDB]]
 	- Free
 
 ### Gateway or Interface Endpoint for S3?

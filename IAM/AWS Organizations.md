@@ -8,7 +8,7 @@ tags:
 - Other accounts are member accounts
 - Member accounts can only be part of one organization
 - Consolidated Billing Acrosss all accounts - single payment method
-- Pricing benefits from aggregated usage (volume discount for [[EC2 (Elastic Compute Cloud)]], [[S3]], etc...)
+- Pricing benefits from aggregated usage (volume discount for [[EC2 (Elastic Compute Cloud)]], [[S3 (Simple Storage Service)]], etc...)
 - _Shared reserved instances and Savings Plans_ discounts across accounts
 - API is available to automate AWS account creation
 - AWS Organizations are divided by Organization Units (OU), which are groups of AWS accounts with different purposes

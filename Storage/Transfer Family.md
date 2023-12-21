@@ -1,4 +1,4 @@
-- Fully-managed service for file transfers into and out of [[S3]] or Amazon [[EFS (Elastic File System)]] using the FTP protocol
+- Fully-managed service for file transfers into and out of [[S3 (Simple Storage Service)]] or Amazon [[EFS (Elastic File System)]] using the FTP protocol
 - Supported Protocol
 	- FTP (File Transfer Protocol)
 	- FTPS (File Transfer Protocol over SSL)

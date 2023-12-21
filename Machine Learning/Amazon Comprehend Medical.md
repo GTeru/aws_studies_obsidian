@@ -8,4 +8,4 @@ tags:
 	- Test results
 	- Case notes
 - Uses NLP to detect Protected Health Information (PHI) - DetectPHI API
-- Store you documents in [[S3]], analyze real-time data with [[Kinesis Data Firehose]] or [[Amazon Transcribe]] to transcribe patient narratives into text that can be analyzed bu Amazon Comprehend Medical
+- Store you documents in [[S3 (Simple Storage Service)]], analyze real-time data with [[Kinesis Data Firehose]] or [[Amazon Transcribe]] to transcribe patient narratives into text that can be analyzed bu Amazon Comprehend Medical

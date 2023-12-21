@@ -17,4 +17,4 @@ tags:
 	- General patter matching using __regex__
 - Traffic filtering: Allow, drop or alert for the traffic that matches the rules
 - Active flow inspection to protect against network threats with intrusion-pervention capabilities (like GLB, but maanged by AWS)
-- Send logs of rule matches to Amazon [[S3]], [[CloudWatch Logs]], [[Kinesis Data Firehose]]
+- Send logs of rule matches to Amazon [[S3 (Simple Storage Service)]], [[CloudWatch Logs]], [[Kinesis Data Firehose]]

@@ -3,7 +3,7 @@
 	- [[Subnet]] Flow Logs
 	- [[ENI (Elastic Network Interfaces)]] Flow Logs
 - Helps to monitor & troubleshoot connectivity issues
-- Flow logs data can go to [[S3]], [[CloudWatch]] Logs, [[Kinesis Data Firehose]]
+- Flow logs data can go to [[S3 (Simple Storage Service)]], [[CloudWatch]] Logs, [[Kinesis Data Firehose]]
 	- Captures network information from AWS managed interfaces too: [[ELB (Elastic Load Balancer)]], [[RDS (Relational Database Service)]], [[RedShift]], WorkSpaces, [[NAT Gateway]], [[Transit Gateway]], etc...
 ![vpc_flow_logs.png](./Images/vpc_flow_logs.png)
 - srcaddr & dstaddr - identify problematic IP

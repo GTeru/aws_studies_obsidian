@@ -27,7 +27,7 @@ From faster to slower RTO, we have the following DR Strategies for hybrid On-pre
 	- Scheduled backups allow restoration of systems
 	- Cheaper and easier to setup/manage
 	- Example
-		- [[S3]] objects transfer to Glacier class
+		- [[S3 (Simple Storage Service)]] objects transfer to Glacier class
 		- [[EBS (Elastic Block Storage)]], [[RDS (Relational Database Service)]], [[RedShift]] volumes snapshots
 2. Pilot Light
 	- A small version of the app is always running in the cloud

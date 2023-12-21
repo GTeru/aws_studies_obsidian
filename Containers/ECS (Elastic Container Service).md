@@ -47,4 +47,4 @@ Leverages [[IAM]] roles for permissioning
 - Use cases
 	- Persist multi-AZ shared storage for your containers
 - Not 
-	- Amazon [[S3]] cannot be mounted as a file system
+	- Amazon [[S3 (Simple Storage Service)]] cannot be mounted as a file system

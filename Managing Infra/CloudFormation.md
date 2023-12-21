@@ -6,7 +6,7 @@ tags:
 - For example, within a CloudFormation template, you say:
 	- I want a [[Security Group]]
 	- I want two [[EC2 (Elastic Compute Cloud)]] instances using this security group
-	- I want an [[S3]] bucket
+	- I want an [[S3 (Simple Storage Service)]] bucket
 	- I want a [[ELB (Elastic Load Balancer)]] in front of these machines
 - Then CloudFormation creates those for you, in the __right order__, with the __exact configuration__ you specified
 

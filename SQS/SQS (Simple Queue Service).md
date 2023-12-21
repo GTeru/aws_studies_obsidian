@@ -45,6 +45,6 @@ Mechanism do __decouple__ services by integrating them __asynchronously__, they 
 	- At-rest encryption using [[KMS (Key Management Service)]] keys
 	- Client-side encryption if the client wants to perform encryption/decryption itself
 - Access Controls: [[IAM]] policies regulates access to SQS API
-- SQS Access Policies (similiar to [[S3]] policies)
+- SQS Access Policies (similiar to [[S3 (Simple Storage Service)]] policies)
 	- Useful for cross-account access to SQS queues
 	- Useful for allowing other services ([[SNS (Simple Notification Service)]], S3, etc...) to write an SQS queue

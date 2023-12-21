@@ -1,4 +1,4 @@
-- Unencrypted objects and objects encrypted with SSE-[[S3]] are replicated by default
+- Unencrypted objects and objects encrypted with SSE-[[S3 (Simple Storage Service)]] are replicated by default
 - Objects encrypted with SSE-C (customer provided key) can be replicated
 - For objects encrypted with SSE-KMS, you need to enable the option
 	- Specify with [[KMS (Key Management Service)]] Key to encrypt the objects within the target bucket

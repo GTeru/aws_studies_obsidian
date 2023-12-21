@@ -1,4 +1,4 @@
-[[S3]] versioning is used to version the objects in the bucket
+[[S3 (Simple Storage Service)]] versioning is used to version the objects in the bucket
 
 - Enabled at the __bucket level__
 - Uploads to a same Key (overwrites) changes the version of the object

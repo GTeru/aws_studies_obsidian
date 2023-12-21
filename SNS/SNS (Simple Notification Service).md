@@ -27,6 +27,6 @@ Many AWS services can send data directly to SNS for notifications
 	- At-rest encryption using [[KMS (Key Management Service)]] keys
 	- Client-side encryption if the client wants to perform encryption/decryption itself
 - Access Controls: [[IAM]] policies regulates access to SNS API
-- SNS Access Policies (similiar to [[S3]] policies)
+- SNS Access Policies (similiar to [[S3 (Simple Storage Service)]] policies)
 	- Useful for cross-account access to SNS topics
-	- Useful for allowing other services ([[S3]], [[AWS Lambda]], etc...) to write an SNS topic
+	- Useful for allowing other services ([[S3 (Simple Storage Service)]], [[AWS Lambda]], etc...) to write an SNS topic

@@ -1,4 +1,4 @@
-Locks prevents [[S3]] bucket objects from being deleted/updated after creation. It follows the WORM (Write Once, Read Many) model
+Locks prevents [[S3 (Simple Storage Service)]] bucket objects from being deleted/updated after creation. It follows the WORM (Write Once, Read Many) model
 ## Glacier Vault Lock
 ---
 - Create a Vault Lock Policy

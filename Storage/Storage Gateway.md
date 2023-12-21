@@ -1,17 +1,17 @@
+- AWS storage services are proprietary technology (unlike [[EFS (Elastic File System)]]/NFS), so to expose data from these services in on-premises you can use Storage Gateway
 - AWS is pushing for "hybrid cloud": Part of your infrastructure is on cloud and the other is on-premises
 	- This can be due to
 		- Long cloud migrations
 		- Security requirements
 		- Compliance requirements
 		- IT strategy
-- AWS storage services are proprietary technology (unline EFS/NFS), so to expose data from these services in on-premises you can use Storage Gateway
 - Use cases
 	- Disaster recovery
 	- Backup & Restore
 	- Tiered storage
 	- On-premises cache & low-latency files acess
 - Types of Storage Gateway
-	- [[S3]] File Gateway
+	- [[S3 (Simple Storage Service)]] File Gateway
 	- [[Amazon FSx]] File Gateway
 	- Volume Gateway
 	- Tape Gateway
@@ -19,7 +19,7 @@
 ---
 - Support all S3 [[S3 Storage Classes]], __except__ Glacier
 - Extends Application Server NFS or SMB file system via the Storage Gateway, which makes HTTPS requests to the bucket
-- Transition to Glacier using S3 [[S3 Lifecycle Policies]]
+- Transition to Glacier using [[S3 Lifecycle Policies]]
 - Most recently used data is cached in the file gateway
 - Bucket access using [[IAM]] role for each File Gateway
 - SMB Protocol has integration with Active Directory (AD) for user authentication

@@ -1,4 +1,4 @@
-- Convert media files stored in [[S3]] into media files in the formats required by consumer playback devices (phone, computer, IoT, etc...)
+- Convert media files stored in [[S3 (Simple Storage Service)]] into media files in the formats required by consumer playback devices (phone, computer, IoT, etc...)
 - Benefits
 	- Easy to use
 	- Highly scalable - can handle large volumes of media files and large file sizes

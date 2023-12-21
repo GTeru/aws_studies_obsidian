@@ -1,4 +1,4 @@
-- For audit purpose, you can log all access to [[S3]] buckets
+- For audit purpose, you can log all access to [[S3 (Simple Storage Service)]] buckets
 - Any requests made to S3, from any account, authorized or denied, will be logged into another S3 bucket
 	- The target logging bucket can be analyzed using data analysis tools
 	- Logging bucket must be in the same [[AWS Region]]

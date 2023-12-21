@@ -6,7 +6,7 @@ tags:
 - No need to create custom scripts and manual processes
 - Supported services
 	- [[EC2 (Elastic Compute Cloud)]] / [[EBS (Elastic Block Storage)]]
-	- [[S3]]
+	- [[S3 (Simple Storage Service)]]
 	- [[RDS (Relational Database Service)]] (all DB engines) / [[Amazon Aurora]] / [[DynamoDB]]
 	- [[Amazon DocumentDB]] / [[Amazon Neptune]]
 	- [[EFS (Elastic File System)]] / [[Amazon FSx]] (Lustre & Windows File Server)

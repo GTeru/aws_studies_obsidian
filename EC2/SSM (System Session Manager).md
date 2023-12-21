@@ -6,7 +6,7 @@ tags:
 - No SSH access, [[Bastion Hosts]], or  SSH keys needed
 - No port 22 needed (better security)
 - Supports Linux, macOS and Windows
-- Send session log data to [[S3]] and [[CloudWatch Logs]]
+- Send session log data to [[S3 (Simple Storage Service)]] and [[CloudWatch Logs]]
 
 ## Run Command
 ---

@@ -8,7 +8,7 @@ Conditions that a policy can take effect, some important Conditions:
 - __ec2:ResourceTag__ -> restrict based on __tags__
 - __aws:MultiFactorAuthPresent__ -> to force __MFA__
 
-## IAM for [[S3]]
+## IAM for [[S3 (Simple Storage Service)]]
 ---
 - __s3:ListBucket__ permission applies to `arn:aws:s3:::test` -> bucket level permission
 - __s3GetObject__, __s3:PutObject__, __s3:DeleteObject__ applies to `arn:aws:s3:::test/*` -> object level permission

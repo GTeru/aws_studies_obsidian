@@ -3,7 +3,7 @@
 	- Option 2: Create an Aurora Read Replica from your RDS and when the replication lag is 0, promote it as its own DB cluster (can take time and cost money)
 - External MySQ to Aurora MySQL
 	- Option 1
-		- Use Percona XtraBackup to create a file backup in Amazon [[S3]]
+		- Use Percona XtraBackup to create a file backup in Amazon [[S3 (Simple Storage Service)]]
 		- Create an Aurora MySQL DB from Amazon S3
 	- Option 2
 		- Create an Aurora MySQL DB from Amazon S3

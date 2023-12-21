@@ -7,7 +7,7 @@ CloudFront is the CDN (Content Delivery Network) solution of AWS
 
 ## Origins
 ---
-- [[S3]] buckets
+- [[S3 (Simple Storage Service)]] buckets
 	- For distributing files and caching them at the edge locations
 	- Enhance security with CloudFront Origin Access Control (OAC)
 		- OAC is replacing Origin Access Identity (OAI)

@@ -1,4 +1,4 @@
-[[S3]] objects can be encrypted both via Server-Side Encryption (SSE) and Client-Side Encryption
+[[S3 (Simple Storage Service)]] objects can be encrypted both via Server-Side Encryption (SSE) and Client-Side Encryption
 
 ## SSE with Amazon S3 Managed Keys (SSE-S3)
 ---

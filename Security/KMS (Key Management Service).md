@@ -43,7 +43,7 @@ tags:
 
 ## KMS Key Policies
 ---
-- Control access to KMS keys, "similar" to [[S3]] bucket policies
+- Control access to KMS keys, "similar" to [[S3 (Simple Storage Service)]] bucket policies
 	- Difference: you cannot control access without them
 - Default KMS Key Policy
 	- Default behavior

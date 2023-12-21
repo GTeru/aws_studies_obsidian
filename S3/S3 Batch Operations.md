@@ -1,4 +1,4 @@
-- Perform bulk operation on existing [[S3]] objects with a single request
+- Perform bulk operation on existing [[S3 (Simple Storage Service)]] objects with a single request
 	- Modify object metadata & properties
 	- Modify ACLs, tags
 	- Encrypt/un-encrypt objects

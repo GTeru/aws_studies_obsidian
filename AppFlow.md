@@ -7,7 +7,7 @@
 	- ServiceNow
 - Destinations: 
 	- AWS services
-		- [[S3]]
+		- [[S3 (Simple Storage Service)]]
 		- [[RedShift]]
 		- etc...
 	- Non AWS services

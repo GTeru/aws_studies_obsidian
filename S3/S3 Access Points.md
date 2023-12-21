@@ -1,4 +1,4 @@
-Access Points simplify security management for [[S3]] buckets, attaching a prefix to a generated URL
+Access Points simplify security management for [[S3 (Simple Storage Service)]] buckets, attaching a prefix to a generated URL
 
 - Each access point has
 	- It's own DNS name (Internet Origin or [[VPC (Virtual Private Cloud)]] Origin)

@@ -34,7 +34,7 @@ tags:
 - [[API Gateway]] - create API that invokes Lambda functions
 - [[Kinesis]] - make data transformations
 - [[DynamoDB]] - create triggers on database that invokes a Lambda function
-- [[S3]] - invokes Lambda function on image uploads
+- [[S3 (Simple Storage Service)]] - invokes Lambda function on image uploads
 - [[CloudFront]] - with Lambda@Edge
 - CloudWatch Events - invoke Lambda functions on infrastructure alarms/triggers 
 - [[SNS (Simple Notification Service)]] and [[SQS (Simple Queue Service)]] - invoke Lambda on new SNS topics or SQS message is created/pushed

@@ -10,7 +10,7 @@ tags:
 	- How has my ALB configuration changed over time?
 - Receive alerts ([[SNS (Simple Notification Service)]] notifications) for any changes
 - Can be aggregated across [[AWS Region]] and accounts
-- Possibility of storing the configuration data into [[S3]] (analyzed by [[Athena]])
+- Possibility of storing the configuration data into [[S3 (Simple Storage Service)]] (analyzed by [[Athena]])
 
 ## Config Rules
 ---

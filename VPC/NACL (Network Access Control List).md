@@ -18,7 +18,7 @@
 ---
 - For any two endpoints to establish a connection, they must use ports
 - Clients connected to a _defined port_ and expect a response on an _ephemeral port_
-- Different Operation Systems uise different port ranges, examples
+- Different Operation Systems use different port ranges, examples
 	- IANA & MS Windows 10 -> 49.152 - 65.535
 	- Many Linux Kernels -> 32.768 - 60.999
 

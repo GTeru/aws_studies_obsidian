@@ -1,4 +1,4 @@
-Users given a pre-signed URL inherit the permissions of the user that generated the URL for GET/PUT to a [[S3]] file without making the object public
+Users given a pre-signed URL inherit the permissions of the user that generated the URL for GET/PUT to a [[S3 (Simple Storage Service)]] file without making the object public
 
 - Generate pre-signed URLs using the S3 Console, AWS CLI or SDK
 - URL Expiration

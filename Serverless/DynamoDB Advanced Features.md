@@ -60,7 +60,7 @@ Stream processing types
 	- Can be configured and managed in AWS Backup (enables cross-region copy)
 	- Recovery process creates a new table
 
-## Integrations with [[S3]]
+## Integrations with [[S3 (Simple Storage Service)]]
 ---
 - Export to S3 (must enable PITR)
 	- Works for any point in time in the last 35 days
