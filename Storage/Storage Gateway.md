@@ -1,7 +1,7 @@
 - AWS storage services are proprietary technology (unlike [[EFS (Elastic File System)]]/NFS), so to expose data from these services in on-premises you can use Storage Gateway
 - AWS is pushing for "hybrid cloud": Part of your infrastructure is on cloud and the other is on-premises
 	- This can be due to
-		- Long cloud migrations
+			- Long cloud migrations 
 		- Security requirements
 		- Compliance requirements
 		- IT strategy
